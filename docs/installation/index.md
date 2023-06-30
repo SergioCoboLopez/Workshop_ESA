@@ -4,6 +4,5 @@ title: Installation
 nav_order: 3
 ---
 
-# Installation 
+# Instructions to install GoldSim
 
-Include the process to insall your application using pip/conda.

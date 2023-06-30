@@ -1,14 +1,10 @@
 ---
 layout: default
-title: Method
+title: GoldSim models
 nav_order: 2
 ---
 
-# Method
-
-Describe here, for example, how data will be obtained, analyzed, and modeled.
-
-Make clear the assumptions and expected uncertainties.
+# GoldSim models
 
 ---
 
