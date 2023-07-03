@@ -20,6 +20,6 @@ You can find this model in the repository at [https://github.com/SergioCoboLopez
 This one is our model for Lytic-Lysogenic interactions
 
 
-You can find this model in the repository at [https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models)
+You can find this model in the repository at <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models>
 
 ---
