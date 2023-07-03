@@ -6,7 +6,7 @@ nav_order: 2
 
 # What is GoldSim?
 
-[GoldSim](https://www.goldsim.com/Web/Home/) is a Monte Carlo simulation software for dynamic and complex systems. Its visual interface makes modeling simpler than other programming languages.
+[GoldSim](https://www.goldsim.com/Web/Home/) is a [Monte Carlo](https://en.wikipedia.org/wiki/Monte_Carlo_method)  simulation software for dynamic and complex systems. Its visual interface makes modeling simpler than other programming languages.
 
 # Why is it useful?
 

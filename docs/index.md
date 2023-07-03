@@ -12,3 +12,4 @@ This project is based on a template for projects in the [Luque lab](https://www.
 
 Acces the repository [here](https://github.com/SergioCoboLopez/Workshop_ESA)
 
+The author of this repository is Sergio Cobo Lopez

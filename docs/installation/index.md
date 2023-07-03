@@ -7,7 +7,7 @@ nav_order: 3
 # Instructions to install GoldSim
 
 ## Before installing
-GoldSim only works on Windows operating systems. Virtual machines are not generally recommended. GoldSim is a proprietary software and you will need a license to use it.
+[GoldSim](https://www.goldsim.com/)  only works on Windows operating systems. Virtual machines are not generally recommended. GoldSim is a proprietary software and you will need a license to use it.
 
 ## License
 
