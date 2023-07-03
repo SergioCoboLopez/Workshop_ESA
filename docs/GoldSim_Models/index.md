@@ -1,10 +1,10 @@
 ---
 layout: default
-title: GoldSim models
-nav_order: 2
+title: Models
+nav_order: 3
 ---
 
-# GoldSim models
+# Models
 
 ---
 
