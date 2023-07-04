@@ -6,6 +6,8 @@ nav_order: 6
 
 # Acknowledgements
 
-Discuss the impact of the work in relation to the community and how it can move society forward.
+[Toni Luque](https://scholar.google.com/citations?user=ytvnI68AAAAJ&hl=en) and the [luquelab](https://www.luquelab.com/) provided the template and expertise for this repository.
 
-Include all acknowledgements.
+Jenna Aquino provided invaluable help in developing the models for GoldSim.
+
+
