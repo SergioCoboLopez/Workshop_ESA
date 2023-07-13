@@ -1,6 +1,6 @@
 GoldSim 14.0.0344
 Simulation Filename:	Bacterial_growth
-Simulation Start Time:	7/12/2023 4:09:10 PM
+Simulation Start Time:	7/13/2023 8:02:32 AM
 Simulation Run Time:	0.0 s
 Model Author Name:	Rohwer Lab
 Analysis Description:	(not specified)
