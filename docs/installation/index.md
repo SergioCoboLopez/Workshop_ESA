@@ -23,7 +23,7 @@ If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic 
 3. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
 
 ### Installing GoldSim player
-If you want to install GoldSim player to run player files, like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files), go to the (download page)[https://www.goldsim.com/Web/Customers/Downloads/Player/]
+If you want to install GoldSim player to run player files, like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files), go to the [download page](https://www.goldsim.com/Web/Customers/Downloads/Player/)
 
 ## After installation
 
