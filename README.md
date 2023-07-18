@@ -13,7 +13,7 @@ Started: 2023-06-23
 
 ## FILES & FOLDERS
 FOLDER: /GoldSim_models
---> This folder contains basic scripts and executable files.
+--> This folder contains GoldSim models and GoldSim Player files.
 
 FOLDER: /data
 --> This folder contains the raw data associated with the project, references, and files related with the presentation.
