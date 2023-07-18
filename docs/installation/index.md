@@ -10,15 +10,17 @@ nav_order: 3
 [GoldSim](https://www.goldsim.com/)  only works on Windows operating systems. Virtual machines are not generally recommended. GoldSim is a proprietary software and you will need a license to use it.
 
 ## License
-We will have some student licenses available for this workshop generously provided by GoldSim.
+For this workshop, we will have some student licenses available for this generously provided by GoldSim.
 
 If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic Application Form for Students](https://www.goldsim.com/Forms/StudentAcademic/). Read the instructions carefully and fill out the form to get a licence. If you are a postdoc, professor or other category, fill out the [GoldSim Academic Application Form for Instructors](https://www.goldsim.com/Forms/InstructorAcademic/). After that, GoldSim experts will get back to you and provide you the basic information to finish installing the software. If your license expires or you need support with installation, contact the [GoldSim Customer Service](https://www.goldsim.com/Web/Customers/Support/).
 
 ## Installation instructions
 
-Before downloading GoldSim, please ensure that your computer meets the [system requirements](https://media.goldsim.com/Documents/Software/RelNotes.htm) for the program.
-You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/). Once downloaded, simply run the installation file.
-During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
+1. Before downloading GoldSim, please ensure that your computer meets the [system requirements](https://media.goldsim.com/Documents/Software/RelNotes.htm) for the program.
+
+2. You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/). Once downloaded, simply run the installation file.
+
+3. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
 
 
 ## After installation
