@@ -21,6 +21,8 @@ If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic 
 2. You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/).
 ![Test](/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Install_1.png?raw=true "this is a test")
 
+<img src="/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Install_1.png" alt="This is a test" style="height: 100px; width:100px;"/>
+
 3. Click on the download button
 ![Test2](/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Player_Install_2.png)
 
