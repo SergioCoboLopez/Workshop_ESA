@@ -19,12 +19,14 @@ If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic 
 1. Before downloading GoldSim, please ensure that your computer meets the [system requirements](https://media.goldsim.com/Documents/Software/RelNotes.htm) for the program.
 
 2. You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/).
-![Test](../figures/GoldSim_Install_1.png "Courtesy of GoldSim")
+![Install1](../figures/GoldSim_Install_1.png "Courtesy of GoldSim")
 
 3. Click on the download button
-![Test2](../figures/GoldSim_Install_2.png "Courtesy of GoldSim")
+![Install2](../figures/GoldSim_Install_2.png "Courtesy of GoldSim")
 
-3. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
+4. Once downloaded, run the .exe file.
+
+5. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
 
 ### Installing GoldSim player
 If you want to install GoldSim player to run player files, like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files), go to the [download page](https://www.goldsim.com/Web/Customers/Downloads/Player/)
