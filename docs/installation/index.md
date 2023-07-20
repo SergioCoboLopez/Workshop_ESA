@@ -20,9 +20,11 @@ If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic 
 
 2. You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/).
 ![Install1](../figures/GoldSim_Install_1.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
 
 3. Click on the download button
 ![Install2](../figures/GoldSim_Install_2.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
 
 4. Once downloaded, run the .exe file.
 
