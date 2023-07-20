@@ -19,7 +19,7 @@ If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic 
 1. Before downloading GoldSim, please ensure that your computer meets the [system requirements](https://media.goldsim.com/Documents/Software/RelNotes.htm) for the program.
 
 2. You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/).
-![Test](/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Player_Install_1.png "this is a test")
+![Test](/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Install_1.png?raw=true "this is a test")
 
 3. Click on the download button
 ![Test2](/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Player_Install_2.png)
