@@ -24,7 +24,7 @@ If you are a student (undergrad, master's or Ph.D.) go to the [GoldSim Academic 
 <img src="/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Install_1.png" alt="This is a test" style="height: 100px; width:100px;"/>
 
 3. Click on the download button
-![Test2](/home/sergio/work/Github/Workshop_ESA/data/Presentation/figures/GoldSim_snapshots/GoldSim_Player_Install_2.png)
+![Test2](../figures/GoldSim_Install_2.png)
 
 3. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
 
