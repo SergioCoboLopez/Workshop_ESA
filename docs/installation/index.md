@@ -34,11 +34,10 @@ Image courtesy of GoldSim
 GoldSim player allows you to run certain files in GoldSim (player files). You cannot edit or change models, but it can be a useful option if you want to get an intuition of how GoldSim works.
 
 1. To install GoldSim player files like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files), go to the [download page](https://www.goldsim.com/Web/Customers/Downloads/Player/)
-
 ![Install3](../figures/GoldSim_Player_Install_1.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
-3. Click on the download button
+2. Click on the download button
 ![Install4](../figures/GoldSim_Player_Install_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
