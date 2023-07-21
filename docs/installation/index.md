@@ -31,9 +31,9 @@ Image courtesy of GoldSim
 5. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
 
 ### Installing GoldSim player
-GoldSim player allows you to run certain files in GoldSim (player files). You cannot edit or change models, but it can be a useful option if you want to get an intuition of how GoldSim works.
+GoldSim player allows you to run certain files in GoldSim (player files) like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files). You cannot edit or change models, but it can be a useful option if you want to get an intuition of how GoldSim works.
 
-1. To install GoldSim player files like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files), go to the [download page](https://www.goldsim.com/Web/Customers/Downloads/Player/)
+1. To install GoldSim player, go to the [download page](https://www.goldsim.com/Web/Customers/Downloads/Player/)
 ![Install3](../figures/GoldSim_Player_Install_1.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
@@ -41,10 +41,21 @@ Image courtesy of GoldSim
 ![Install4](../figures/GoldSim_Player_Install_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
+3. After downloading, and installing GoldSim Player, open it.
+![Install4](../figures/GoldSim_Player_Install_3.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+4. Player files look something like this:
+![Install4](../figures/GoldSim_Player_Bact_Growth.png "Courtesy of GoldSim")
+Image courtesy of GoldSim. The model can be found in the repository with the name 'Bacterial_Growth.gsp'
+
+5. Remember that GoldSim Player will only allow you to open Player files with the extension '.gsp'. To enable dashboard functionality, it's necessary to model player files. 
+The [GoldSim Introduction Course](https://www.goldsim.com/Courses/BasicGoldSim/) provides guidance on how to create player files:  
 
 ## After installation
 
-I would strongly recommend to follow the [Introduction to GoldSim course](https://www.goldsim.com/Courses/BasicGoldSim/) and download the zip file with the exercises and examples. In my experience, you should at the very least complete the first four lessons before starting to work on your own projects. Ideally, you should complete the first nine lessons.
+I strongly recommend following the [Introduction to GoldSim course](https://www.goldsim.com/Courses/BasicGoldSim/) and downloading the zip file with the exercises and examples. 
+It is recommended that you finish the first four lessons before starting your projects, but it is even better to complete the first nine lessons if possible.
 
 Open the GoldSim density-dependent model and play around with it. If you can’t find it, contact the GoldSim responsible person. What happens when you change the model's initial concentrations or growth rates? How does this model fit into your own project?
 
