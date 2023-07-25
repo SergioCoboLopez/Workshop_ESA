@@ -12,7 +12,9 @@ This section covers a series of models specific for the workshop at the [ESA Ann
 ---
 
 ## Model 1
-This model has not been built by me. It is an example provided by GoldSim and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). However, it is a very good example to familiarize ourselves with GoldSim and how it works.
+This model is an example provided by GoldSim in their basic course and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). You can find a video of how to build my own version of the model in the repository <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
+
+has not been built by me. It is an example provided by GoldSim and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). However, it is a very good example to familiarize ourselves with GoldSim and how it works.
 
 ## Model 2
 This is our version of a Lotka-Volterra system.
