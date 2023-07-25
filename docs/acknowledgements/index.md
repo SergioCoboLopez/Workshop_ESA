@@ -6,7 +6,7 @@ nav_order: 6
 
 # Acknowledgements
 
-[GoldSim](https://www.goldsim.com/) generously provided student licenses for this workshop at the ESA Annual Meeting in 2023. They also provided support and help with all software related questions.
+[GoldSim](https://www.goldsim.com/) generously provided student licenses for the workshop at the ESA Annual Meeting in 2023. Mark Miller and Rick Kossik from GoldSim provided invaluable support and help with all software related questions.
 
 [Toni Luque](https://scholar.google.com/citations?user=ytvnI68AAAAJ&hl=en) and the [luquelab](https://www.luquelab.com/) designed the template for this repository.
 
