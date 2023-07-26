@@ -33,9 +33,9 @@ which is a good thing.
 3. The 'inflow' of bacteria comes now from bacterial exponential or Malthusian growth. That is, the bacterial growth is proportional to the actual concentration of bacteria. The time at which the hose switches off can simply be the
 time of the experiment.
 
-4. The outflow can be reinterpreted as a sampling rate. We simulate the extraction of 15% of the total concentration of bacteria every hour.
+4. The outflow can be reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
 
-5. We change the timescale and reduce the experiment time.
+5. A reduction in the experimental time and timescale.
 
 
 You can find the transformation of Model 1 into Model 2 in the repository: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
