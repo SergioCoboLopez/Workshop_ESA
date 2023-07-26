@@ -45,12 +45,21 @@ exponential growth (inflow) and bacterial sampling (outflow).
 
 Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Bacterial_growth.gsm>
 
-This model is a refinement of the previous model. The first thing that you will notice when you open it is the existence of a new element:
-![Install1](../figures/Containers_1.png "Courtesy of GoldSim")
+This model is a refinement of the previous model. 
+The first thing that you will notice when you open it is the existence of a new element that we have not discussed yet:
+![Containers1](../figures/Containers_1.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements
-scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest.
+scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest. In this case, each container contains a different version of a model for bacterial
+growth.
+
+Notice the red marker on the top left corner of the containers:
+![Containers1](../figures/Containers_1.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+These indicate that containers are localized.
+
 
 ## Model 4 - Lotka-Volterra
 
