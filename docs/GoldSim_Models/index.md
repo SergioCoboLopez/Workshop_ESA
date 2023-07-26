@@ -12,6 +12,9 @@ This section covers a series of models specific for the workshop at the [ESA Ann
 ---
 
 ## Model 1 - Example
+
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model1_Example.gsm> 
+Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
 This model is a simple example provided by GoldSim in their basic course and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). The model exploits the analogy of a water management system to describe
 a simple scenario and show the basic elements used in GoldSim. 
 
@@ -19,28 +22,23 @@ You can also find a video showing how I built my own version of this model in th
 
 ## Model 2 - Example ecology. 
 
-<https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Bacterial_growth.gsm>
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model2_Example_Ecology.gsm>
+Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
 
-You might be asking yourself how water management systems can be useful to describe ecological models. This model gives you a basic answer. Model 2 is a modified version of Model 1 that describes a simulated experiment with bacterial
+You might be asking yourself how water management systems can help describe ecological models. This model gives you a basic answer. Model 2 is a modified version of Model 1 that describes a simulated experiment with bacterial
 exponential growth (inflow) and bacterial sampling (outflow).
 
-1. The tank of water becomes now the concentration of bacteria. This is the [state variable](https://en.wikipedia.org/wiki/State_variable), that is used to describe the state of our system. Because bacteria are usually measured in
-concentrations, the units of the 'bacterial tank' are now 'items/ml' (usually, density is measured in 'cells/ml', but GoldSim does not provide 'cell' as a standard unit). Bear in mind that GoldSim is very consistent in unit consistency,
-which is a good thing.
+1. The tank of water becomes now the concentration of bacteria. This is the [state variable](https://en.wikipedia.org/wiki/State_variable) that describes the overall state of our system. Because bacteria are usually measured in concentrations, the 'bacterial tank' units are now 'items/ml' (usually, density is measured in 'cells/ml,' but GoldSim does not provide 'cell' as a standard unit). Remember that GoldSim is very consistent with units.
 
-2. The tank capacity is now the carrying capacity, which is the maximum concentration of bacteria in a system.
+2. The tank capacity becomes the carrying capacity, the maximum concentration of bacteria in a system.
 
-3. The 'inflow' of bacteria comes now from bacterial exponential or Malthusian growth. That is, the bacterial growth is proportional to the actual concentration of bacteria. The time at which the hose switches off can simply be the
-time of the experiment.
+3. The 'inflow' of bacteria comes from bacterial exponential or Malthusian growth. That is, the bacterial growth is proportional to the actual concentration of bacteria. The time at which the hose switches off is the experiment time.
 
-4. The outflow can be reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
+4. The outflow is reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
 
-5. A reduction in the experimental time and timescale.
+5. This model has a smaller timescale and simulation time.
 
-
-You can find the transformation of Model 1 into Model 2 in the repository: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
-
-## Model 3
+## Model 3 - Bacterial growth
 This one is our model for Lytic-Lysogenic interactions
 
 You can find and download this model in the repository at <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models>
