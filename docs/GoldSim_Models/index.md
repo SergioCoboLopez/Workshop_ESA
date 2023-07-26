@@ -52,9 +52,13 @@ Image courtesy of GoldSim
 The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements
 scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest.
 
-This one is our model for Lytic-Lysogenic interactions
+## Model 4 - Lotka-Volterra
 
-You can find and download this model in the repository at <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models>
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Lotka_Volterra.gsm>
+
+## Model 5 - Lysogeny model
+
+
 
 ### GoldSim player files
 In the event that you cannot access or use GoldSim, I have provided three player files. GoldSim player files can be run with GoldSim player, but they cannot be edited.
