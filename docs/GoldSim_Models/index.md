@@ -14,7 +14,9 @@ This section covers a series of models specific for the workshop at the [ESA Ann
 ## Model 1 - Example
 
 Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model1_Example.gsm> 
+
 Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
+
 This model is a simple example provided by GoldSim in their basic course and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). The model exploits the analogy of a water management system to describe
 a simple scenario and show the basic elements used in GoldSim. 
 
@@ -23,6 +25,7 @@ You can also find a video showing how I built my own version of this model in th
 ## Model 2 - Example ecology. 
 
 Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model2_Example_Ecology.gsm>
+
 Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
 
 You might be asking yourself how water management systems can help describe ecological models. This model gives you a basic answer. Model 2 is a modified version of Model 1 that describes a simulated experiment with bacterial
@@ -39,6 +42,16 @@ exponential growth (inflow) and bacterial sampling (outflow).
 5. This model has a smaller timescale and simulation time.
 
 ## Model 3 - Bacterial growth
+
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Bacterial_growth.gsm>
+
+This model is a refinement of the previous model. The first thing that you will notice when you open it is the existence of a new element:
+![Install1](../figures/Containers_1.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements
+scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest.
+
 This one is our model for Lytic-Lysogenic interactions
 
 You can find and download this model in the repository at <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models>
