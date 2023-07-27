@@ -134,7 +134,7 @@ Image courtesy of GoldSim
 
 Here we find a new element, which is crucial to stochastic modeling: the 'Stochastic':
 
-![Growth Model 5](../figures/Bacterial_growth_logistic_stochastic.png "Courtesy of GoldSim")
+![Growth Model 5](../figures/Stochastic_1.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 If you click on the 'Edit' button, you can see how to define the stochastic element:
