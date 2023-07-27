@@ -48,13 +48,24 @@ The first thing that you will notice when you open it is the existence of a new 
 ![Containers1](../figures/Containers_1.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
-The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements
-scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest. In this case, each container contains a different version of a model for bacterial growth.
+The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements scattered around your workspace) or because you want to build a modular model, where each part of the model is as independent as possible from the rest. 
 
 Notice the red marker on the top left corner of the containers:
 ![Containers1](../figures/Containers_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
-These indicate that containers are localized. When a container is localized, the elements inside are hidden from the elements of the rest of the model.
+
+These indicate that containers are localized. When a container is localized, the elements inside are hidden from the elements of the rest of the model. In this case, each container contains a different version of a model for bacterial growth:
+
+### Exponential Model
+
+$$\begin{equation*}
+\frac{dB}{dt}=rB
+\end{equation*}
+
+### Logistic Model
+
+### Logistic Model Stochastic
+
 
 
 ## Model 4 - Lotka-Volterra
