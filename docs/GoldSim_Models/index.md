@@ -58,6 +58,8 @@ These indicate that containers are localized. When a container is localized, the
 
 ### Exponential Model
 
+
+
 $$\begin{equation*}
 \frac{dB}{dt}=rB
 \end{equation*}$$
@@ -73,6 +75,15 @@ $$\begin{equation*}
 $$\begin{equation*}
 \frac{dB}{dt}=r(1-B/K)B
 \end{equation*}$$
+
+
+|Letter  |Element     |Units     |
+|--------|------------|----------|
+|    B   |Bacteria    |items/ml  |
+|dB/dt   |Growth      |items/ml h|
+|r       |Growth rate |1/h       |
+|K       |Carrying capacity |items/ml|
+
 
 ### Logistic Model Stochastic
 
