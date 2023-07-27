@@ -51,14 +51,22 @@ Image courtesy of GoldSim
 The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements scattered around your workspace) or because you want to build a modular model, where each part of the model is as independent as possible from the rest. 
 
 Notice the red marker on the top left corner of the containers:
-![Containers1](../figures/Containers_2.png "Courtesy of GoldSim")
+![Containers2](../figures/Containers_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 These indicate that containers are localized. When a container is localized, the elements inside are hidden from the elements of the rest of the model. In this case, each container contains a different version of a model for bacterial growth:
 
 ### Exponential Model
 
+If you go to the 'Exponential_Growth' container, you will see this model:
 
+![Containers2](../figures/Bacterial_growth_exponential.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+This model is not very different from Model 2. In this case, there is no carrying capacity. The bacterial pool includes an upper bound of $1e20$ items/ml to prevent GoldSim from reaching
+ very high concentrations and using too much memory. There is also a link to the paper that has the growth rate of *E. Coli*.
+
+Remember GoldSim implicitly models differential equations. This is the equation for the exponential growth in this model:
 
 $$\begin{equation*}
 \frac{dB}{dt}=rB
@@ -71,6 +79,12 @@ $$\begin{equation*}
 |r    |Growth rate |1/h       |
 
 ### Logistic Model
+
+If you go to the 'Exponential_Growth' container, you will see this model:
+
+![Containers2](../figures/Bacterial_growth_logistic.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
 
 $$\begin{equation*}
 \frac{dB}{dt}=r(1-B/K)B
