@@ -132,6 +132,7 @@ maybe a rich media provides resources for a higher carrying capacity. GoldSim al
 ![Growth Model 3](../figures/Bacterial_growth_logistici_stochastic.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
+Here we find a new element, which is crucial to stochastic modeling: the 'Stochastic':
 
 
 
