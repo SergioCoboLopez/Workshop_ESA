@@ -65,7 +65,7 @@ $$\begin{equation*}
 \end{equation*}$$
 
 |Letter  |Element     |Units     |
-|--------|------------|----------|
+|----|------------|----------|
 |    B   |Bacteria    |items/ml  |
 |dB/dt   |Growth      |items/ml h|
 |r       |Growth rate |1/h       |
@@ -78,7 +78,7 @@ $$\begin{equation*}
 
 
 |Letter  |Element     |Units     |
-|--------|------------|----------|
+|----|------------|----------|
 |    B   |Bacteria    |items/ml  |
 |dB/dt   |Growth      |items/ml h|
 |r       |Growth rate |1/h       |
