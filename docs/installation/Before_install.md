@@ -7,6 +7,7 @@ parent: Installation
 
 ## Before installing
 [GoldSim](https://www.goldsim.com/)  only works on Windows operating systems. Virtual machines are not generally recommended. GoldSim is a proprietary software and you will need a license to use it.
+Please ensure that your computer meets the [system requirements](https://media.goldsim.com/Documents/Software/RelNotes.htm) for the program.
 
 ## License
 For this workshop, we will have some student licenses available for this generously provided by GoldSim.
