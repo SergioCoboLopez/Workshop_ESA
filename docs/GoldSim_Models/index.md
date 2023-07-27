@@ -20,8 +20,6 @@ Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
 This model is a simple example provided by GoldSim in their basic course and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). The model exploits the analogy of a water management system to describe
 a simple scenario and show the basic elements used in GoldSim. 
 
-You can also find a video showing how I built my own version of this model in the repository <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>. 
-
 ## Model 2 - Example ecology. 
 
 Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model2_Example_Ecology.gsm>
@@ -51,14 +49,12 @@ The first thing that you will notice when you open it is the existence of a new 
 Image courtesy of GoldSim
 
 The three yellow elements are called [containers](https://www.goldsim.com/Courses/BasicGoldSim/Unit9/Lesson2/). Containers are used to store small parts of the models for esthetical reasons (not having lots of elements
-scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest. In this case, each container contains a different version of a model for bacterial
-growth.
+scattered around your workspace) or because you want to build a modular model, where each part of your model is as independent as possible from the rest. In this case, each container contains a different version of a model for bacterial growth.
 
 Notice the red marker on the top left corner of the containers:
-![Containers1](../figures/Containers_1.png "Courtesy of GoldSim")
+![Containers1](../figures/Containers_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
-
-These indicate that containers are localized.
+These indicate that containers are localized. When a container is localized, the elements inside are hidden from the elements of the rest of the model.
 
 
 ## Model 4 - Lotka-Volterra
