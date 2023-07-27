@@ -161,13 +161,13 @@ $$\begin{eqnarray*}
 \end{eqnarray*}$$
 
 
-|Letter|Element     |Units     |
+|Letter|Element     |Units  |
 |----|----------|-------|
-|    B|Bacteria    |items/ml  |
+|    B|Bacteria    |items/ml|
 |    P|Phage    |items/ml  |
-|r    |Growth rate |1/h       |
-|a    |Adsorption rate |ml/h       |
-|c    |Burst size |items       |
+|r    |Growth rate |1/h    |
+|a    |Adsorption rate |ml/h|
+|c    |Burst size |items    |
 |m    |Decay rate |1/h|
 
 ## Model 5 - Lysogeny model
