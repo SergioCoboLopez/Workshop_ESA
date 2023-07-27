@@ -124,8 +124,14 @@ $$\begin{equation*}
 
 ### Logistic Model Stochastic
 
-Finally, we explore the stochastic feature of GoldSim. 
-In this model we model a bacterial growth with stochastic bacterial growth rate, carrying capacity and initial bacterial concentration are stochastic variables.
+Finally, we model a bacterial growth with stochastic bacterial growth rate, carrying capacity and initial bacterial concentration are stochastic variables. Stochastic processes are very commont in ecology; think about it: Is the
+ initial concentration of bacteria in an experiment fixed or is there some uncertainty due to measurements errors? The same is probably true for the growth rate and the carrying capacity: 
+are these unique and fixed rates? Or do they vary between minimum and maximum values depending on environmental or genetic conditions? For instance, some bacterial cells might have been selected to grow faster than others. Or 
+maybe a rich media provides resources for a higher carrying capacity. GoldSim allows us to explore these scenarios and this model provides a simple example of it. 
+
+![Growth Model 3](../figures/Bacterial_growth_logistici_stochastic.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
 
 
 
