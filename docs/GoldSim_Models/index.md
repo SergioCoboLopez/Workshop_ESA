@@ -143,7 +143,7 @@ If you click on the 'Edit' button, you can see how to define the stochastic elem
 Image courtesy of GoldSim
 
 In particular, there are many probability distributions that the parameter can take. In this case, we considered the [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). Normal or Gaussian distributions have a 
-mean or expectation value $\mu$ that represents the most common outcome. As you move away from the mean, the likelihood of values occurring decreases. The standard deviation $\sigma$ represents how spread the distribution is.
+mean or expectation value $$\mu$$ that represents the most common outcome. As you move away from the mean, the likelihood of values occurring decreases. The standard deviation $$\sigma$$ represents how spread the distribution is.
 The height distribution of adults follows a [normal distribution](https://ourworldindata.org/human-height#distribution-of-adult-heights).
 
 
@@ -155,10 +155,10 @@ The next model is a Lotka-Volterra predator-prey model for bacteria and bacterio
 
 The equations for Lotka-Volterra model are shown below:
 
-$$\begin{array*}
+$$\begin{eqnarray*}
 \frac{dB}{dt}&=&rB - aBP \\
 \frac{dP}{dt}&=&caBP - mP
-\end{array*}$$
+\end{eqnarray*}$$
 
 
 |Letter|Element     |Units     |
