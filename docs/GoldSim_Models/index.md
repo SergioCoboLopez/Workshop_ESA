@@ -91,14 +91,20 @@ You will probably notice a new element that we had not discussed before:
 Image courtesy of GoldSim
 
 This a 'DashBoard'. DashBoards are extensively discussed in [Unit 16](https://www.goldsim.com/Courses/BasicGoldSim/Unit16/Lesson1/) 
-of the [GoldSim Introduction Course](https://www.goldsim.com/Courses/BasicGoldSim/). Shortly speaking, a DashBoard is a special type of container that allows you to generate GoldSim Player files.
-GoldSim Player files allow
+of the [GoldSim Introduction Course](https://www.goldsim.com/Courses/BasicGoldSim/), but shortly speaking, a DashBoard is a special type of container that allows you to generate 
+[GoldSim Player files](https://www.goldsim.com/Courses/BasicGoldSim/Unit16/Lesson4/), like the ones discussed below. You can open and run GoldSim Player files without a license.
 
-It is a special type of container that allows you to generate GoldSim Player files. DashBoards are extensively discussed in 
-[Unit 16](https://www.goldsim.com/Courses/BasicGoldSim/Unit16/Lesson1/) of the [GoldSim Introduction Course](https://www.goldsim.com/Courses/BasicGoldSim/).
-In this model, the DashBoard 
+Back to the model, this is a reformulation of Model 2, where the carrying capacity is explicitly implemented in the 'Logistic_growth' function, as shown below:
+
+![Growth Model 3](../figures/growth_function.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+This simply makes the model closer to its mathematical formulation, and does not imply the previous model was wrong.
+Another difference respect to the previous model is that there is no data element for finishing the experiment. This is not strictly necessary, as it is possible to stop the simulation at any time you wish in 
+the Simulations settings.
 
 
+This is the equation for the exponential growth in this model:
 
 $$\begin{equation*}
 \frac{dB}{dt}=r(1-B/K)B
