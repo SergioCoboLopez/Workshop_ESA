@@ -142,13 +142,8 @@ If you click on the 'Edit' button, you can see how to define the stochastic elem
 ![Growth Model 6](../figures/Stochastic_element_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
-In particular, you can see that there are many probability distributions that the parameter can take:
-
-![Growth Model 7](../figures/Stochastic_element_3.png "Courtesy of GoldSim")
-Image courtesy of GoldSim
-
-In this case, we take the normal distribution. Normal or Gaussian distributions have a mean or expectation value which is the most frequent outcome. As you move away from the mean, values become less and less likely to happen. The 
-distribution of heights of adults follow a normal distribution: <https://ourworldindata.org/human-height#distribution-of-adult-heights>
+In particular, there are many probability distributions that the parameter can take. In this case, we considered the normal distribution. Normal or Gaussian distributions have a mean or expectation value that represents the
+ most common outcome. As you move away from the mean, the likelihood of values occurring decreases. The height distribution of adults follows a [normal distribution](https://ourworldindata.org/human-height#distribution-of-adult-heights).
 
 
 ## Model 4 - Lotka-Volterra
