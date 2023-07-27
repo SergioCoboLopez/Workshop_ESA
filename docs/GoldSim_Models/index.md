@@ -60,7 +60,7 @@ These indicate that containers are localized. When a container is localized, the
 
 If you go to the 'Exponential_Growth' container, you will see this model:
 
-![Containers2](../figures/Bacterial_growth_exponential.png "Courtesy of GoldSim")
+![Growth model 1](../figures/Bacterial_growth_exponential.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 This model is not very different from Model 2. In this case, there is no carrying capacity. The bacterial pool includes an upper bound of $1e20$ items/ml to prevent GoldSim from reaching
@@ -82,8 +82,22 @@ $$\begin{equation*}
 
 If you go to the 'Exponential_Growth' container, you will see this model:
 
-![Containers2](../figures/Bacterial_growth_logistic.png "Courtesy of GoldSim")
+![Growth Model 2](../figures/Bacterial_growth_logistic.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
+
+You will probably notice a new element that we had not discussed before:
+
+![Growth Model 2](../figures/Dashboard.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+This a 'DashBoard'. DashBoards are extensively discussed in [Unit 16](https://www.goldsim.com/Courses/BasicGoldSim/Unit16/Lesson1/) 
+of the [GoldSim Introduction Course](https://www.goldsim.com/Courses/BasicGoldSim/). Shortly speaking, a DashBoard is a special type of container that allows you to generate GoldSim Player files.
+GoldSim Player files allow
+
+It is a special type of container that allows you to generate GoldSim Player files. DashBoards are extensively discussed in 
+[Unit 16](https://www.goldsim.com/Courses/BasicGoldSim/Unit16/Lesson1/) of the [GoldSim Introduction Course](https://www.goldsim.com/Courses/BasicGoldSim/).
+In this model, the DashBoard 
+
 
 
 $$\begin{equation*}
@@ -111,19 +125,27 @@ Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models
 
 
 
-### GoldSim player files
+## GoldSim Player files
 In the event that you cannot access or use GoldSim, I have provided three player files. GoldSim player files can be run with GoldSim player, but they cannot be edited.
 
-## GoldSim player 1
+### Model 1 - Logistic bacterial growth
+
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth.gsp>
 
 This file can be found in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files) under the name Bacterial_growth.gsp.
 The model simulates the bacterial growth of three bacterial strains using values found in the literature. In the player file, you can select several parameters to play around.
 
-## GoldSim player 2
+### Model 2 - Stochastic bacterial growth
+
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth.gsp>
+
 This file can be found under the name Bacterial_growth_stochastic.gsp.
 In this model I introduced stochasticity to account for variables that cannot be controled in experimental settings: the bacterial growth rate is not a fixed number, but an average depending on different factors. The same applies to the carrying capacity.
 
-## GoldSim player 3
+### Model 3 - Lotka Volterra
+
+Model: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth.gsp>
+
 This file can be found under the name Lotka_Volterra.gsp.
 
 In this model, I simulate a predator-prey model for bacteria and virulent phage with Lotka-Volterra equations. The model comprises for ecological mechanisms: exponential bacterial growth, infection of bacteria by phages, phage growth by burst, and phage decay.
