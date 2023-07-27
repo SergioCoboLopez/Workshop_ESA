@@ -107,7 +107,6 @@ This simply makes the model closer to its mathematical formulation, and does not
 Another difference respect to the previous model is that there is no data element for finishing the experiment. This is not strictly necessary, as it is possible to stop the simulation at any time you wish in 
 the Simulations settings.
 
-
 This is the equation for the exponential growth in this model:
 
 $$\begin{equation*}
@@ -124,6 +123,9 @@ $$\begin{equation*}
 
 
 ### Logistic Model Stochastic
+
+Finally, we explore the stochastic feature of GoldSim. 
+In this model we model a bacterial growth with stochastic bacterial growth rate, carrying capacity and initial bacterial concentration are stochastic variables.
 
 
 
