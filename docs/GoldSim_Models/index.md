@@ -139,7 +139,7 @@ Image courtesy of GoldSim
 
 If you click on the 'Edit' button, you can see how to define the stochastic element:
 
-![Growth Model 6](../figures/Stochastic_element_2.png "Courtesy of GoldSim")
+![Growth Model 6](../figures/Stochastic_2.PNG "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 In particular, there are many probability distributions that the parameter can take. In this case, we considered the [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). Normal or Gaussian distributions have a 
