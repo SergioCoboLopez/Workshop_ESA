@@ -129,7 +129,7 @@ Finally, we model a bacterial growth with stochastic bacterial growth rate, carr
 are these unique and fixed rates? Or do they vary between minimum and maximum values depending on environmental or genetic conditions? For instance, some bacterial cells might have been selected to grow faster than others. Or 
 maybe a rich media provides resources for a higher carrying capacity. GoldSim allows us to explore these scenarios and this model provides a simple example of it. 
 
-![Growth Model 4](../figures/Bacterial_growth_logistici_stochastic.png "Courtesy of GoldSim")
+![Growth Model 4](../figures/Bacterial_growth_logistic_stochastic.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 Here we find a new element, which is crucial to stochastic modeling: the 'Stochastic':
