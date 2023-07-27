@@ -60,9 +60,13 @@ These indicate that containers are localized. When a container is localized, the
 
 $$\begin{equation*}
 \frac{dB}{dt}=rB
-\end{equation*}
+\end{equation*}$$
 
 ### Logistic Model
+
+$$\begin{equation*}
+\frac{dB}{dt}=r(1-B/K)B
+\end{equation*}$$
 
 ### Logistic Model Stochastic
 
