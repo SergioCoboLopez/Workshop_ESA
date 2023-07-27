@@ -64,11 +64,11 @@ $$\begin{equation*}
 \frac{dB}{dt}=rB
 \end{equation*}$$
 
-|Letter  |Element     |Units     |
+|Letter|Element|Units  |
 |----|----------|-------|
-|    B   |Bacteria    |items/ml  |
-|dB/dt   |Growth      |items/ml h|
-|r       |Growth rate |1/h       |
+|    B|Bacteria    |items/ml  |
+|dB/dt|Growth      |items/ml h|
+|r    |Growth rate |1/h       |
 
 ### Logistic Model
 
@@ -77,12 +77,12 @@ $$\begin{equation*}
 \end{equation*}$$
 
 
-|Letter  |Element     |Units     |
+|Letter|Element     |Units     |
 |----|----------|-------|
-|    B   |Bacteria    |items/ml  |
-|dB/dt   |Growth      |items/ml h|
-|r       |Growth rate |1/h       |
-|K       |Carrying capacity |items/ml|
+|    B|Bacteria    |items/ml  |
+|dB/dt|Growth      |items/ml h|
+|r    |Growth rate |1/h       |
+|K    |Carrying capacity |items/ml|
 
 
 ### Logistic Model Stochastic
