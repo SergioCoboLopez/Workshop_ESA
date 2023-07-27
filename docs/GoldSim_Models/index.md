@@ -17,6 +17,8 @@ Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models
 
 Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
 
+Link to video: <https://www.youtube.com/watch?v=htNLMYaaiCE>
+
 This model is a simple example provided by GoldSim in their basic course and can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit3/Lesson2/). The model exploits the analogy of a water management system to describe
 a simple scenario and show the basic elements used in GoldSim. 
 
@@ -25,6 +27,8 @@ a simple scenario and show the basic elements used in GoldSim.
 Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model2_Example_Ecology.gsm>
 
 Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
+
+Link to video: <https://www.youtube.com/watch?v=imbY64YM3fE>
 
 You might be asking yourself how water management systems can help describe ecological models. This model gives you a basic answer. Model 2 is a modified version of Model 1 that describes a simulated experiment with bacterial
 exponential growth (inflow) and bacterial sampling (outflow).
