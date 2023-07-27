@@ -142,13 +142,33 @@ If you click on the 'Edit' button, you can see how to define the stochastic elem
 ![Growth Model 6](../figures/Stochastic_element_2.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
-In particular, there are many probability distributions that the parameter can take. In this case, we considered the normal distribution. Normal or Gaussian distributions have a mean or expectation value that represents the
- most common outcome. As you move away from the mean, the likelihood of values occurring decreases. The height distribution of adults follows a [normal distribution](https://ourworldindata.org/human-height#distribution-of-adult-heights).
+In particular, there are many probability distributions that the parameter can take. In this case, we considered the [normal distribution](https://en.wikipedia.org/wiki/Normal_distribution). Normal or Gaussian distributions have a 
+mean or expectation value $\mu$ that represents the most common outcome. As you move away from the mean, the likelihood of values occurring decreases. The standard deviation $\sigma$ represents how spread the distribution is.
+The height distribution of adults follows a [normal distribution](https://ourworldindata.org/human-height#distribution-of-adult-heights).
 
 
 ## Model 4 - Lotka-Volterra
 
 Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Lotka_Volterra.gsm>
+
+The next model is a Lotka-Volterra predator-prey model for bacteria and bacteriophage.
+
+The equations for Lotka-Volterra model are shown below:
+
+$$\begin{array*}
+\frac{dB}{dt}&=&rB - aBP \\
+\frac{dP}{dt}&=&caBP - mP
+\end{array*}$$
+
+
+|Letter|Element     |Units     |
+|----|----------|-------|
+|    B|Bacteria    |items/ml  |
+|    P|Phage    |items/ml  |
+|r    |Growth rate |1/h       |
+|a    |Adsorption rate |ml/h       |
+|c    |Burst size |items       |
+|m    |Decay rate |1/h|
 
 ## Model 5 - Lysogeny model
 
