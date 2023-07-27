@@ -62,6 +62,12 @@ $$\begin{equation*}
 \frac{dB}{dt}=rB
 \end{equation*}$$
 
+|Letter  |Element     |Units     |
+|--------|------------|----------|
+|    B   |Bacteria    |items/ml  |
+|dB/dt   |Growth      |items/ml h|
+|r       |Growth rate |1/h       |
+
 ### Logistic Model
 
 $$\begin{equation*}
