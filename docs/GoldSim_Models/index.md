@@ -129,11 +129,26 @@ Finally, we model a bacterial growth with stochastic bacterial growth rate, carr
 are these unique and fixed rates? Or do they vary between minimum and maximum values depending on environmental or genetic conditions? For instance, some bacterial cells might have been selected to grow faster than others. Or 
 maybe a rich media provides resources for a higher carrying capacity. GoldSim allows us to explore these scenarios and this model provides a simple example of it. 
 
-![Growth Model 3](../figures/Bacterial_growth_logistici_stochastic.png "Courtesy of GoldSim")
+![Growth Model 4](../figures/Bacterial_growth_logistici_stochastic.png "Courtesy of GoldSim")
 Image courtesy of GoldSim
 
 Here we find a new element, which is crucial to stochastic modeling: the 'Stochastic':
 
+![Growth Model 5](../figures/Stochastic_element_1.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+If you click on the 'Edit' button, you can see how to define the stochastic element:
+
+![Growth Model 6](../figures/Stochastic_element_2.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+In particular, you can see that there are many probability distributions that the parameter can take:
+
+![Growth Model 7](../figures/Stochastic_element_3.png "Courtesy of GoldSim")
+Image courtesy of GoldSim
+
+In this case, we take the normal distribution. Normal or Gaussian distributions have a mean or expectation value which is the most frequent outcome. As you move away from the mean, values become less and less likely to happen. The 
+distribution of heights of adults follow a normal distribution: <https://ourworldindata.org/human-height#distribution-of-adult-heights>
 
 
 ## Model 4 - Lotka-Volterra
