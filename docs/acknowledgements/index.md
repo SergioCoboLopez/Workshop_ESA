@@ -14,4 +14,5 @@ Jenna Aquino provided invaluable help in developing the models for GoldSim.
 
 The [Rohwer Lab](https://coralandphage.org/) funded the research within which GoldSim was used to build models.
 
-
+The Gordon and Betty Moore Foundation [Award #GBMF9207
+ ](https://www.moore.org/grant-detail?grantId=GBMF9207)
