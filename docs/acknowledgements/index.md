@@ -10,7 +10,6 @@ nav_order: 6
 
 [Toni Luque](https://scholar.google.com/citations?user=ytvnI68AAAAJ&hl=en) and the [luquelab](https://www.luquelab.com/) designed the template for this repository.
 
-Jenna Aquino provided invaluable help in developing the models for GoldSim.
 
 The [Rohwer Lab](https://coralandphage.org/) funded the research within which GoldSim was used to build models.
 

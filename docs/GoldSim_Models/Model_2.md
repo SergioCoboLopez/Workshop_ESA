@@ -9,9 +9,9 @@ parent: Models
 
 [Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model2_Example_Ecology.gsm){: .btn }
 
-Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
+[Download Video](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos){: .btn }
 
-Link to video: <https://www.youtube.com/watch?v=imbY64YM3fE>
+[Watch me](https://www.youtube.com/watch?v=imbY64YM3fE){: .btn }
 
 You might be asking yourself how water management systems can help describe ecological models. This model gives you a basic answer. Model 2 is a modified version of Model 1 that describes a simulated experiment with bacterial
 exponential growth (inflow) and bacterial sampling (outflow).
