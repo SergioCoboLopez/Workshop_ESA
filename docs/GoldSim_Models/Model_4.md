@@ -2,7 +2,7 @@
 layout: default
 title: Model 4
 nav_order: 4
-parent: GoldSim_Models
+parent: Models
 ---
 
 ## Model 4 - Lotka-Volterra

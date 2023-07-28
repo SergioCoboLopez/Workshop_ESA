@@ -2,7 +2,7 @@
 layout: default
 title: Model 1
 nav_order: 1
-parent: GoldSim_Models
+parent: Models
 ---
 
 ## Model 1 - Example

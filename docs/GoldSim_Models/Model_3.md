@@ -2,7 +2,7 @@
 layout: default
 title: Model 3
 nav_order: 3
-parent: GoldSim_Models
+parent: Models
 ---
 
 ## Model 3 - Bacterial growth

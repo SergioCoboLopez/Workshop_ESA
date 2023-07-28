@@ -2,7 +2,7 @@
 layout: default
 title: Model 2
 nav_order: 2
-parent: GoldSim_Models
+parent: Models
 ---
 
 ## Model 2 - Example ecology. 

@@ -2,7 +2,7 @@
 layout: default
 title: GoldSim Player Models
 nav_order: 6
-parent: GoldSim_Models
+parent: Models
 ---
 
 ## GoldSim Player files
