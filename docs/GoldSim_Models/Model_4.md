@@ -2,8 +2,7 @@
 layout: default
 title: Models
 nav_order: 4
-has_children: true
-permalink: docs/GoldSim_Models
+parent: GoldSim_Models
 ---
 
 Remember that GoldSim offers two very good [free courses](https://www.goldsim.com/Web/Customers/Education/Overview/) and other [learning resources](https://www.goldsim.com/Web/Customers/). There is also an active [community of users](https://www.goldsim.com/Web/Customers/Community/)
