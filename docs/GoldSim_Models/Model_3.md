@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Models
+title: Model 3
 nav_order: 3
 parent: GoldSim_Models
 ---
