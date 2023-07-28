@@ -3,7 +3,6 @@ layout: default
 title: Installing GoldSim Player
 nav_order: 3
 parent: Installation
-permalink: docs/Installation
 ---
 
 ### Installing GoldSim player

@@ -3,7 +3,6 @@ layout: default
 title: Installing GoldSim
 nav_order: 2
 parent: Installation
-permalink: docs/Installation
 ---
 
 ## Installation instructions
