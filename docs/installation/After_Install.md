@@ -4,7 +4,7 @@ title: After Installing GoldSim
 nav_order: 4
 parent: Installation
 ---
-## After installation
+## After installing GoldSim
 
 I strongly recommend following the [Introduction to GoldSim course](https://www.goldsim.com/Courses/BasicGoldSim/) and downloading the zip file with the exercises and examples. 
 It is recommended that you finish the first four lessons before starting your projects, but it is even better to complete the first nine lessons if possible.
