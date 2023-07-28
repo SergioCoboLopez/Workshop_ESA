@@ -10,21 +10,21 @@ In the event that you cannot access or use GoldSim, I have provided three player
 
 ### Model 1 - Logistic bacterial growth
 
-Model: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth.gsp>
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth.gsp){: .btn }
 
 This file can be found in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files) under the name Bacterial_growth.gsp.
 The model simulates the bacterial growth of three bacterial strains using values found in the literature. In the player file, you can select several parameters to play around.
 
 ### Model 2 - Stochastic bacterial growth
 
-Model: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth_stochastic.gsp>
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Bacterial_growth_stochastic.gsp){: .btn }
 
 This file can be found under the name Bacterial_growth_stochastic.gsp.
 In this model I introduced stochasticity to account for variables that cannot be controled in experimental settings: the bacterial growth rate is not a fixed number, but an average depending on different factors. The same applies to the carrying capacity.
 
 ### Model 3 - Lotka Volterra
 
-Model: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Lotka_Volterra_Dashboard.gsp>
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files/Lotka_Volterra_Dashboard.gsp){: .btn }
 
 This file can be found under the name Lotka_Volterra.gsp.
 

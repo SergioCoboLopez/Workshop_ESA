@@ -7,7 +7,7 @@ parent: Models
 
 ## Model 4 - Lotka-Volterra
 
-Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Lotka_Volterra.gsm>
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Lotka_Volterra.gsm){: .btn }
 
 The next model is a Lotka-Volterra predator-prey model for bacteria and bacteriophage.
 

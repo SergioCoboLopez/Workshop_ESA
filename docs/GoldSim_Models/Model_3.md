@@ -7,7 +7,7 @@ parent: Models
 
 ## Model 3 - Bacterial growth
 
-Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Bacterial_growth.gsm>
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Bacterial_growth.gsm){: .btn }
 
 This model is a refinement of the previous model. 
 The first thing that you will notice when you open it is the existence of a new element that we have not discussed yet:
