@@ -17,6 +17,10 @@ authors:
     family-names: Cruz Aquino
     affiliation: 'Viral Information Institute, SDSU'
     email: jennaaqu@gmail.com
+ - given-names: Forest
+    family-names: Rohwer
+    affiliation: 'Viral Information Institute, SDSU'
+    email: frohwer@gmail.com
 repository-code: 'https://github.com/SergioCoboLopez/Workshop_ESA'
 abstract: >-
   This repository contains basic ecological models generated
