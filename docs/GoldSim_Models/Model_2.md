@@ -26,3 +26,7 @@ exponential growth (inflow) and bacterial sampling (outflow).
 
 5. This model has a smaller timescale and simulation time.
 
+![Figure](../figures/Ecological_model_example.png "Courtesy of GoldSim")
+
+Image courtesy of GoldSim
+
