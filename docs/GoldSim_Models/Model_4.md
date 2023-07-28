@@ -14,7 +14,7 @@ In this case we have two pools: one for the bacteria and another one for the pha
 Bacteria have an inflow corresponding to exponential growth and an outflow corresponding to phage predation. This outflow becomes an inflow to phage: the concentration of phage
 increases via burst. Phage have an outflow that corresponds to their decay.
 
-![Lotka-Volterra](../figures/Lotka_Volterra_Diaram.png "Courtesy of GoldSim")
+![Lotka-Volterra](../figures/Lotka_Volterra_Diagram.png "Courtesy of GoldSim")
 
 
 The equations for Lotka-Volterra model are shown below:
