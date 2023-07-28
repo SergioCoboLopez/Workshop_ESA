@@ -11,7 +11,7 @@ It is recommended that you finish the first four lessons before starting your pr
 
 Open the GoldSim density-dependent model and play around with it. If you can’t find it, contact the GoldSim responsible person. What happens when you change the model's initial concentrations or growth rates? How does this model fit into your own project?
 
-## Working on your own project: some tips
+### Working on your own project: some tips
 
 Before starting your own model in GoldSim, think about these questions:
 
