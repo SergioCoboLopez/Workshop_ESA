@@ -7,7 +7,7 @@ parent: Models
 
 ## Model 1 - Example
 
-Model: <https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model1_Example.gsm> 
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model1_Example.gsm){: .btn }
 
 Video: <https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos>
 
