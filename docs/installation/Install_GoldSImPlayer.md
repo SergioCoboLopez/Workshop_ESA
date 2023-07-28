@@ -5,7 +5,8 @@ nav_order: 3
 parent: Installation
 ---
 
-### Installing GoldSim player
+## Installing GoldSim player
+
 GoldSim player allows you to run certain files in GoldSim (player files) like the ones provided in the [repository](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/GoldSim_Models/Player_Files). You cannot edit or change models, but it can be a useful option if you want to get an intuition of how GoldSim works.
 
 1. To install GoldSim player, go to the [download page](https://www.goldsim.com/Web/Customers/Downloads/Player/)

@@ -5,7 +5,7 @@ nav_order: 2
 parent: Installation
 ---
 
-## Installation instructions
+## Instructions
 
 1. You can download GoldSim [from the website](https://www.goldsim.com/Web/Customers/Downloads/GoldSim/Latest/).
 ![Install1](../figures/GoldSim_Install_1.png "Courtesy of GoldSim")
