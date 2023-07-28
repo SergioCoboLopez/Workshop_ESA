@@ -12,3 +12,5 @@ The website is associated to a repository that can be accessed [here](https://gi
 This project is based on a template designed and build by the [Luque lab](https://www.luquelab.com).
 
 The author of this repository is Sergio Cobo Lopez
+
+If you are using this repository for your research, please [cite me](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/CITATION.cff){: .btn .btn-purple }
