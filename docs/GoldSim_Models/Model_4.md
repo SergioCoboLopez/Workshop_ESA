@@ -20,8 +20,8 @@ increases via burst. Phage have an outflow that corresponds to their decay.
 The equations for Lotka-Volterra model are shown below:
 
 $$\begin{eqnarray*}
-\frac{dB}{dt}&=&\underbrace{rB}_{Growth} - aBP \\
-\frac{dP}{dt}&=&caBP - mP
+\frac{dB}{dt}&=&\underbrace{rB}_{Growth} - \underbrace{aBP}_{Predation} \\
+\frac{dP}{dt}&=&\underbrace{caBP}_{Burst} - \underbrace{mP}_{Decay}
 \end{eqnarray*}$$
 
 
