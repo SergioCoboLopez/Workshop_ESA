@@ -1,0 +1,31 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: GoldSim Models for Ecology
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sergio
+    family-names: Cobo-Lopez
+    email: srgcobo@gmail.com
+    affiliation: 'Viral Information Institute, SDSU'
+    orcid: 'https://orcid.org/0000-0002-1089-6205'
+  - given-names: Jenna
+    family-names: Cruz
+    affiliation: 'Viral Information Institute, SDSU'
+    email: jennaaqu@gmail.com
+repository-code: 'https://github.com/SergioCoboLopez/Workshop_ESA'
+abstract: >-
+  This repository contains basic ecological models generated
+  with GoldSim.
+
+  The code also contains instructions on how to install and
+  use GoldSim
+keywords:
+  - GoldSim
+  - Ecology
+  - Phage-bacterial dynamics
+license: MIT
