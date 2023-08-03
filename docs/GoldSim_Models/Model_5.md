@@ -18,7 +18,7 @@ processes: respiration, fermentation, and photosynthesis. The central state vari
 are encoded by pool elements.
 
 
-![Metabolic_Machine](../figures/Metabolic_Machine_1.png "Courtesy of GoldSim")
+![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
 
 
 Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools. 
@@ -27,6 +27,8 @@ A function controls the fraction of respiration and fermentation according to th
 dominates (catabolic environment), and when it is high, fermentation dominates (anaerobic 
 environment). Conversely, photosynthesis outflows CO2 and H20 into the glucose and oxygen tanks. 
 The photosynthetic active radiation (PAR) controls the rate of photosynthesis.
+
+The limiting factors for this model are the demand of oxygen and the 
 
 
 
