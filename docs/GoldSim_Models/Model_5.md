@@ -21,12 +21,19 @@ are encoded by pool elements.
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
 
 
-Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools. 
-A population of bacteria sets the demand for glucose and oxygen.
-A function controls the fraction of respiration and fermentation according to the ratio of glucose
- to oxygen (eDAR, for electron donor to acceptor ratio): when the ratio is low, respiration 
-dominates (catabolic environment), and when it is high, fermentation dominates (anaerobic 
-environment). Conversely, photosynthesis outflows CO2 and H20 into the glucose and oxygen tanks. 
-The photosynthetic active radiation (PAR) controls the rate of photosynthesis.
+Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools through 
+different functions. One of those functions controls the fraction of respiration and fermentation according
+ to the ratio of glucose to oxygen (eDAR, for electron donor to acceptor ratio): when the ratio is low, 
+respiration dominates (catabolic environment), and when it is high, fermentation dominates (anaerobic 
+environment). The demand for glucose and oxygen is set by a population of bacteria.
+
+![Metabolic_Machine](../figures/Metabolic_Machine_2.PNG "Courtesy of GoldSim")
+
+
+Conversely, photosynthesis outflows CO2 and H20 into the glucose and oxygen tanks. 
+The photosynthetically active radiation (PAR) limits the rate of photosynthesis. 
+[PAR](https://en.wikipedia.org/wiki/Photosynthetically_active_radiation) is the range of wavelengths 
+from solar radiation that photosynthetizers can process. It is typically measured in moles of photons 
+per area and time. For this model we got data from [Ge et al](https://doi.org/10.1007/s00704-010-0368-6)
 
 
