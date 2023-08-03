@@ -26,6 +26,17 @@ different functions. One of those functions controls the fraction of respiration
  to the ratio of glucose to oxygen (eDAR, for electron donor to acceptor ratio): when the ratio is low, 
 respiration dominates (catabolic environment), and when it is high, fermentation dominates (anaerobic 
 environment). The demand for glucose and oxygen is set by a population of bacteria.
+The demand for oxygen is computed multiplying the oxygen intake of a single bacteria by the total concentration
+of bacteria. The demand for glucose for respiration is calculated considering the oxygen to glucose stoichiometry.
+For fermentation we assume the demand is twice as much as that for respiration. The function HeDAR determines the
+ratio of glucose used for fermentation and for respiration.
+
+The functions 'Total_Glucose_Intake' and Total_O2_Intake represent the demand of the bacterial community. The functions
+'Actual_Anaerobic_Gluc_Intake', 'Actual_Aerobic_Gluc_Intake', and 'Actual_O2_Intake' represent the
+actual outflow. The explanation for this is that the demand can (and often will) be higher than the
+stock in the pools. These functions go into a splitter and inflow with different rates the pools
+of ethanol, $$CO_2$$, and $$H_2O$$. 
+
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_2.PNG "Courtesy of GoldSim")
 
