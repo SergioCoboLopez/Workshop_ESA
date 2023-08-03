@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Before Installing GoldSim
+title: Before installing GoldSim
 nav_order: 1
 parent: Installation
 ---
