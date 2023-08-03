@@ -1,7 +1,7 @@
 GoldSim 14.0.0344
 Simulation Filename:	Metabolic_Machine
-Simulation Start Time:	8/3/2023 3:34:47 PM
-Simulation Run Time:	0.2 s
+Simulation Start Time:	8/3/2023 4:30:05 PM
+Simulation Run Time:	0.1 s
 Model Author Name:	Rohwer Lab
 Analysis Description:	(not specified)
 
