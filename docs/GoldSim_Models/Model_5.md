@@ -36,6 +36,24 @@ The photosynthetically active radiation (PAR) limits the rate of photosynthesis.
 from solar radiation that photosynthetizers can process. It is typically measured in moles of photons 
 per area and time. PAR data for this model was obtained from [Ge et al](https://doi.org/10.1007/s00704-010-0368-6).
 
+The PAR modeling follows several steps:
+
+1. Convert PAR Index from $$mole/m^2 h$$ to $$J/m^2 h$$ using Avogadro's number and the following equation 
+to calculate the energy of a photon $$\nu$$: $$E_{nu}=\frac{h c}{\lambda}$$, where $$h$$ is planck's constant, $$c$$ is 
+the speed of light, and $$\lambda$$ is the wavelength of the photon. In our case, we considered $$\lambda=550 nm$$.
+
+2. Set the area of photosynthetic biomass to extract power. In our case it was $$1 m^2$$.
+
+3. Integrate power over time to extract energy (not strictly necessary)
+
+4. Estimate the maximum amount of $$CO_2$$ that can be metabolized in an hour. Divide power over an hour by
+the activation energy for photosynthesis (this gives the number of cycles of photosynthesis)
+ and multiply by the weight of six molecules of $$CO_2$$.
+
+5. If the power supplied by PAR in an hour is less than the activation energy for photosynthesis, no $$CO_2$$ is metabolized.
+
+6. If the power demanded by the photosynthetic biomass is higher than the power supplied by PAR, only metabolize the maximum
+$$CO_2$$ allowed by PAR.
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_3.PNG "Courtesy of GoldSim")
 
