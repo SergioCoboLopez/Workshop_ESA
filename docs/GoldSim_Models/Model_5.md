@@ -34,6 +34,9 @@ Conversely, photosynthesis outflows CO2 and H20 into the glucose and oxygen tank
 The photosynthetically active radiation (PAR) limits the rate of photosynthesis. 
 [PAR](https://en.wikipedia.org/wiki/Photosynthetically_active_radiation) is the range of wavelengths 
 from solar radiation that photosynthetizers can process. It is typically measured in moles of photons 
-per area and time. For this model we got data from [Ge et al](https://doi.org/10.1007/s00704-010-0368-6)
+per area and time. PAR data for this model was obtained from [Ge et al](https://doi.org/10.1007/s00704-010-0368-6).
+
+
+![Metabolic_Machine](../figures/Metabolic_Machine_3.PNG "Courtesy of GoldSim")
 
 
