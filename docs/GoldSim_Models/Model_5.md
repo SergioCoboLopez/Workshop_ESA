@@ -55,6 +55,8 @@ the activation energy for photosynthesis (this gives the number of cycles of pho
 6. If the power demanded by the photosynthetic biomass is higher than the power supplied by PAR, only metabolize the maximum
 $$CO_2$$ allowed by PAR.
 
+7. This determines the outflow of the pool of $$CO_2$$ and the outflow of the $$H_2O$$ pool by stoichiometry.
+
 ![Metabolic_Machine](../figures/Metabolic_Machine_3.PNG "Courtesy of GoldSim")
 
 
