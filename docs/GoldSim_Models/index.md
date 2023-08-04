@@ -7,8 +7,11 @@ permalink: docs/GoldSim_Models
 ---
 
 This section covers a series of models specific for the workshop at the [ESA Annual Meeting](https://esa.org/portland2023/) of 2023. 
-Remember that GoldSim offers two very good [free courses](https://www.goldsim.com/Web/Customers/Education/Overview/) and other [learning resources](https://www.goldsim.com/Web/Customers/). 
-There is also an active [community of users](https://www.goldsim.com/Web/Customers/Community/) who can provide help.
+Don't forget that GoldSim provides two excellent [free courses](https://www.goldsim.com/Web/Customers/Education/Overview/) and other 
+valuable [learning materials](https://www.goldsim.com/Web/Customers/). Additionally, there is a thriving 
+[community of users](https://www.goldsim.com/Web/Customers/Community/) who can provide help.
+
+
 
 The main elements that we are going to use in the next models are:
 
