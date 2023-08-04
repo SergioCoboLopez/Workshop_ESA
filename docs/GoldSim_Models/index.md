@@ -25,7 +25,7 @@ primarily with data elements and stochastics.
 ![GoldSim elements](../figures/input_elements.PNG "Courtesy of GoldSim")
 
 **Stocks**: These are the state variables or outputs of your model. For example, the population of animals in an ecosystem
-or the volume of water in a tank.
+or the volume of water in a tank. In this workshop we are going to use the pool element.
 
 
 
