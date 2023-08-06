@@ -28,4 +28,16 @@ Our goal is to monitor the amount of water over a specified period of time, whic
  through the Leakage_rate function The data elements are constant values that define features of the tank and
 the functions. We track the state of the pool through the result element 'Tank_volume'.
 
+The simulation time is 3 days and the integration step is 15 min.
+
+|Data element|Units|Value|
+|------------|----------|-------|
+|Tank_capatity   |l  |30000|
+|Hose_flow_rate  |l/h|30  |
+|Time_hose_off   |d  |2    |
+|Leakage fraction|%/h|15|
+
+
+
+
 
