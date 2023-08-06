@@ -19,9 +19,10 @@ Model 1 that describes a simulated experiment with bacterial exponential growth 
 1. **Tank (l)** --> **Bacteria (item/ml)**: The tank of water becomes now the concentration of bacteria. This is the new [state variable](https://en.wikipedia.org/wiki/State_variable)
  . Because bacteria are usually measured in concentrations, the 'bacterial tank' units are now 'items/ml' (usually, density is measured in 'cells/ml,' but GoldSim does not provide 'cell' as a standard unit). Remember that GoldSim is very consistent with units.
 
-2. **Tank_capacity (l)** --> **Carrying capacity (item/ml)**: The tank capacity becomes the carrying capacity, the maximum concentration of bacteria in a system.
+2. **Tank_capacity (l)** --> **Carrying_capacity (item/ml)**: The tank capacity becomes the carrying capacity, the maximum concentration of bacteria in a system.
 
-3. The 'inflow' of bacteria comes from bacterial exponential or Malthusian growth. That is, the bacterial growth is proportional to the actual concentration of bacteria. The time at which the hose switches off is the experiment time.
+3. **Inflow_rate (l/h)** --> **Bacterial_growth (item/ml h)**: The 'inflow' of bacteria comes from bacterial exponential or Malthusian growth. That is, the bacterial growth is proportional
+ to the actual concentration of bacteria. The time at which the hose switches off is the experiment time.
 
 4. The outflow is reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
 
