@@ -19,6 +19,8 @@ a simple scenario and show the basic elements used in GoldSim.
 
 ![Figure](../figures/Simple_model_explanation.png)
 
+Image courtesy of GoldSim
+
 In this model, a hose is pouring water into a pool ('Tank') with a capacity of $$30000$$ liters (Tank_capacity)  
 over a period of 2 days (Time_Hose_off). The hose has a flow rate of 30 liters per hour. However, the tank 
 has a leakage problem, where it loses 30% of its water every hour (Time_Hose_off)
