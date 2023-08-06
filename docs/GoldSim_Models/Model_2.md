@@ -26,9 +26,11 @@ Model 1 that describes a simulated experiment with bacterial exponential growth 
 
 4. **Hose_flow_rate (l/h)** --> **Growth_rate (1/h)**: The growth rate controls how fast bacteria replicate.
 
-5. **Leakage_rate (l/h)** --> **Leakage_rate (item/ml h)**: The outflow is reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
+5. **Time_hose_off (d)** --> **Time_experiment (h)** : From 2 days to 24 hours.
 
-6. Simulation time: 24 h; basic step: 10 min. This model has a smaller timescale and simulation time.
+6. **Leakage_rate (l/h)** --> **Leakage_rate (item/ml h)**: The outflow is reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
+
+7. Simulation time: 24 h; basic step: 10 min. This model has a smaller timescale and simulation time.
 
 ![Figure](../figures/Ecological_model_example.PNG)
 
