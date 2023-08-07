@@ -30,22 +30,28 @@ or the volume of water in a tank. In this workshop we are going to use the pool 
 
 ![GoldSim elements](../figures/pool_elements.PNG "Courtesy of GoldSim")
 
+The pool element contains three tabs: 'Definition', 'Inflows', and 'Outflows'. Inflows and outflows specify the mechanisms by which the contents in the pool change
+over time. Take, for instance, [Model 2](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_2.html). There is a pool named 'Bacteria' and a function
+named 'Bacterial_growth'. You need to define the function as an inflow of the pool to observe actual growth.
 
-The main elements that we are going to use in the next models are:
+![GoldSim elements](../figures/pool_elements_2.PNG "Courtesy of GoldSim")
 
-1. The pool
+**Functions**: GoldSim has many types of functions. In this workshop we are going to use the Expression, the Selector, and the Splitter.
 
-2. The input data element
+![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
 
-3. The expression function element
+**Results**:
 
-4. The time history result
+![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
 
-5. The container
+**Containers**:
 
-6. The stochastic element
+![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
 
-7. The dashboard
+**Events**:
+
+**Delays**:
+
 
 
 
