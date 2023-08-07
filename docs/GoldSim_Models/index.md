@@ -30,19 +30,22 @@ or the volume of water in a tank. In this workshop we are going to use the pool 
 
 ![GoldSim elements](../figures/pool_elements.PNG "Courtesy of GoldSim")
 
-The pool element contains three tabs: 'Definition', 'Inflows', and 'Outflows'. Inflows and outflows specify the mechanisms by which the contents in the pool change
-over time. Take, for instance, [Model 2](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_2.html). There is a pool named 'Bacteria' and a function
-named 'Bacterial_growth'. You need to define the function as an inflow of the pool to observe actual growth.
+Note that within the pool element, there are three tabs available: 'Definition', 'Inflows', and 'Outflows'. The 'Inflows' and 'Outflows' tabs
+ describe how the contents within the pool will change over time. To better understand this, let's take a look at 
+[Model 2](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_2.html). Within this model, there is a pool called 'Bacteria' 
+and a function named 'Bacterial_growth'. To observe actual growth, it is necessary to define this function as an inflow for the pool.
 
 ![GoldSim elements](../figures/pool_elements_2.PNG "Courtesy of GoldSim")
 
-**Functions**: GoldSim has many types of functions. In this workshop we are going to use the Expression, the Selector, and the Splitter.
+**Functions**: During this workshop, we will be using only three types of functions offered by GoldSim: the Expression, the Selector, 
+and the Splitter. The Expression function is extremely versatile, as it can accept any mathematical expression. The Selector function 
+allows for the creation of 'if' statements, while the Splitter is utilized for dividing inflows and outflows into different proportions.
 
 ![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
 
 **Results**:
 
-![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
+![GoldSim elements](../figures/result_elements.PNG "Courtesy of GoldSim")
 
 **Containers**:
 
