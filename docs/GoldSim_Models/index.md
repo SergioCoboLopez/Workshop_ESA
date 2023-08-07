@@ -49,7 +49,7 @@ allows for the creation of 'if' statements, while the Splitter is utilized for d
 
 **Containers**:
 
-![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
+![GoldSim elements](../figures/container_elements.PNG "Courtesy of GoldSim")
 
 **Events**:
 
