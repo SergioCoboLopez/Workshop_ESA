@@ -7,9 +7,9 @@ parent: Models
 
 ## Model 2 - Example ecology. 
 
+
 [Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model2_Example_Ecology.gsm){: .btn } 
 
-[Download Video](https://github.com/SergioCoboLopez/Workshop_ESA/tree/main/data/videos){: .btn }
 
 [Watch me](https://www.youtube.com/watch?v=imbY64YM3fE){: .btn }
 
