@@ -43,7 +43,7 @@ allows for the creation of 'if' statements, while the Splitter is utilized for d
 
 ![GoldSim elements](../figures/function_elements.PNG "Courtesy of GoldSim")
 
-**Results**:
+**Results**: They show the results of your simulation after execution. We will be using the Time History Result and the Distribution Result.
 
 ![GoldSim elements](../figures/result_elements.PNG "Courtesy of GoldSim")
 
