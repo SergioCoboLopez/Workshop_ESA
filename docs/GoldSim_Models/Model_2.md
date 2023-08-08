@@ -33,7 +33,7 @@ Model 1 that describes a simulated experiment with bacterial exponential growth 
 7. Simulation time: 24 h; basic step: 10 min. This model has a smaller timescale and simulation time.
 
 |Data element|Units|Value|
-|------------|----------|-------|
+|------------:|----------:|-------:|
 |     Carrying_capacity|  item/ml| 1e9|
 | Initial_concentration|  item/ml| 1e3|
 |           Growth_rate|  1/hr| 0.025|
