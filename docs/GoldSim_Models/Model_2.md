@@ -32,15 +32,15 @@ Model 1 that describes a simulated experiment with bacterial exponential growth 
 
 7. Simulation time: 24 h; basic step: 10 min. This model has a smaller timescale and simulation time.
 
-|Data element|Units|Value|
-|------------:|----------:|-------:|
-|     Carrying_capacity|  item/ml| 1e9|
-| Initial_concentration|  item/ml| 1e3|
-|           Growth_rate|  1/hr| 0.025|
-|   Time_experiment_off|    hr| 24 hr|
-|         Sampling_rate|   %/hr| 1  |
-|Time_hose_off   |d  |2    |
-|Leakage fraction|%/h|15|
+|Data element          |Units      |Value|
+|---------------------:|----------:|-------:|
+|     Carrying_capacity|    item/ml|     1e9|
+| Initial_concentration|    item/ml|     1e3|
+|           Growth_rate|       1/hr|   0.025|
+|   Time_experiment_off|         hr|   24 hr|
+|         Sampling_rate|       %/hr|       1|
+|Time_hose_off         |          d|       2|
+|Leakage fraction      |        %/h|      15|
 
 ![Figure](../figures/Ecological_model_example.PNG)
 
