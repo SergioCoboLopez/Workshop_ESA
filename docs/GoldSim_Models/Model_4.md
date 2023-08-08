@@ -25,11 +25,11 @@ $$\begin{eqnarray*}
 \end{eqnarray*}$$
 
 
-|Letter|Element     |Units  |
-|----|----------|-------|
-|    B|Bacteria    |items/ml|
-|    P|Phage    |items/ml  |
-|r    |Growth rate |1/h    |
-|a    |Adsorption rate |ml/h|
-|c    |Burst size |items    |
-|m    |Decay rate |1/h|
+|Letter|Element       |Units    | Value  |
+|----:|--------------:|--------:|-------:|
+|    B|Bacteria       |items/ml |   55600|
+|    P|Phage          |items/ml | 3330000|
+|r    |Growth rate    |1/h      |     0.1|
+|a    |Adsorption rate|ml/h     |    3e-8|
+|c    |Burst size     |         |     150|
+|m    |Decay rate     |      1/h|     0.1|
