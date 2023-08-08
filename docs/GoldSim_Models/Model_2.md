@@ -24,13 +24,23 @@ Model 1 that describes a simulated experiment with bacterial exponential growth 
 3. **Inflow_rate (l/h)** --> **Bacterial_growth (item/ml h)**: The 'inflow' of bacteria comes from bacterial exponential or Malthusian growth. That is, the bacterial growth is proportional
  to the actual concentration of bacteria. The time at which the hose switches off is the experiment time.
 
-4. **Hose_flow_rate (l/h)** --> **Growth_rate (1/h)**: The growth rate controls how fast bacteria replicate.
+4. **Hose_flow_rate (l/h)** --> **Growth_rate (1/h)=0.025 1/hr**: The growth rate controls how fast bacteria replicate.
 
-5. **Time_hose_off (d)** --> **Time_experiment (h)** : From 2 days to 24 hours.
+5. **Time_hose_off (d)** --> **Time_experiment (h)= 24 hr** : From 2 days to 24 hours.
 
 6. **Leakage_rate (l/h)** --> **Leakage_rate (item/ml h)**: The outflow is reinterpreted as a sampling rate: an extraction of 15% of the total bacterial concentration every hour.
 
 7. Simulation time: 24 h; basic step: 10 min. This model has a smaller timescale and simulation time.
+
+|Data element|Units|Value|
+|------------|----------|-------|
+|     Carrying_capacity|  item/ml| 1e9|
+| Initial_concentration|  item/ml| 1e3|
+|           Growth_rate|  1/hr| 0.025|
+|   Time_experiment_off|    hr| 24 hr|
+|         Sampling_rate|   %/hr| 1  |
+|Time_hose_off   |d  |2    |
+|Leakage fraction|%/h|15|
 
 ![Figure](../figures/Ecological_model_example.PNG)
 

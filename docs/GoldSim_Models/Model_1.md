@@ -33,7 +33,7 @@ the functions. We track the state of the pool through the result element 'Tank_v
 The simulation time is 3 days and the integration step is 15 min.
 
 |Data element|Units|Value|
-|------------|----------|-------|
+|------------:|----------:|-------:|
 |Tank_capatity   |l  |30000|
 |Hose_flow_rate  |l/h|30  |
 |Time_hose_off   |d  |2    |
