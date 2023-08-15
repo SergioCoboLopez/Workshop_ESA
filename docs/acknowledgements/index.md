@@ -6,12 +6,12 @@ nav_order: 6
 
 # Acknowledgements
 
-[GoldSim](https://www.goldsim.com/) generously provided student licenses for the workshop at the ESA Annual Meeting in 2023. Mark Miller and Rick Kossik from GoldSim provided invaluable support and help with all software related questions.
 
-[Toni Luque](https://scholar.google.com/citations?user=ytvnI68AAAAJ&hl=en) and the [luquelab](https://www.luquelab.com/) designed the template for this repository.
+The [Rohwer Lab](https://coralandphage.org/) funded this project through the Gordon and Betty Moore Foundation [Award #GBMF9207](https://www.moore.org/grant-detail?grantId=GBMF9207) research within which GoldSim was used to build models.
+
+[Toni Luque](https://scholar.google.com/citations?user=ytvnI68AAAAJ&hl=en) and [Forest Rohwer](https://scholar.google.com/citations?user=ALEZEdoAAAAJ&hl=en) provided mentoring, guidance and invaluable feedback for the design of the models. Also Toni Luque and the [luquelab](https://www.luquelab.com/) designed the template for this repository.
 
 
-The [Rohwer Lab](https://coralandphage.org/) funded the research within which GoldSim was used to build models.
+[GoldSim](https://www.goldsim.com/) generously provided student licenses for the workshop at the ESA Annual Meeting in 2023.
 
-The Gordon and Betty Moore Foundation [Award #GBMF9207
- ](https://www.moore.org/grant-detail?grantId=GBMF9207)
+Mark Miller and Rick Kossik from GoldSim provided invaluable support and help with all software related questions.
