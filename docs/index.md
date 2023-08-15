@@ -6,7 +6,8 @@ nav_order: 1
 
 # Home
 
-This website contains information related to the Workshop at the ESA annual meeting of 2023.
+This a tutorial on how to use [GoldSim](https://www.goldsim.com/) for modeling ecological dynamical systems. The website was originally conceived and developed for 
+a workshop at the [ESA annual meeting of 2023](https://esa.org/portland2023/).
 The website is associated to a repository that can be accessed [here](https://github.com/SergioCoboLopez/Workshop_ESA).
 
 The authors of this repository are Sergio Cobo Lopez and Jenna Aquino under the supervision of [Forest Rohwer](https://coralandphage.org/people_forest.php) and [Toni Luque](https://scholar.google.com/citations?user=ytvnI68AAAAJ&hl=en)

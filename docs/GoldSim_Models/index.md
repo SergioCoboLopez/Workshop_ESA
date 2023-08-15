@@ -6,7 +6,7 @@ has_children: true
 permalink: docs/GoldSim_Models
 ---
 
-This section covers a series of models specific for the workshop at the [ESA Annual Meeting](https://esa.org/portland2023/) of 2023. 
+This section covers and describes a series of GoldSim models for microbial ecology dynamical systems. 
 Don't forget that GoldSim provides two excellent [free courses](https://www.goldsim.com/Web/Customers/Education/Overview/) and other 
 valuable [learning materials](https://www.goldsim.com/Web/Customers/). Additionally, there is a thriving 
 [community of users](https://www.goldsim.com/Web/Customers/Community/) who can provide help.

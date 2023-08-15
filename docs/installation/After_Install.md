@@ -6,10 +6,10 @@ parent: Installation
 ---
 ## After installing GoldSim
 
-I strongly recommend following the [Introduction to GoldSim course](https://www.goldsim.com/Courses/BasicGoldSim/) and downloading the zip file with the exercises and examples. 
-It is recommended that you finish the first four lessons before starting your projects, but it is even better to complete the first nine lessons if possible.
-
-Open the GoldSim density-dependent model and play around with it. If you can’t find it, contact the GoldSim responsible person. What happens when you change the model's initial concentrations or growth rates? How does this model fit into your own project?
+The [Introduction to GoldSim course](https://www.goldsim.com/Courses/BasicGoldSim/) is an excellent resource to learn how to use GoldSim.
+It contains many examples and exercises and covers the basic and advanced tools of GoldSim.
+ 
+I would recommend at least doing the first four lessons before starting your projects.
 
 ### Working on your own project: some tips
 

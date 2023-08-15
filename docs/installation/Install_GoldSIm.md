@@ -17,4 +17,5 @@ Image courtesy of GoldSim
 
 3. Once downloaded, run the .exe file.
 
-4. During the installation process, you will be asked to input your activation id. This activation id will be provided to you during the workshop. If you have purchased GoldSim, or if you have requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license, you should have received an activation id.
+4. During the installation process, you will be asked to input your activation id. This is the id you got when you purchased GoldSim or you 
+requested an [academic](https://www.goldsim.com/Web/Purchase/AcademicResearch/#RequestAcademic) or [trial](https://www.goldsim.com/Forms/Trial/) license.

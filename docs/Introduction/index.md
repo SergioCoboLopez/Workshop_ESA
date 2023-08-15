@@ -16,10 +16,10 @@ Ecological systems are highly dynamic and stochastic. GoldSim is specifically de
 
 ## How can I install it?
 
-GoldSim is proprietary software; you will need a [license](https://www.goldsim.com/Web/Purchase/Licensing/) to use it. Also, GoldSim only runs on Windows operating systems. 
-For more information, visit the GoldSim website at <https://www.goldsim.com/Web/Home/>.
+GoldSim only runs on Windows and it is proprietary software; you need a [license](https://www.goldsim.com/Web/Purchase/Licensing/) to use it.  
+For more information about GoldS, visit the GoldSim website at <https://www.goldsim.com/Web/Home/>.
 
-We will have 25 student licenses generously provided by GoldSim for this workshop.
+
 
 
 
