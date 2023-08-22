@@ -7,7 +7,7 @@ parent: Models
 
 ## Model 4 - Lotka-Volterra
 
-[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Lotka_Volterra.gsm){: .btn }
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model4_Lotka_Volterra.gsm){: .btn }
 
 The next model is a [Lotka-Volterra](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) predator-prey model for bacteria and bacteriophage.
 In this case we have two pools: one for the bacteria and another one for the phage.
