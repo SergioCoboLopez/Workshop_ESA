@@ -35,6 +35,14 @@ transition from one regime to another is very sharp.
 
 ### The switch
 
-We use a modified Hill Function to model the lytic-lysogenic switch. Hill functions have a behavior that is consistent with the sharp transition we are looking for
-The function has to be modified because Hill Functions have a domain between $$0$$ and $$\infty$$. We 
+We use a modified Hill Function to model the lytic-lysogenic switch. [Hill functions](https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)) are [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), and
+model very well the behavior we hypothesize for the lytic-lysogenic switch. O function needs to be modified because Hill Functions have a domain between $$0$$ and $$\infty$$. We propose a function that meets the
+following conditions:
+
+1. $$H'(eDAR_{min})=0$$
+2. $$H'(eDAR_{max})=1$$
+3. $$H'(1)=0.5$$.
+
+
+
  
