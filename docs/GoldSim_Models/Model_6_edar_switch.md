@@ -50,7 +50,7 @@ H'(eDAR)=\frac{(eDAR - eDAR_{min})^{n}}{K^n + \alpha (eDAR - eDAR_{min})^{n}} \,
 \end{equation*}	$$
 
 where $$\alpha=\frac{(eDAR_{max} - eDAR_{min})^{n} - 2(1 - eDAR_{min})^{n}}{(eDAR_{max}- eDAR_{min})^{n} - (1 - eDAR_{min})^{n}}$$ and $$K=(2-\alpha)^{1/n}(1-eDAR_{min})$$. $$\alpha$$ is a parameter that forces $$H'(eDAR_{max})=1$$
-and $$K$$ represents the value of eDAR for which $$H'(1)=0.5$$
+and $$K$$ represents the value of eDAR such that $$H'(1)=0.5$$ .
 
 
 
