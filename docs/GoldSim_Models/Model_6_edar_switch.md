@@ -56,9 +56,9 @@ For n=7, the function has the following shape:
 
 
 
-In the population dynamics model described in the next section, $$H'(eDAR) controls the probability of lysogeny $$\mathcal{P}(L)$$ and the induction rate of lysogens $$\mu_i$$.
+In the population dynamics model described in the next section, $$H'(eDAR)$$ controls the probability of lysogeny $$\mathcal{P}(L)$$ and the induction rate of lysogens $$\mu_i$$.
 
-We define  second modified Hill function $$H''(eDAR) = 1 + H'(eDAR) that affects the growth rate of bacteria and lysogens in the population dynamics model.
+We define  second modified Hill function $$H''(eDAR) = 1 + H'(eDAR)$$ that affects the growth rate of bacteria and lysogens in the population dynamics model.
 
 
 
