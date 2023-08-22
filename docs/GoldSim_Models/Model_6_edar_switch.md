@@ -27,6 +27,11 @@ eDAR_{min}=0.1\\
 eDAR_{max}=1.5 ,\ ,
 \end{eqnarray*}	$$
 
-as the minimum and maximum values of eDAR than can be found in any natural system than can sustain life.
+as the minimum and maximum values of eDAR than can be found in any natural system than can sustain life. Low eDAR values correspond with extremely anaerobic environments (and metabolic pathways), while
+high values correspond to catabolic environments. 
+
+Our hypothesis is that the 
 
 ### The switch
+
+Our hypothesis is that 
