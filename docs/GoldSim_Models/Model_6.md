@@ -7,7 +7,7 @@ parent: Models
 
 ## Model 6 - The switch
 
-[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Lotka_Volterra.gsm){: .btn }
+[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model6_eDAR_switch_model.gsm){: .btn }
 
 
 This model simulates bacterial growth based on metabolism and energy production. The model comprises
