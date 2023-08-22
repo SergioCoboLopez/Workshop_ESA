@@ -41,7 +41,7 @@ following conditions:
 
 1. $$H'(eDAR_{min})=0$$
 2. $$H'(eDAR_{max})=1$$
-3. $$H'(1)=0.5$$
+3. $$H'(eDAR=1)=0.5$$
 
 The analytical expression of this function is:
 
@@ -50,7 +50,17 @@ H'(eDAR)=\frac{(eDAR - eDAR_{min})^{n}}{K^n + \alpha (eDAR - eDAR_{min})^{n}} \,
 \end{equation*}	$$
 
 where $$\alpha=\frac{(eDAR_{max} - eDAR_{min})^{n} - 2(1 - eDAR_{min})^{n}}{(eDAR_{max}- eDAR_{min})^{n} - (1 - eDAR_{min})^{n}}$$ and $$K=(2-\alpha)^{1/n}(1-eDAR_{min})$$. $$\alpha$$ is a parameter that forces $$H'(eDAR_{max})=1$$
-and $$K$$ represents the value of eDAR such that $$H'(1)=0.5$$ .
+and $$K$$ represents the value of eDAR such that $$H'(eDAR=1)=0.5$$.
+
+For n=7, the function has the following shape:
+
+
+
+In the population dynamics model described in the next section, $$H'(eDAR) controls the probability of lysogeny $$\mathcal{P}(L)$$ and the induction rate of lysogens $$\mu_i$$.
+
+We define  second modified Hill function $$H''(eDAR) = 1 + H'(eDAR) that affects the growth rate of bacteria and lysogens in the population dynamics model.
+
+
 
 
 
