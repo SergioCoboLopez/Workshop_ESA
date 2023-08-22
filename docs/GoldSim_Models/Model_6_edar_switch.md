@@ -24,14 +24,17 @@ agnostic, we define:
 
 $$\begin{eqnarray*}
 eDAR_{min}=0.1\\
-eDAR_{max}=1.5 ,\ ,
+eDAR_{max}=1.5 \, ,
 \end{eqnarray*}	$$
 
 as the minimum and maximum values of eDAR than can be found in any natural system than can sustain life. Low eDAR values correspond with extremely anaerobic environments (and metabolic pathways), while
 high values correspond to catabolic environments. 
 
-Our hypothesis is that the 
+Our hypothesis is that the lytic-lysogenic switch is driven by metabolism. Lysogeny dominates in anaerobic environments (low eDAR) and lysis predominates in catabolic environments (high eDAR) and that the 
+transition from one regime to another is very sharp.
 
 ### The switch
 
-Our hypothesis is that 
+We use a modified Hill Function to model the lytic-lysogenic switch. Hill functions have a behavior that is consistent with the sharp transition we are looking for
+The function has to be modified because Hill Functions have a domain between $$0$$ and $$\infty$$. We 
+ 
