@@ -1,6 +1,6 @@
 ---
 layout: default
-title: eDAR and switch
+title: Population dynamics
 parent: Model 6
 grand_parent: Models
 nav_order: 2
