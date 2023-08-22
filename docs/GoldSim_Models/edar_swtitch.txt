@@ -1,0 +1,20 @@
+---
+layout: default
+title: eDAR and switch
+parent: Model 6
+grand_parent: Models
+nav_order: 1
+---
+
+### eDAR and the switch
+
+As a firs approximation, suppose that the only electron donors and acceptors in our system are glucose and oxygen and that the main metabolic pathway is cellular respiration.
+ Then, we have:
+
+$$
+\begin{equation}
+   eDAR=6\frac{C_{6}H_{12}O_6}{O_2} \, ,
+\end{equation}
+$$
+
+where the factor 6 accounts for the stoichiometry of cellular respiration.
