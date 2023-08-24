@@ -17,7 +17,7 @@ xt{induct growth}} - \underbrace{mP}_{decay} \\
 \frac{dI}{dt}&=& \underbrace{dBP}_{infection} - \underbrace{P_LI}_{lysogenic} - \underbrace{\big(1-P
 _L\big)L}_{lytic} \\                                                                                
 \frac{dL}{dt}&=& \underbrace{r_{max}H''_{eDAR}L }_{growth} +                                        
-\underbrace{P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction}
+\underbrace{P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \\
 \frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+B}_{growth} + \underbrace{P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} - \underbrace{dBP}_{infection} \, ,
 \end{eqnarray*} $$
 
