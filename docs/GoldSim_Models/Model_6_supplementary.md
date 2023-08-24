@@ -26,4 +26,9 @@ $$\begin{equation*}
 K=(2-\alpha)^{1/n}(1-eDAR_{min})
 \end{equation*}$$
 
-Here, we prove that $$H'(eDAR=eDAR_{max})=1$$
+Here, we prove that $$H'(eDAR=eDAR_{max})=1$$. For the sake of simplicity let us introduce some compact notation:
+$$\begin{eqnarray*}
+eDAR - eDAR_{min}&=&\Delta \\
+eDAR_{max} - eDAR_{min}&=&\Delta_{tot} \\
+1 - eDAR_{min}&=&\Delta_{1}
+\end{eqnarray*}
