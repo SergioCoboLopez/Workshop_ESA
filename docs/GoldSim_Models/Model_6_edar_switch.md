@@ -54,7 +54,7 @@ and $$K$$ represents the value of eDAR such that $$H'(eDAR=1)=0.5$$.
 
 For n=7, the function has the following shape:
 
-![Modified_Hill](../figures/Hill_Switch.png "Courtesy of GoldSim")
+![Modified_Hill](../figures/Hill_Switch.png)
 
 
 In the population dynamics model described in the next section, $$H'(eDAR)$$ controls the probability of lysogeny $$\mathcal{P}(L)$$ and the induction rate of lysogens $$\mu_i$$.
