@@ -44,5 +44,6 @@ K^n=\frac{\Delta^n_{tot} \Delta^n_{1} }{\Delta^n_{tot} - \Delta^n_{1}}
 And the modified Hill function reads now:
 
 $$\begin{equation*}                                                                                 
-H'(eDAR)=\frac{}{}
+H'(eDAR)=\frac{\Delta^n}{\frac{\Delta^n_{tot} \Delta^n_1 + (\Delta^n_{tot} - 2
+\Delta^n_1) \Delta^n}{\Delta^n_{tot} - \Delta^n_1}}= \frac{(\Delta^n_{tot} - \Delta^n_1)\Delta^n}{\Delta^n_{tot} \Delta^n_1 + (\Delta^n_{tot} - 2 \Delta^n_1) \Delta^n}
 \end{equation*}$$ 
