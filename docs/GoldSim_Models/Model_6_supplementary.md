@@ -48,6 +48,6 @@ H'(eDAR)=\frac{\Delta^n}{\frac{\Delta^n_{tot} \Delta^n_1 + (\Delta^n_{tot} - 2
 \Delta^n_1) \Delta^n}{\Delta^n_{tot} - \Delta^n_1}}= \frac{(\Delta^n_{tot} - \Delta^n_1)\Delta^n}{\Delta^n_{tot} \Delta^n_1 + (\Delta^n_{tot} - 2 \Delta^n_1) \Delta^n}
 \end{equation*}$$
 
-If $$eDAR=eDAR_max$$, then $$\Delta=\Delta_{tot}$$ which gives $$H'(eDAR=eDAR_{max})=1$$.
+If $$eDAR=eDAR_{max}$$, then $$\Delta=\Delta_{tot}$$ which gives $$H'(eDAR=eDAR_{max})=1$$.
 
 Alternatively, if $$eDAR=1$$, then $$\Delta=Delta_1$$, which gives $$H'(eDAR=1)=0.5$$. 
