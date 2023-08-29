@@ -10,7 +10,7 @@ nav_order: 2
 
 To model the lytic-lysogenic switch we add several mechanistic processes and two additional state variables: Lysogens ($$L$$) and Infected bacteria ($$I$$). Infected bacteria are those in the process of becoming either lysogens ($$L$$) or new phages via burst:
 
-$$\begin{eqnarray*}                                                                                 
+$$\begin{eqnarray}                                                                                 
 \frac{dB}{dt}&=& \underbrace{r_{max}H''_{eDAR}B}_{growth} - \underbrace{dBP}_{infection} \\         
 \frac{dP}{dt}&=& \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} +
 \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} \\                         
@@ -18,7 +18,7 @@ $$\begin{eqnarray*}
 \frac{dL}{dt}&=& \underbrace{r_{max}H''_{eDAR}L }_{growth} +                                        
 \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \\
 \frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+B + I)}_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} - \underbrace{dBP}_{infection} \, ,
-\end{eqnarray*} $$
+\end{eqnarray} $$
 
 where $$N$$ is a virtual state variable representing the total bacterial population $$N=B+I+L$$.
 
