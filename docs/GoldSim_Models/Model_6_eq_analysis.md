@@ -20,6 +20,12 @@ $$\begin{eqnarray}
 
 We set all equations equal to zero to obtain the equilibrium conditions. The equilibrium concentrations are:
 
+$$\begin{eqnarray}
+B^{*}&=&\frac{mu_p}{d} I^{*} \\
+P^{*}&=&\frac{r H''(eDAR)}{d} \\
+I^{*}&=&\frac{\mu_i - r H''}{\mu_p P(L)} L^*\\
+L^{*}&=&\frac{m \mu_p P(L) r H''}{d[c(\mu_i - r H'' (1 - \mu_p P(L)) + \mu_p (r H'' - \mu_i)]}
+\end{eqnarray}$$
 
 
 The derivations section provides more detain on how to obtain these concentrations.
