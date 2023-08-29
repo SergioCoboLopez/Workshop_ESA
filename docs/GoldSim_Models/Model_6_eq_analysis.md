@@ -3,7 +3,7 @@ layout: default
 title: Equilibrium Analysis
 parent: Model 6
 grand_parent: Models
-nav_order: 2
+nav_order: 3
 ---
 
 ## Equilibrium analysis
