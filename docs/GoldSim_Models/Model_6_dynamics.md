@@ -17,7 +17,7 @@ $$\begin{eqnarray}
 \frac{dI}{dt}&=& \underbrace{dBP}_{infection} - \underbrace{\mu_p P_LI}_{lysogenic} - \underbrace{\mu_p\big(1-P_L\big)I}_{lytic} \\  
 \frac{dL}{dt}&=& \underbrace{r_{max}H''_{eDAR}L }_{growth} +                                        
 \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \\
-\frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+B + I)}_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} - \underbrace{dBP}_{infection} \, ,
+\frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+ B + I)}_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} - \underbrace{dBP}_{infection} \, ,
 \end{eqnarray} $$
 
 where $$N$$ is a virtual state variable representing the total bacterial population $$N=B+I+L$$.
