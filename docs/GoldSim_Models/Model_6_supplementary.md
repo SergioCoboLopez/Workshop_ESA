@@ -79,5 +79,5 @@ dBP=\mu_p I
 Substituting Eq \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} 2:
 
 $$\begin{equation}
-I^{*}=\frac{rH''}{d}
+I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L\big]
 \end{equation} \label{eq:infected_1}$$
