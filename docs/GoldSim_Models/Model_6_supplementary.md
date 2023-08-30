@@ -51,3 +51,15 @@ H'(eDAR)=\frac{\Delta^n}{\frac{\Delta^n_{tot} \Delta^n_1 + (\Delta^n_{tot} - 2
 If $$eDAR=eDAR_{max}$$, then $$\Delta=\Delta_{tot}$$ which gives $$H'(eDAR=eDAR_{max})=1$$.
 
 Alternatively, if $$eDAR=1$$, then $$\Delta=Delta_1$$, which gives $$H'(eDAR=1)=0.5$$. 
+
+### Equilibrium analysis
+
+The equilibrium analysis is done by taking the ODEs and setting them to zero:
+
+$$\begin{eqnarray}  
+\frac{dB}{dt}&=&0; \underbrace{r_{max}H''_{eDAR}B}_{growth} - \underbrace{dBP}_{infection} = 0 \\         
+\frac{dP}{dt}&=& \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} +
+\underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} \\                         
+\frac{dI}{dt}&=& \underbrace{dBP}_{infection} - \underbrace{\mu_p I}_{lysogenic+burst} \\  
+\frac{dL}{dt}&=& \underbrace{(r_{max}H''_{eDAR} - \mu_i)L }_{\text{effective growth}} +  \underbrace{\mu_p P_LI}_{\text{new lysogens}} 
+\end{eqnarray} $$
