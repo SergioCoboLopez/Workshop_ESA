@@ -79,13 +79,31 @@ dBP=\mu_p I
 Substituting Eq \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} 2:
 
 $$\begin{equation}
-I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L\big]
+I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L^*\big]
 \end{equation} \label{eq:lysogens_1}$$
 
 From Eq. \ref{eq:equilibrium} 4:
 
 $$\begin{equation}
-I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L
+I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L^*
 \end{equation} \label{eq:lysogens_2}$$
+
+Putting Eq \ref{eq:lysogens_1} and \ref{eq:lysogens_2} and rearrangin terms we get the equilibrium concentration of lysogens:
+
+$$\begin{equation}
+L^{*}&=&\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
+\end{equation} \label{eq:lysogens_eq}$$
+
+Getting the equilibrium concentration of infected bacteria $$I^*$$ from \ref{{eq:lysogens_eq}} is straightforward:
+
+$$\begin{equation}
+I^{*}&=&\frac{\mu_i - r H''}{\mu_p P_L} L^* .
+\end{equation} \label{eq:infected_eq}$$
+
+Similarly, for the equilibrium concentration of sensitive bacteria $$B^*$$:
+
+$$\begin{equation}
+B^{*}&=&\frac{\mu_p}{r H''} I^* .
+\end{equation} \label{eq:infected_eq}$$
 
 
