@@ -3,6 +3,7 @@ layout: default
 title: Model 1
 nav_order: 1
 parent: Models
+has_children: true
 ---
 
 ## Model 1 - Example

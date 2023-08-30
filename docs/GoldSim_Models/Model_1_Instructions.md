@@ -10,10 +10,14 @@ nav_order: 1
 
 ### Step 1 -  Introduce the pool (tank)
 
-Select a pool element, change its name, fix the units to liters (l) and flow units to liters per
-hour (l/hr). This is a particularly important step, since GoldSim enforeces unit consistency.
+Pools encode state variables in GoldSim. This type of variables are the most important ones.
+Select a pool element, change its name, fix the units to liters (l) and flow units to liters per hour (l/hr). Selecting units is an important step, since GoldSim enforces unit consistency.
 
 ### Step 2 -  Set upper bound for tank
+
+Introduce a data element and set the upper bound to 30000 liters. As in the previous case, remember to set the units and name the data element properly ('Tank_capacity').
+
+Open the Tank element and set the upper bound to 'Tank_capacity', the name of the data element.
 
 ### Step 3 -  Hose flow rate
 
