@@ -2,7 +2,7 @@
 layout: default
 title: How to build this model
 parent: Model 1
-grandparent: Models
+grand_parent: Models
 nav_order: 1
 ---
 
