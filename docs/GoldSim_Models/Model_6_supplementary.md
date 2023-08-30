@@ -80,4 +80,12 @@ Substituting Eq \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} 2:
 
 $$\begin{equation}
 I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L\big]
-\end{equation} \label{eq:infected_1}$$
+\end{equation} \label{eq:lysogens_1}$$
+
+From Eq. \ref{eq:equilibrium} 4:
+
+$$\begin{equation}
+I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L
+\end{equation} \label{eq:lysogens_2}$$
+
+
