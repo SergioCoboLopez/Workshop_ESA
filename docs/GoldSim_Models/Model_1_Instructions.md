@@ -6,12 +6,17 @@ grandparent: Models
 nav_order: 1
 ---
 
-## How to build this model
+## Brief instructions on how to build this model
 
-### Step 1
+### Step 1 - Introduce the tank
+
+Select a pool element, change its name, fix the units to liters (l) and flow units to liters per
+hour (l/hr). This is a particularly important step, since GoldSim enforeces unit consistency.
+
+### Step 2 - Set an upper bound
 
 
-The first step is to figure out what the state variable is. In this case, the state variable is the volume
-of water in the tank. Therefore, the tank must be the 
+
+### Step 3 - 
 
 
