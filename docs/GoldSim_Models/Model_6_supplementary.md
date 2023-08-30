@@ -62,4 +62,22 @@ $$\begin{eqnarray}
 \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} - \underbrace{dBP}_{infection} &=& 0 \\                         
 \frac{dI}{dt}&=&0;  \underbrace{dBP}_{infection} - \underbrace{\mu_p I}_{lysogenic+burst}& =& 0 \\  
 \frac{dL}{dt}&=&0; \underbrace{(r_{max}H''_{eDAR} - \mu_i)L }_{\text{effective growth}} +  \underbrace{\mu_p P_LI}_{\text{new lysogens}} &=&0
-\end{eqnarray} $$
+\end{eqnarray}\label{eq:equilibrium} $$
+
+From Eq. \ref{eq:equilibrium} 1 we get:
+
+$$\begin{equation}
+P^{*}=\frac{rH''}{d}
+\end{equation}\label{eq:phage_eq} $$
+
+From Eq. \ref{eq:equilibrium} 3 we have:
+
+$$\begin{equation}
+dBP=\mu_p I
+\end{equation}\label{eq:infected_sensitive} $$
+
+Substituting Eq \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} 2:
+
+$$\begin{equation}
+I^{*}=\frac{rH''}{d}
+\end{equation} \label{eq:infected_1}$$
