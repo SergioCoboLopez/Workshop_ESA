@@ -22,7 +22,7 @@ We set all equations equal to zero to obtain the equilibrium conditions. The equ
 
 $$\begin{eqnarray}
 B^{*}&=&\frac{\mu_p}{r H''} I^{*} \\
-P^{*}&=&\frac{r H''(eDAR)}{d} \\
+P^{*}&=&\frac{r H''}{d} \\
 I^{*}&=&\frac{\mu_i - r H''}{\mu_p P_L} L^*\\
 L^{*}&=&\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
 \end{eqnarray}$$
