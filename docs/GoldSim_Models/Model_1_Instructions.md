@@ -123,4 +123,4 @@ This process is very similart to the previous one:
 ### Step 5 - Results
 
 
-
+![Figure](../figures/Instructions_Model1_results.png)
