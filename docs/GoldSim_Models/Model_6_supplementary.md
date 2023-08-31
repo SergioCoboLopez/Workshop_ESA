@@ -91,7 +91,7 @@ I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L^*
 Putting Eq \ref{eq:lysogens_1} and \ref{eq:lysogens_2} and rearrangin terms we get the equilibrium concentration of lysogens:
 
 $$\begin{equation}
-L^{*}&=&\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
+L^{*}=\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
 \end{equation} \label{eq:lysogens_eq}$$
 
 Getting the equilibrium concentration of infected bacteria $$I^*$$ from \ref{{eq:lysogens_eq}} is straightforward:
