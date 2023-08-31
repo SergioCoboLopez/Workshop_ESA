@@ -6,24 +6,46 @@ grand_parent: Models
 nav_order: 1
 ---
 
-## Brief instructions on how to build this model
+## Instructions on how to build this model
 
-### Step 1 -  Introduce a pool element
+### General tips for models
 
-Pools (and stock elements, in general) encode state variables in GoldSim. This type of variables are the most important ones.
-Select a pool element, change its name, fix the units to liters (l) and flow units to liters per hour (l/hr). Selecting units is an important step, since GoldSim enforces unit consistency.
+Whenever you introduce an element in a GoldSim model, it is important to:
 
-### Step 2 -  Set upper bound for tank
+**Units** - GoldSim enforces unit consistency. If the units of two or more elements are not consistent, GoldSim will not run the model. Make sure you choose your units correctly.
+**Name an description** - This might sound trivial, but it is very important to give specific and informative names to your GoldSim models. Adding a short description of what that element does might save your future self a lot of problems.
 
-Introduce a data element and set the upper bound to 30000 liters. As in the previous case, remember to set the units and name the data element properly ('Tank_capacity').
 
-Open the Tank element and set the upper bound to 'Tank_capacity', the name of the data element.
+### Step 1 -  Introduce a pool
 
-### Step 3 - Pour water into the tank
+As discussed before, pools encode state variables in GoldSim. The state variable is the most important part of any model. Introduce a pool element:
 
-Now we model a hose that fills the tank with water. We do this in four steps:
+Suggested name: 'Tank'
+Suggested description: 'Stores water'
+Units: liters (l)
+Flow units: liters per hour (l/hr) (in general, flow units are going to be a rate)
 
-   1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. Name it properly and be careful with the units (because it is a rate, the units have to be liters per hour ($$l/hr$$).
+We will set an upper bound for the Tank. To do that we will **introduce a data element**:
+
+Suggested name: Tank_capacity
+Suggested description: 'Maximum volume allowed'
+Units: liters (l)
+Data definition: 30000 l
+
+Go back to the Tank and type 'Tank_capacity' in the upper bound box. You might think you could just type 30000 l in the upper bound box. However, if you had several tanks all with the same capacity, it would be very tedious to change
+every upper bound individually. Also, you would be more likely to make a mistake.
+
+
+### Step 2 - Pour water into the tank
+
+Now we model the hose that fills the tank with water. We do this in four steps:
+
+   1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. 
+	Suggested name: 'Hose_flow_rate'
+	Suggested description: 'rate at which water flows'
+	Units: liters per hour (l/hr) 
+	Data definition: 30 l/hr
+
    2. Define the time at which the hose switches off: this is another data element that we will call 'Time_hose_off'. The units in this case are going to be days ($$d$$) and we will fix the time at 2 days.
    3. Define a function: introduce an expression element with units of liters per hour ($$l/hr$$). In general, the units of a function should match the flow units of stock elements. Introduce the expression shown below.
 
