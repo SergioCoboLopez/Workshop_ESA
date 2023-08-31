@@ -28,11 +28,10 @@ Now we model a hose that fills the tank with water. We do this in three steps:
    3. Define a function: introduce an expression element with units of liters per hour ($$l/hr$$). In general, the units of a function should match the flow units of stock elements. Introduce the expression shown below.
 
 
-   The expression above has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. These are the rules of GoldSim and in programming this is called 'syntaxis'
+   The expression above has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 
 
-
-### Step 4 -  Inflow rate
+### Step 4 - Inflow rate
 
 ### Step 5 - Connect function to inflow in pool
 
