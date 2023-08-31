@@ -21,7 +21,7 @@ Open the Tank element and set the upper bound to 'Tank_capacity', the name of th
 
 ### Step 3 - Pour water into the tank
 
-Now we model a hose that fills the tank with water. We do this in three steps:
+Now we model a hose that fills the tank with water. We do this in four steps:
 
    1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. Name it properly and be careful with the units (because it is a rate, the units have to be liters per hour ($$l/hr$$).
    2. Define the time at which the hose switches off: this is another data element that we will call 'Time_hose_off'. The units in this case are going to be days ($$d$$) and we will fix the time at 2 days.
@@ -30,20 +30,14 @@ Now we model a hose that fills the tank with water. We do this in three steps:
 
    The expression above has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 
+   4. Now we need to connect this function to the pool. This is a very important step. Go to the Tank element, select the 'inflow' tab. Click 'add' and select the function defined before.
 
-### Step 4 - Inflow rate
 
-### Step 5 - Connect function to inflow in pool
+### Step 4 - Leakage
 
-### Step 6 - Leakage rate
 
-### Step 7 - Connect leakage to outflows in pool
 
-### Step 8 - Result element
-
-### Step 9 - Simulation settings
-
-### Step 10 - Simulation settings
+### Step 5 - Model settings
 
 
 
