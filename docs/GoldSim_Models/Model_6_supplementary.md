@@ -104,6 +104,6 @@ Similarly, for the equilibrium concentration of sensitive bacteria $$B^*$$:
 
 $$\begin{equation}
 B^{*}=\frac{\mu_p}{r H''} I^* .
-\end{equation} \label{eq:infected_eq}$$
+\end{equation} \label{eq:sensitive_eq}$$
 
 
