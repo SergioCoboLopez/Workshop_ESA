@@ -42,7 +42,7 @@ We will set an upper bound for the Tank. To do that we will **introduce a data e
 Go back to the Tank and type 'Tank_capacity' in the upper bound box. You might think you could just type 30000 l in the upper bound box. However, if you had several tanks all with the same capacity, it would be very tedious to change
 every upper bound individually. Also, you would be more likely to make a mistake.
 
-![Figure](../figures/Instructions_Model1_tank.PNG)
+![Figure](../figures/Instructions_Model1_tank.png)
 
 
 
@@ -111,28 +111,16 @@ This process is very similart to the previous one:
 
    **Units**: liters per hour (l/hr)
 
-   **Equation**: Leakage_fraction*Tank
-
-   3. Define a function: introduce an expression element: 
-
-   **Suggested name**: Inflow_rate'
-
-   **Suggested description**: 'function describing rate at which water flows'
-
-   **Units**: liters per hour (l/hr).
-
-   **Data definition**: 'if(ETime< Time_hose_off, Hose_flow_rate, 0 l/min)'. This expression has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. 
-These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
+   **Equation**: 'Leakage_fraction*Tank'
 	
    4. Connect the function to the Tank.
 
-   We have defined a function, but it is not connected to the tank in any way. To do this, go back to Tank and select the 'Inflows' tab. Click the 'Add' button and type 'Inflow_rate' (or whatever the name of your function is)
+   In this case, water flows out of the Tank and not into it. To connect the leakage rate to the tank, select the 'Outflows'tab. Click the 'Add' button and type 'Leakage_rate'
 
 
+![Figure](../figures/Instructions_Model1_outflow.png)
 
-![Figure](../figures/Instructions_Model1_outflow.PNG)
-
-### Step 5 - Model settings
+### Step 5 - Results
 
 
 
