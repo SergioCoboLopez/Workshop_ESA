@@ -21,10 +21,13 @@ Whenever you introduce an element in a GoldSim model, it is important to:
 
 As discussed before, pools encode state variables in GoldSim. The state variable is the most important part of any model. Introduce a pool element:
 
-Suggested name: 'Tank'
-Suggested description: 'Stores water'
-Units: liters (l)
-Flow units: liters per hour (l/hr) (in general, flow units are going to be a rate)
+**Suggested name**: 'Tank'
+
+**Suggested description**: 'Stores water'
+
+**Units**: liters (l)
+
+**Flow units**: liters per hour (l/hr) (in general, flow units are going to be a rate, a quantity per unit of time.)
 
 We will set an upper bound for the Tank. To do that we will **introduce a data element**:
 
