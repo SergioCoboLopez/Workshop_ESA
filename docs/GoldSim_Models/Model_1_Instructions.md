@@ -42,6 +42,8 @@ We will set an upper bound for the Tank. To do that we will **introduce a data e
 Go back to the Tank and type 'Tank_capacity' in the upper bound box. You might think you could just type 30000 l in the upper bound box. However, if you had several tanks all with the same capacity, it would be very tedious to change
 every upper bound individually. Also, you would be more likely to make a mistake.
 
+![Figure](../figures/Instructions_Model1_tank.PNG)
+
 
 ### Step 2 - Pour water into the tank
 
@@ -84,11 +86,12 @@ Now we model the hose that fills the tank with water. We do this in four steps:
    We have defined a function, but it is not connected to the tank in any way. To do this, go back to Tank and select the 'Inflows' tab. Click the 'Add' button and type 'Inflow_rate' (or whatever the name of your function is)
 
 
+![Figure](../figures/Instructions_Model1_inflow.PNG)
 
 
 ### Step 4 - Leakage
 
-
+![Figure](../figures/Instructions_Model1_outflow.PNG)
 
 ### Step 5 - Model settings
 
