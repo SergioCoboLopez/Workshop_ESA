@@ -13,6 +13,7 @@ nav_order: 1
 Whenever you introduce an element in a GoldSim model, it is important to:
 
 **Units** - GoldSim enforces unit consistency. If the units of two or more elements are not consistent, GoldSim will not run the model. Make sure you choose your units correctly.
+
 **Name an description** - This might sound trivial, but it is very important to give specific and informative names to your GoldSim models. Adding a short description of what that element does might save your future self a lot of problems.
 
 
@@ -27,10 +28,13 @@ Flow units: liters per hour (l/hr) (in general, flow units are going to be a rat
 
 We will set an upper bound for the Tank. To do that we will **introduce a data element**:
 
-Suggested name: Tank_capacity
-Suggested description: 'Maximum volume allowed'
-Units: liters (l)
-Data definition: 30000 l
+**Suggested name**: Tank_capacity
+
+**Suggested description**: 'Maximum volume allowed'
+
+**Units**: liters (l)
+
+**Data definition**: 30000 l
 
 Go back to the Tank and type 'Tank_capacity' in the upper bound box. You might think you could just type 30000 l in the upper bound box. However, if you had several tanks all with the same capacity, it would be very tedious to change
 every upper bound individually. Also, you would be more likely to make a mistake.
@@ -41,13 +45,38 @@ every upper bound individually. Also, you would be more likely to make a mistake
 Now we model the hose that fills the tank with water. We do this in four steps:
 
    1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. 
-	Suggested name: 'Hose_flow_rate'
-	Suggested description: 'rate at which water flows'
-	Units: liters per hour (l/hr) 
-	Data definition: 30 l/hr
 
-   2. Define the time at which the hose switches off: this is another data element that we will call 'Time_hose_off'. The units in this case are going to be days ($$d$$) and we will fix the time at 2 days.
-   3. Define a function: introduce an expression element with units of liters per hour ($$l/hr$$). In general, the units of a function should match the flow units of stock elements. Introduce the expression shown below.
+	**Suggested name**: 'Hose_flow_rate'
+
+	**Suggested description**: 'rate at which water flows'
+
+	**Units**: liters per hour (l/hr) 
+
+	**Data definition**: 30 l/hr
+
+   2. Define the time at which the hose switches off: introduce another data element:
+
+	**Suggested name**: 'Time_hose_off'
+
+	**Suggested description**: Not necessary, the name is pretty self explanatory.
+
+	**Units**: days (d)
+
+	**Data definition**: 2 d
+
+   3. Define a function: introduce an expression element: 
+
+	**Suggested name**: 'Time_hose_off'
+
+	**Suggested description**: Not necessary, the name is pretty self explanatory.
+
+	**Units**: days (d).
+
+	**Data definition**: 2 d
+
+
+
+with units of liters per hour ($$l/hr$$). In general, the units of a function should match the flow units of stock elements. Introduce the expression shown below.
 
 
    The expression above has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
