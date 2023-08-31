@@ -76,9 +76,9 @@ Now we model the hose that fills the tank with water. We do this in four substep
 
    **Suggested description**: 'function describing rate at which water flows'
 
-   **Units**: liters per hour (l/hr).
+   **Units**: liters per hour (l/hr). (Note that the units of the function are the same as the flow units of our tank'
 
-   **Data definition**: 'if(ETime< Time_hose_off, Hose_flow_rate, 0 l/min)'. This expression has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. 
+   **Equation**: 'if(ETime< Time_hose_off, Hose_flow_rate, 0 l/min)'. This expression has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. 
 These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 	
    4. Connect the function to the Tank.
@@ -89,29 +89,29 @@ These are the rules of GoldSim and in programming this is called [syntax](https:
 ![Figure](../figures/Instructions_Model1_inflow.png)
 
 
-### Step 4 - Leakage
+### Step 4 - Leak water out of the tank
 
 This process is very similart to the previous one:
 
 1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. 
 
-   **Suggested name**: 'Hose_flow_rate'
+   **Suggested name**: 'Leakage_fraction'
 
-   **Suggested description**: 'rate at which water flows'
+   **Suggested description**: 'percentage of water that leaks out the tank'
 
-   **Units**: liters per hour (l/hr) 
+   **Units**: percentage per hour (%/hr) 
 
-   **Data definition**: 30 l/hr
+   **Data definition**: 15.0 %/hr
 
-   2. Define the time at which the hose switches off: introduce another data element:
+   2. Define a function: introduce an expression element: 
 
-   **Suggested name**: 'Time_hose_off'
+   **Suggested name**: 'Leakage_rate'
 
    **Suggested description**: Not necessary, the name is pretty self explanatory.
 
-   **Units**: days (d)
+   **Units**: liters per hour (l/hr)
 
-   **Data definition**: 2 d
+   **Equation**: Leakage_fraction*Tank
 
    3. Define a function: introduce an expression element: 
 
