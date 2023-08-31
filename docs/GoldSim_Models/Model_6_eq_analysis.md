@@ -30,6 +30,8 @@ L^{*}&=&\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'
 
 The derivations section provides more detain on how to obtain these concentrations.
 
+![Figure](../figures/equilibrium_switch_model.png)
+
 
 
 
