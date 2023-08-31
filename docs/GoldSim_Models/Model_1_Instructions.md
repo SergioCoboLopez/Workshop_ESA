@@ -66,22 +66,17 @@ Now we model the hose that fills the tank with water. We do this in four steps:
 
    3. Define a function: introduce an expression element: 
 
-	**Suggested name**: 'Time_hose_off'
+	**Suggested name**: Inflow_rate'
 
-	**Suggested description**: Not necessary, the name is pretty self explanatory.
+	**Suggested description**: 'function describing rate at which water flows'
 
-	**Units**: days (d).
+	**Units**: liters per hour (l/hr).
 
-	**Data definition**: 2 d
-
-
-
-with units of liters per hour ($$l/hr$$). In general, the units of a function should match the flow units of stock elements. Introduce the expression shown below.
+	**Data definition**: 'if(ETime< Time_hose_off, Hose_flow_rate, 0 l/min)'. This expression has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 
 
-   The expression above has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
-
-   4. Now we need to connect this function to the pool. This is a very important step. Go to the Tank element, select the 'inflow' tab. Click 'add' and select the function defined before.
+	
+   4. Connect the function to the Tank.
 
 
 ### Step 4 - Leakage
