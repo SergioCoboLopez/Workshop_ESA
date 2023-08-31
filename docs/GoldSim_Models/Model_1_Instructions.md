@@ -50,7 +50,7 @@ every upper bound individually. Also, you would be more likely to make a mistake
 
 Now we model the hose that fills the tank with water. We do this in four substeps:
 
-   1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. 
+1. Define a hose flow rate: introduce a new data element that sets the rate at which water flows into the tank. 
 
    **Suggested name**: 'Hose_flow_rate'
 
@@ -60,7 +60,7 @@ Now we model the hose that fills the tank with water. We do this in four substep
 
    **Data definition**: 30 l/hr
 
-   2. Define the time at which the hose switches off: introduce another data element:
+2. Define the time at which the hose switches off: introduce another data element:
 
    **Suggested name**: 'Time_hose_off'
 
@@ -70,7 +70,7 @@ Now we model the hose that fills the tank with water. We do this in four substep
 
    **Data definition**: 2 d
 
-   3. Define a function: introduce an expression element: 
+3. Define a function: introduce an expression element: 
 
    **Suggested name**: Inflow_rate'
 
@@ -81,7 +81,7 @@ Now we model the hose that fills the tank with water. We do this in four substep
    **Equation**: 'if(ETime< Time_hose_off, Hose_flow_rate, 0 l/min)'. This expression has the following meaning: if the time of the simulation is smaller than two days, the flow rate is equal to $$30 l/hr$$. Otherwise, it is 0. 'ETime' represents the simulation time of GoldSim. As you can see, the parentheses contains three instances separated by commas. 
 These are the rules of GoldSim and in programming this is called [syntax](https://en.wikipedia.org/wiki/Syntax_(programming_languages))
 	
-   4. Connect the function to the Tank.
+4. Connect the function to the Tank.
 
    We have defined a function, but it is not connected to the tank in any way. To do this, go back to Tank and select the 'Inflows' tab. Click the 'Add' button and type 'Inflow_rate' (or whatever the name of your function is)
 
@@ -103,7 +103,7 @@ This process is very similart to the previous one:
 
    **Data definition**: 15.0 %/hr
 
-   2. Define a function: introduce an expression element: 
+2. Define a function: introduce an expression element: 
 
    **Suggested name**: 'Leakage_rate'
 
@@ -113,7 +113,7 @@ This process is very similart to the previous one:
 
    **Equation**: 'Leakage_fraction*Tank'
 	
-   4. Connect the function to the Tank.
+3. Connect the function to the Tank.
 
    In this case, water flows out of the Tank and not into it. To connect the leakage rate to the tank, select the 'Outflows'tab. Click the 'Add' button and type 'Leakage_rate'
 
