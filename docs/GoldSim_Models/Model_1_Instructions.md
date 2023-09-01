@@ -122,6 +122,24 @@ This process is very similart to the previous one:
 
 ### Step 5 - Results
 
+To visualize the results of the simulation, we will introduce a Time History Result Element.
+
+**Suggested name**: 'Tank_volume'
+
+As mentioned earlier, we are interested in knowing the value of the state variable over time. To do
+that click on the 'Add Result...' box and click 'Tank' on the dialog. You can of course select as
+many results as you want.
+
 ![Figure](../figures/Instructions_Model1_results.png)
 
 ### Step 6 - Model Settings
+
+The final step before running our model is to define the duration of the simulation and the step time. To do this, press 'F2' or click the cog button in the toolbar of GoldSim. Set the duration of the simulation to 3 days and the step
+time to 15 minutes. The step time is the frequency with which GoldSim does its calculations. The smaller the step size, the more accurate the calculations are going to be, but it
+will also mean more memory and computational resources.
+
+![Figure](../figures/Instructions_Model1_settings.png)
+
+### Step 7 - Run the simulation
+
+Press F5 or click the play button in the toolbar of GoldSim to enjoy your hard work
