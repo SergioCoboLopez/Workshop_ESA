@@ -18,4 +18,4 @@ aux_links:
 ga_tracking: G-5GZRD5J6ST
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-favicon_ico: "Diagram_L-V.png"
+favicon_ico: "logo.ico"
