@@ -89,7 +89,7 @@ $$\begin{equation}
 I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L^*
 \label{eq:lysogens_2} \end{equation}$$
 
-Putting Eq. \ref{eq:lysogens_1} and Eq. \ref{eq:lysogens_2} together and rearranging terms we get the equilibrium concentration of lysogens:
+Putting Eq. \ref{eq:lysogens_1} and Eq. \ref{eq:lysogens_2} together and rearranging terms, we get the equilibrium concentration of lysogens:
 
 $$\begin{equation}
 L^{*}=\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
