@@ -3,7 +3,8 @@ layout: default
 title: Derivations                                                                              
 parent: Model 6                                                                                     
 grand_parent: Models                                                                                
-nav_order: 7                                                      
+nav_order: 7
+\usepackage[colorlinks=false, allcolors=blue]{hyperref}
 ---
 
 ### Maximum value of modified Hill functions
@@ -62,7 +63,7 @@ $$\begin{eqnarray}
 \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} - \underbrace{dBP}_{infection} &=& 0 \\                         
 \frac{dI}{dt}&=&0;  \underbrace{dBP}_{infection} - \underbrace{\mu_p I}_{lysogenic+burst}& =& 0 \\  
 \frac{dL}{dt}&=&0; \underbrace{(r_{max}H''_{eDAR} - \mu_i)L }_{\text{effective growth}} +  \underbrace{\mu_p P_LI}_{\text{new lysogens}} &=&0
-\label{equilibrium} \end{equation}$$
+\label{eq:equilibrium} \end{equation}$$
 
 From Eq. ~\ref{eq:equilibrium} 1 we get:
 
@@ -82,7 +83,7 @@ $$\begin{equation}
 I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L^*\big]
 \label{eq:lysogens_1} \end{equation}$$
 
-From Eq. \ref{eq:equilibrium} 4:
+From Eq. ~\ref{eq:equilibrium} 4:
 
 $$\begin{equation}
 I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L^*
