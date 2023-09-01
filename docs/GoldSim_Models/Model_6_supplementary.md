@@ -1,10 +1,10 @@
----                   
+---
+\usepackage[colorlinks=false, allcolors=blue]{hyperref}
 layout: default                                                                                     
 title: Derivations                                                                              
 parent: Model 6                                                                                     
 grand_parent: Models                                                                                
 nav_order: 7
-\usepackage[colorlinks=false, allcolors=blue]{hyperref}
 ---
 
 ### Maximum value of modified Hill functions
