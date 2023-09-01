@@ -58,12 +58,12 @@ Alternatively, if $$eDAR=1$$, then $$\Delta=Delta_1$$, which gives $$H'(eDAR=1)=
 The equilibrium analysis is done by taking the ODEs and setting them to zero:
 
 $$\begin{eqnarray}  
-\frac{dB}{dt}&=&0; \underbrace{r_{max}H''_{eDAR}B}_{growth} - \underbrace{dBP}_{infection}& = &0 \\         
+\frac{dB}{dt}&=&0; \underbrace{r_{max}H''_{eDAR}B}_{growth} - \underbrace{dBP}_{infection}& = &0 \\
 \frac{dP}{dt}&=&0; \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} +
 \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} - \underbrace{dBP}_{infection} &=& 0 \\                         
 \frac{dI}{dt}&=&0;  \underbrace{dBP}_{infection} - \underbrace{\mu_p I}_{lysogenic+burst}& =& 0 \\  
 \frac{dL}{dt}&=&0; \underbrace{(r_{max}H''_{eDAR} - \mu_i)L }_{\text{effective growth}} +  \underbrace{\mu_p P_LI}_{\text{new lysogens}} &=&0
-\label{eq:equilibrium} \end{equation}$$
+\label{eq:equilibrium} \end{eqnarray}$$
 
 From Eq. ~\ref{eq:equilibrium} 1 we get:
 
