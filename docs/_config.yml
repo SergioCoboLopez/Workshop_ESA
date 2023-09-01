@@ -12,8 +12,8 @@ aux_links:
     - "//github.com/luquelab/project_template"
 
 
-favicon_ico: "logo.ico"
-logo: "logo.png"
+favicon_ico: "favicon.ico"
+#logo: "logo.png"
 
 # Google Analytics Tracking (optional)
 # Supports a CSV of tracking ID strings (eg. "UA-1234567-89,G-1AB234CDE5")
