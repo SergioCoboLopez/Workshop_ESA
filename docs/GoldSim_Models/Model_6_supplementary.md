@@ -65,31 +65,31 @@ $$\begin{eqnarray}
 \frac{dL}{dt}&=&0; \underbrace{(r_{max}H''_{eDAR} - \mu_i)L }_{\text{effective growth}} +  \underbrace{\mu_p P_LI}_{\text{new lysogens}} &=&0
 \label{eq:equilibrium} \end{eqnarray}$$
 
-From Eq. \ref{eq:equilibrium} .1 we get:
+From Eq. \ref{eq:equilibrium} .(1) we get:
 
 $$\begin{equation}
 P^{*}=\frac{rH''}{d}
 \label{eq:phage_eq} \end{equation}$$
 
-From Eq. \ref{eq:equilibrium} .3 we have:
+From Eq. \ref{eq:equilibrium} .(3) we have:
 
 $$\begin{equation}
 dBP=\mu_p I
 \label{eq:infected_sensitive} \end{equation}$$
 
-Substituting Eq \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} .2:
+Substituting Eq. \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} .(2):
 
 $$\begin{equation}
 I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L^*\big]
 \label{eq:lysogens_1} \end{equation}$$
 
-From Eq. ~\ref{eq:equilibrium} .4:
+From Eq. \ref{eq:equilibrium} .(4):
 
 $$\begin{equation}
 I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L^*
 \label{eq:lysogens_2} \end{equation}$$
 
-Putting Eq \ref{eq:lysogens_1} and \ref{eq:lysogens_2} together and rearranging terms we get the equilibrium concentration of lysogens:
+Putting Eq. \ref{eq:lysogens_1} and Eq. \ref{eq:lysogens_2} together and rearranging terms we get the equilibrium concentration of lysogens:
 
 $$\begin{equation}
 L^{*}=\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
