@@ -62,43 +62,43 @@ $$\begin{eqnarray}
 \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} - \underbrace{dBP}_{infection} &=& 0 \\                         
 \frac{dI}{dt}&=&0;  \underbrace{dBP}_{infection} - \underbrace{\mu_p I}_{lysogenic+burst}& =& 0 \\  
 \frac{dL}{dt}&=&0; \underbrace{(r_{max}H''_{eDAR} - \mu_i)L }_{\text{effective growth}} +  \underbrace{\mu_p P_LI}_{\text{new lysogens}} &=&0
-\end{eqnarray}\label{equilibrium} $$
+\label{equilibrium} \end{equation}$$
 
 From Eq. ~\ref{eq:equilibrium} 1 we get:
 
 $$\begin{equation}
 P^{*}=\frac{rH''}{d}
-\end{equation}\label{eq:phage_eq} $$
+\label{eq:phage_eq} \end{equation}$$
 
 From Eq. \ref{eq:equilibrium} 3 we have:
 
 $$\begin{equation}
 dBP=\mu_p I
-\end{equation}\label{eq:infected_sensitive} $$
+\label{eq:infected_sensitive} \end{equation}$$
 
 Substituting Eq \ref{eq:infected_sensitive} in Eq. \ref{eq:equilibrium} 2:
 
 $$\begin{equation}
 I^{*}=\frac{1}{c(1 - \mu_p P_L) - \mu_p} \big[ m P^{*} - c \mu_i L^*\big]
-\end{equation} \label{eq:lysogens_1}$$
+\label{eq:lysogens_1} \end{equation}$$
 
 From Eq. \ref{eq:equilibrium} 4:
 
 $$\begin{equation}
 I^{*}=\frac{\mu_i - rH''}{\mu_p P_L} L^*
-\end{equation} \label{eq:lysogens_2}$$
+\label{eq:lysogens_2} \end{equation}$$
 
 Putting Eq \ref{eq:lysogens_1} and \ref{eq:lysogens_2} and rearrangin terms we get the equilibrium concentration of lysogens:
 
 $$\begin{equation}
 L^{*}=\frac{m \mu_p P_L r H''}{d[c(\mu_i - r H'' (1 - \mu_p P_L) + \mu_p (r H'' - \mu_i)]}
-\end{equation} \label{eq:lysogens_eq}$$
+\label{eq:lysogens_eq} \end{equation}$$
 
 Getting the equilibrium concentration of infected bacteria $$I^*$$ from \ref{eq:lysogens_eq} is straightforward:
 
 $$\begin{equation}
 I^{*}=\frac{\mu_i - r H''}{\mu_p P_L} L^* .
-\end{equation} \label{eq:infected_eq}$$
+\label{eq:infected_eq} \end{equation}$$
 
 Similarly, for the equilibrium concentration of sensitive bacteria $$B^*$$:
 
