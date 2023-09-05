@@ -10,16 +10,16 @@ nav_order: 1
 
 ### General tips for models
 
-Whenever you introduce an element in a GoldSim model, it is important to:
+Whenever you introduce an element in a GoldSim model, it is important to pay attention to:
 
-**Units** - GoldSim enforces unit consistency. If the units of two or more elements are not consistent, GoldSim will not run the model. Make sure you choose your units correctly.
+1. **Units** - Make sure your units are consistent: GoldSim enforces unit consistency. If the units of two or more elements are not consistent with each other, GoldSim will not run the model.
 
-**Name an description** - This might sound trivial, but it is very important to give specific and informative names to your GoldSim models. Adding a short description of what that element does might save your future self a lot of problems.
+2. **Name an description** - It is very important to give informative and precise names to the elements that comprise your GoldSim models. Likewise, short descriptions can be very helpful for your future self.
 
 
 ### Step 1 -  Introduce a pool
 
-As discussed before, pools encode state variables in GoldSim. The state variable is the most important part of any model. Introduce a pool element:
+In GoldSim, Pool elements encode state variables. State variables are the most important element in a model, so that is where we should start. Let's start building our model by introducing a Pool element. Right click in any point of the graphics pane, select 'Insert Element', go to 'Stocks', and then choose a pool.
 
 **Suggested name**: 'Tank'
 
@@ -27,8 +27,11 @@ As discussed before, pools encode state variables in GoldSim. The state variable
 
 **Units**: liters (l)
 
-**Flow units**: liters per hour (l/hr) (in general, flow units are going to be a rate, a quantity per unit of time.)
+**Flow units**: liters per hour (l/hr) (in general, flow units are rates. Therefore, they will typically be the unit you selected over time.)
 
+### 2. Set an upper bound to the Tank
+
+The Tank
 We will set an upper bound for the Tank. To do that we will **introduce a data element**:
 
 **Suggested name**: Tank_capacity
