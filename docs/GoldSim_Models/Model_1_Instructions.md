@@ -8,7 +8,9 @@ nav_order: 1
 
 ## Instructions on how to build this model
 
-### General tips for models
+An excellent explanation on how to build this model can be found [here](https://www.goldsim.com/Courses/BasicGoldSim/Unit4/Lesson3/). However, these instructions here align more closely with the general concept of this tutorial.
+
+### General tips for GoldSim models.
 
 Whenever you introduce an element in a GoldSim model, it is important to pay attention to:
 
@@ -17,9 +19,9 @@ Whenever you introduce an element in a GoldSim model, it is important to pay att
 2. **Name an description** - It is very important to give informative and precise names to the elements that comprise your GoldSim models. Likewise, short descriptions can be very helpful for your future self.
 
 
-### Step 1 -  Introduce a pool
+### 1 -  Introduce a pool
 
-In GoldSim, Pool elements encode state variables. State variables are the most important element in a model, so that is where we should start. Let's start building our model by introducing a Pool element. Right click in any point of the graphics pane, select 'Insert Element', go to 'Stocks', and then choose a pool.
+In GoldSim, Pool elements encode state variables. State variables are the most important element in a model, so that is where we should start. Let's start building our model by introducing a Pool element. Right click in any point of the graphics pane, select 'Insert Element', go to 'Stocks', and then choose a pool. Introduce the following information:
 
 **Suggested name**: 'Tank'
 
@@ -31,8 +33,7 @@ In GoldSim, Pool elements encode state variables. State variables are the most i
 
 ### 2. Set an upper bound to the Tank
 
-The Tank
-We will set an upper bound for the Tank. To do that we will **introduce a data element**:
+We will use a **data element**. Right click in any point of the graphics pane, select 'Insert Element', go to 'Inputs', and select the 'Data' element. Introduce the following information:
 
 **Suggested name**: Tank_capacity
 
@@ -42,14 +43,11 @@ We will set an upper bound for the Tank. To do that we will **introduce a data e
 
 **Data definition**: 30000 l
 
-Go back to the Tank and type 'Tank_capacity' in the upper bound box. You might think you could just type 30000 l in the upper bound box. However, if you had several tanks all with the same capacity, it would be very tedious to change
-every upper bound individually. Also, you would be more likely to make a mistake.
+Return to the Tank and type 'Tank_capacity' in the 'upper bound' box. You might think you could have just typed '30000 l' in the 'upper bound' box. And you are right. However, imagine you had a more complex model with, say, five tanks, all with the same capacity. In that scenario, changing every upper bound would be a tedious task and could potentially lead to mistakes. Therefore, typing 'Tank_capacity' is a much easier and safer option.
 
 ![Figure](../figures/Instructions_Model1_tank.png)
 
-
-
-### Step 2 - Pour water into the tank
+### 3 - Pour water into the tank
 
 Now we model the hose that fills the tank with water. We do this in four substeps:
 
@@ -92,7 +90,7 @@ These are the rules of GoldSim and in programming this is called [syntax](https:
 ![Figure](../figures/Instructions_Model1_inflow.png)
 
 
-### Step 4 - Leak water out of the tank
+### 4 - Leak water out of the tank
 
 This process is very similart to the previous one:
 
