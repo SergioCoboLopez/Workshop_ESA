@@ -1,6 +1,6 @@
 GoldSim 14.0.0344
 Simulation Filename:	Model5_Metabolic_Machine_corrections
-Simulation Start Time:	10/31/2023 3:47:17 PM
+Simulation Start Time:	11/1/2023 5:28:44 PM
 Simulation Run Time:	0.0 s
 Model Author Name:	Rohwer Lab
 Analysis Description:	(not specified)
@@ -24,10 +24,6 @@ Sampling Sequences: repeated; beginning seed 1
 WARNINGS AND ERRORS:
 
 Realization 1
-
-0 hr:
-\Metabolism\Tests\O2_Outflows: The result element contains one or more invalid or incomplete result items.
-
 
 0 hr:
 \Metabolism\eDAR_Plot: The result element contains one or more invalid or incomplete result items.
