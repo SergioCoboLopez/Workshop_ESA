@@ -31,3 +31,30 @@ The technical details of this part of the model are discussed in the correspondi
 
 [Metabolism](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn }
 
+
+### Energy production
+
+
+### Bacterial growth
+
+The bacterial growth was defined as:
+
+$$\begin{equation*}
+\frac{dB}{dt}= r \frac{W_{av}}{W_{tot}} B \, .
+\end{equation}$$
+
+Here, $$r$$ is the bacterial growth rate, W_{av} the available power from metabolism, W_{tot} the total power requested from the community of bacteria at time $$t$$ $$B(t)$$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
