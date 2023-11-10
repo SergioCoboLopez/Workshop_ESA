@@ -6,7 +6,7 @@ parent: Models
 has_children: true
 ---
 
-## The Metabolic Machine
+# The Metabolic Machine
 
 [Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model5_Metabolic_Machine.gsm){: .btn }
 
@@ -18,7 +18,7 @@ This model simulates bacterial growth based on metabolism and energy production.
 ![Metabolic_Machine](../figures/Metabolic_Machine_Main_Model.PNG "Courtesy of GoldSim")
 
 
-### Metabolism
+## Metabolism
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
 
@@ -34,7 +34,7 @@ The technical details of this part of the model are discussed in the correspondi
 [Metabolism](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn }
 
 
-### Energy production
+## Energy production
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_Energy_1.PNG "Courtesy of GoldSim")
 
@@ -102,7 +102,7 @@ W_{av}= W^{tot}_{resp} + W^{tot}_{ferm} \, ,
 \end{equation}$$
 
 
-### Bacterial growth
+## Bacterial growth
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_growth_1.PNG "Courtesy of GoldSim")
 
