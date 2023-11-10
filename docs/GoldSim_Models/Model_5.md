@@ -38,6 +38,31 @@ The technical details of this part of the model are discussed in the correspondi
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_Energy_1.PNG "Courtesy of GoldSim")
 
+This module links the available power (energy per time) produced by the metabolic module with the power requested for bacterial growth module. 
+The availabe power $$W_{av}$$ is the sum of respirative and fermentative power:
+
+$$\begin{equation}
+W_{av}= W^{tot}_{resp} + W^{tot}_{ferm} \, .
+\label{eq:W_av}
+\end{equation}$$
+
+The respirative and fermentative power are limited by the available biomass for both processes (see 
+ the [Metabolism](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html) section for details).
+
+The requested power for bacterial growth is the active metabolic power of an E. Coli
+bacterium $$W^a_b = 1.39 \cdot 10^{-13}$$ W  [DeLong et al, 2010](https://doi.org/10.1073/pnas.1007783107) multiplied by total bacterial concentration at time $$t$$ and the total volume of the system:
+
+$$\begin{equation}
+W_{tot}=B(t) W_b V \, .
+\label{eq:W_tot}
+\end{equation}$$
+
+The interpretation of Eq ~\ref{eq:W_tot} is that a population of $$B$$ bacteria requests $$W_{tot}$$ to duplicate over the duplication time of an E. Coli bacterial strain.
+
+For the technical details, see:
+
+[Energy production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn }  
+
 It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
 (see subsection [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html) for the technical details ).
 For simplicity, it was assumed that a cycle of fermentation yielded 13 ATP molecules, which convert $$E_{ferm}=4.114 meV$$ meV$$ (half of a respiration cycle).
@@ -59,7 +84,7 @@ W^{tot}_{ferm} = \frac{M^{tot}_{ferm}}{M^{B}_{ferm}} E_{ferm} \, .
 \label{eq:W_ferm}
 \end{equation}$$
 
-The respiration and fermentation power in ~\ref{eq:W_resp} and ~\ref{eq:W_ferm} are dumped into the Energy pool. Bacteria request power from this energy pool:
+The respiration and fermentation power in Eq ~\ref{eq:W_resp} and Eq ~\ref{eq:W_ferm} are dumped into the Energy pool. Bacteria request power from this energy pool:
 
 $$\begin{equation}
 W_{tot}=B(t) W_b V \, ,
@@ -68,6 +93,13 @@ W_{tot}=B(t) W_b V \, ,
 
 where $$W^a_b=1.39 \cdot 10^{-13}$$ W is the active metabolic rate of E. Coli [DeLong et al, 2010](https://doi.org/10.1073/pnas.1007783107). We assume that is the power required by a cell to reproduce. $$B(t)$$ is the bacterial 
 concentration at time $$t$$, and $$V$$ is the volume of the system.
+
+The available power given by the available resources in the system is given by the available energy in the corresponding pool. This is given by:
+
+$$\begin{equation}
+W_{av}= W^{tot}_{resp} + W^{tot}_{ferm} \, ,
+\label{W_av}
+\end{equation}$$
 
 
 ### Bacterial growth
