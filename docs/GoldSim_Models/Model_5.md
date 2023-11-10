@@ -15,6 +15,9 @@ If you find this model useful for your own research, please remember to [cite us
 
 This model simulates bacterial growth based on metabolism and energy production. The model consists of three parts stored in their corresponding containers: Metabolism, Energy production, and Bacterial growth.
 
+![Metabolic_Machine](../figures/Metabolic_Machine_Main_Model.PNG "Courtesy of GoldSim")
+
+
 ### Metabolism
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
@@ -40,7 +43,7 @@ The technical details of this part of the model are discussed in the correspondi
 ![Metabolic_Machine](../figures/Metabolic_Machine_Energy_1.PNG "Courtesy of GoldSim")
 
 It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
-(see [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn } for the technical details )
+(see subsection [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html) for the technical details )
 
 
 ### Bacterial growth
