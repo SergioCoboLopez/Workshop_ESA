@@ -44,7 +44,7 @@ The bacterial growth was defined as:
 
 $$\begin{equation*}
 \frac{dB}{dt}= r \frac{W_{av}}{W_{tot}} B \, .
-\end{equation}$$
+\end{equation*}$$
 
 Here, $$r$$ is the bacterial growth rate, W_{av} the available power from metabolism, W_{tot} the total power requested from the community of bacteria at time $$t$$ $$B(t)$$.
 
