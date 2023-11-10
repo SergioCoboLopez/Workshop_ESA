@@ -63,6 +63,8 @@ For the technical details, see:
 
 [Energy production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5-Energy_Production.html){: .btn }  
 
+[Energy production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5-Energy_Production.html){: .btn }  
+
 It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
 (see subsection [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html) for the technical details ).
 For simplicity, it was assumed that a cycle of fermentation yielded 13 ATP molecules, which convert $$E_{ferm}=4.114 meV$$ meV$$ (half of a respiration cycle).
