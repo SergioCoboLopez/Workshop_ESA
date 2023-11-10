@@ -17,6 +17,8 @@ This model simulates bacterial growth based on metabolism and energy production.
 
 ### Metabolism
 
+![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
+
 The Metabolic container simulates three simplified metabolic processes: respiration, fermentation, and photosynthesis. The state variables of this part of the model are: glucose
  (C6H12O6), oxygen (O2), CO2, H20, and Ethanol (C2H6O). 
 Bacteria perform respiration and fermentation and photosynthesis is carried out by a generic non-explicitly modeled primary producer (algae). The function eDAR (the ratio of glucose to O$$_2$$) controls the ratio of respiration and fermentation
@@ -24,7 +26,8 @@ carried out by bacteria.
 
 The respiration rate has been obtained from the estimations O$$_2$$ consumption in [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13). The rate of glucose consumption is obtained from stoichiometry of respiration. For simplicity,
 we have assumed that the fermentation rate is twice the respiration rate.
-The photosynthetic rate has been obtained from the data that a gram of leaf metabolizes 44.14 ppm of CO$$_2$$ every minute. The Photosynthetic Active Ratiation (PAR) was obtained from [Ge et al, 2010](https://doi.org/10.1007/s00704-010-0368-6)
+The photosynthetic rate has been obtained from the data that a gram of leaf metabolizes 44.14 ppm of CO$$_2$$ every minute. The Photosynthetic Active Ratiation (PAR) was obtained 
+from [Ge et al, 2010](https://doi.org/10.1007/s00704-010-0368-6)
 
 
 The technical details of this part of the model are discussed in the corresponding section: 
@@ -33,6 +36,8 @@ The technical details of this part of the model are discussed in the correspondi
 
 
 ### Energy production
+
+![Metabolic_Machine](../figures/Metabolic_Machine_Energy_Production.PNG "Courtesy of GoldSim")
 
 It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
 (see [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn } for the technical details )
@@ -46,7 +51,7 @@ $$\begin{equation*}
 \frac{dB}{dt}= r \frac{W_{av}}{W_{tot}} B \, .
 \end{equation*}$$
 
-Here, $$r$$ is the bacterial growth rate, W_{av} the available power from metabolism, W_{tot} the total power requested from the community of bacteria at time $$t$$ $$B(t)$$.
+Here, $$r$$ is the bacterial growth rate, $$W_{av}$$ the available power from metabolism, $$W_{tot}$$ the total power requested from the community of bacteria at time $$t$$ $$B(t)$$.
 
 
 
