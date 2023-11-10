@@ -34,6 +34,9 @@ The technical details of this part of the model are discussed in the correspondi
 
 ### Energy production
 
+It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
+(see [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn } for the technical details )
+
 
 ### Bacterial growth
 
