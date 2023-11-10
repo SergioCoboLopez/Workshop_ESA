@@ -22,6 +22,11 @@ The Metabolic container simulates three simplified metabolic processes: respirat
 Bacteria perform respiration and fermentation and photosynthesis is carried out by a generic non-explicitly modeled primary producer (algae). The function eDAR (the ratio of glucose to O$$_2$$) controls the ratio of respiration and fermentation
 carried out by bacteria.
 
+The respiration rate has been obtained from the estimations O$$_2$$ consumption in [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13). The rate of glucose consumption is obtained from stoichiometry of respiration. For simplicity,
+we have assumed that the fermentation rate is twice the respiration rate.
+The photosynthetic rate has been obtained from the data that a gram of leaf metabolizes 44.14 ppm of CO$$_2$$ every minute. The Photosynthetic Active Ratiation (PAR) was obtained from [Ge et al, 2010](https://doi.org/10.1007/s00704-010-0368-6)
+
+
 The technical details of this part of the model are discussed in the corresponding section: 
 
 [Metabolism](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html){: .btn }

@@ -8,15 +8,7 @@ nav_order: 1
 
 ### Metabolism
 
-The Metabolic container simulates three simplified metabolic processes: respiration, fermentation, and photosynthesis. The state variables of this part of the model are: glucose
- (C6H12O6), oxygen (O2), CO2, H20, and Ethanol (C2H6O). 
-Bacteria perform respiration and fermentation and photosynthesis is carried out by a generic non-explicitly modeled primary producer (algae). The function eDAR (the ratio of glucose to O$$_2$$) controls the ratio of respiration and fermentation
-carried out by bacteria.
-
-The technical details of this part of the model are discussed in the corresponding section
-
-As usual, they 
-are encoded by pool elements.
+The state variables described in the main sections are encoded by pool elements.
 
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
