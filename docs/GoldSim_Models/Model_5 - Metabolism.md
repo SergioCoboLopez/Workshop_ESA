@@ -1,19 +1,10 @@
 ---
 layout: default
-title: Model 5 - The Metabolic Machine
-nav_order: 5
-parent: Models
-has_children: true
+title: Metabolism
+parent: Model 5
+grand_parent: Models
+nav_order: 1
 ---
-
-## The Metabolic Machine
-
-[Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model5_Metabolic_Machine.gsm){: .btn }
-
-
-If you find this model useful for your own research, please remember to [cite us](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/CITATION.cff){: .btn .btn-purple }
-
-This model simulates bacterial growth based on metabolism and energy production. The model consists of three parts stored in their corresponding containers: Metabolism, Energy production, and Bacterial growth.
 
 ### Metabolism
 
