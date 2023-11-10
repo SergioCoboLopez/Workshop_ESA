@@ -61,7 +61,7 @@ The interpretation of Eq ~\ref{eq:W_tot} is that a population of $$B$$ bacteria 
 
 For the technical details, see:
 
-[Energy production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism%20-%20Copy.html){: .btn }  
+[Energy production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5-Energy_Production.html){: .btn }  
 
 It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
 (see subsection [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html) for the technical details ).
