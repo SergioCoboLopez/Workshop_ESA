@@ -45,6 +45,8 @@ It was assumed that a single respiration cycle yielded 26 ATP molecules, which c
 
 ### Bacterial growth
 
+![Metabolic_Machine](../figures/Metabolic_Machine_growth_1.PNG "Courtesy of GoldSim")
+
 The bacterial growth was defined as:
 
 $$\begin{equation*}
