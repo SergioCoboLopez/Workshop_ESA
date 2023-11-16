@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Model 6
+title: 6 - The Switch
 nav_order: 6
 parent: Models
 has_children: true
 ---
 
-## 6 - The switch
+## Model 6 - The switch
 
 [Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model6_eDAR_switch_model.gsm){: .btn }
 

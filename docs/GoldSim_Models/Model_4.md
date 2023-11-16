@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model 4
+title: 4 - Lotka-Volterra
 nav_order: 4
 parent: Models
 ---
