@@ -1,7 +1,7 @@
 ---
 layout: default                                                                                     
 title: Derivations                                                                              
-parent: Model 6                                                                                     
+parent: 6 - The Switch                                                                                    
 grand_parent: Models                                                                                
 nav_order: 7
 header-includes:
