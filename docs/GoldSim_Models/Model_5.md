@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model 5 - The Metabolic Machine
+title: 5 - The Metabolic Machine
 nav_order: 5
 parent: Models
 has_children: true

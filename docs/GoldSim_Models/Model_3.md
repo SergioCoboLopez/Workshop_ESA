@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model 3
+title: 3 - Bacterial Growth
 nav_order: 3
 parent: Models
 ---

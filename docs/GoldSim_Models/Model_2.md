@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model 2
+title: 2 - An example in Ecology
 nav_order: 2
 parent: Models
 ---

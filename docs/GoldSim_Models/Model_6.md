@@ -6,7 +6,7 @@ parent: Models
 has_children: true
 ---
 
-## Model 6 - The switch
+## 6 - The switch
 
 [Download](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Model6_eDAR_switch_model.gsm){: .btn }
 
