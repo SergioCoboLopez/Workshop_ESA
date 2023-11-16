@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Model 1
+title: Model 1 - An Example
 nav_order: 1
 parent: Models
 has_children: true
