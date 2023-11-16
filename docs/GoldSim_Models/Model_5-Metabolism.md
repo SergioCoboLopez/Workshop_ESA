@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metabolism
-parent: Model 5 - The Metabolic Machine
+parent: 5 - The Metabolic Machine
 grand_parent: Models
 nav_order: 1
 ---
