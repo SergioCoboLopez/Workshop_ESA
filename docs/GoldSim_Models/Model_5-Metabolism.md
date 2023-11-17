@@ -17,7 +17,7 @@ processes are:
 Photosynthesis:
 
 $$\begin{equation}
-6 CO_2 + 6 H_2 O \rightarrowb C_6H_{12}O_6 + 6 O_2
+6 CO_2 + 6 H_2 O \rightarrow C_6H_{12}O_6 + 6 O_2
 \end{equation}$$
 
 Cellular respiration:
@@ -39,13 +39,13 @@ either metabolic pathway. The units of the state variables were g/m$$^3$$. Altho
 in chemistry, they were consistent with biomass units of bacteria.
 
 
-|State variable        |molecular weight (g/mole)|weight of a molecule (g)|
-|---------------------:|----------:|----------:|
-|$$C_6H_{12}O_6$$| 180.156         |2.99e-22  |
-|$$ O_2$$        | 32              |5.31e-23 |
-|$$H_2O$$        | 18.02           |2.99e-23    |
-|$$6 CO_2$$      | 44.01           |7.31e-23      |
-|$$C_6H_{12}O_6$$| 46.07           |2.99e-22    |
+|State variable  |molecular weight (g/mole)|weight of a molecule (g)|
+|:---------------|----------:|----------:|
+|$$C_6H_{12}O_6$$| 180.156         |$$2.99\cdot 10^{-22}$$ |
+|$$O_2$$         | 32              |$$5.31\cdot 10^{-23}$$ |
+|$$H_2O$$        | 18.02           |$$2.99\cdot 10^{-23}$$ |
+|$$CO_2$$        | 44.01           |$$7.31\cdot 10^{-23}$$ |
+|$$C_6H_{12}O_6$$| 46.07           |$$2.99\cdot 10^{-22}$$ |
 
 
 
