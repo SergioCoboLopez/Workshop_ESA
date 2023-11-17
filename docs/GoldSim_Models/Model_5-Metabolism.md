@@ -10,7 +10,7 @@ nav_order: 1
 
 This module simulates the processes of Respiration, Fermentation, and Photosynthesis. It also models the role of
 Photosynthetic Active Radiation (PAR) in photosynthesis and electron Donor-to-Acceptor ratio (eDAR) on 
-respiration and fermentation. E. Coli bacteria carry out fermentation and respiration for energy production,
+respiration and fermentation. *E. Coli* bacteria carry out fermentation and respiration for energy production,
 while photosynthesis is carried out by an undefined primary producer. The chemical reactions for these three 
 processes are:
 
@@ -35,25 +35,30 @@ C_6H_{12}O_6  \rightarrow C_6H_{12}O_6 + 2 CO_2
 These processes defined the state variables in this module: Glucose ($$C_6H_{12}O_6$$), Oxygen ($$6 O_2$$), Water
 ($$H_2O$$), Carbon Dioxide ($$6 CO_2$$), and Ethanol ($$C_6H_{12}O_6$$). Note that, for Oxygen and Carbon Dioxide
 the state variables correspond to the weight of the minimum number of molecules required for a single cycle of 
-either metabolic pathway. The units of the state variables were g/m$$^3$$. Although these units are rather uncommon
+either metabolic pathway. The units of the state variables were g/ml. Although these units are uncommon
 in chemistry, they were consistent with biomass units of bacteria.
 
 
 |State variable  |molecular weight (g/mole)|weight of a molecule (g)|
 |:---------------|----------:|----------:|
-|$$C_6H_{12}O_6$$| 180.156         |$$2.99\cdot 10^{-22}$$ |
-|$$O_2$$         | 32              |$$5.31\cdot 10^{-23}$$ |
-|$$H_2O$$        | 18.02           |$$2.99\cdot 10^{-23}$$ |
-|$$CO_2$$        | 44.01           |$$7.31\cdot 10^{-23}$$ |
-|$$C_6H_{12}O_6$$| 46.07           |$$2.99\cdot 10^{-22}$$ |
-
-
-
+|$$C_6H_{12}O_6$$| 180.156   |$$2.99\cdot 10^{-22}$$ |
+|$$O_2$$         | 32        |$$5.31\cdot 10^{-23}$$ |
+|$$H_2O$$        | 18.02     |$$2.99\cdot 10^{-23}$$ |
+|$$CO_2$$        | 44.01     |$$7.31\cdot 10^{-23}$$ |
+|$$C_6H_{12}O_6$$| 46.07     |$$2.99\cdot 10^{-22}$$ |
 
 
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
 
+
+The next step was to define the rate at which Oxygen, Glucose, Carbon Dioxide, and Water were processed in the
+respective pathways. *E. Coli* consume $$O_2$$ at a minimum and maximum rates of $$1.67 \cdot 10^{-16}$$ g/cell h
+and $$1.33\cdot 10^{-13} $$ g/cell h, respectively [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13). By 
+stoichiometry of cellular respiration we infer that minimum and maximum glucose consumption rates are 
+$$1.243 \cdot 10^{-16}$$ g/cell h and $ $1.246 \cdot 10^{-13} $$ g/cell h. That is, on a first approximation
+oxygen and glucose have to be consumed at the same rate because they are part of the same process, only in different
+quantities.
 
 Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools through 
 different functions. One of those functions controls the fraction of respiration and fermentation according
