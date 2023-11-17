@@ -39,6 +39,19 @@ either metabolic pathway. The units of the state variables were g/m$$^3$$. Altho
 in chemistry, they were consistent with biomass units of bacteria.
 
 
+|State variable        |molecular weight (g/m$$^3$$|
+|---------------------:|----------:|
+|$$C_6H_{12}O_6$$|   2.99e-22  |
+|$$6 O_2$$       |    5.31e-23 |
+|$$H_2O$$        |    2.99e-23    |
+|$$6 CO_2$$      |    7.31e-23      |
+|$$C_6H_{12}O_6$$|    2.99e-22    |
+
+
+
+
+
+
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
 
 
