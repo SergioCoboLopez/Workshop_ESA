@@ -32,7 +32,11 @@ $$\begin{equation}
 C_6H_{12}O_6  \rightarrow C_6H_{12}O_6 + 2 CO_2
 \end{equation}$$
 
-The state variables described in the main sections are encoded by pool elements.
+These processes defined the state variables in this module: Glucose ($$C_6H_{12}O_6$$), Oxygen ($$6 O_2$$), Water
+($$H_2O$$), Carbon Dioxide ($$6 CO_2$$), and Ethanol ($$C_6H_{12}O_6$$). Note that, for Oxygen and Carbon Dioxide
+the state variables correspond to the weight of the minimum number of molecules required for a single cycle of 
+either metabolic pathway. The units of the state variables were g/m$$^3$$. Although these units are rather uncommon
+in chemistry, they were consistent with biomass units of bacteria.
 
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
