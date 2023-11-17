@@ -53,12 +53,13 @@ in chemistry, they were consistent with biomass units of bacteria.
 
 
 The next step was to define the rate at which Oxygen, Glucose, Carbon Dioxide, and Water were processed in the
-respective pathways. *E. Coli* consume $$O_2$$ at a minimum and maximum rates of $$1.67 \cdot 10^{-16}$$ g/cell h
-and $$1.33\cdot 10^{-13} $$ g/cell h, respectively [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13). By 
+respective pathways. *E. Coli* consume $$O_2$$ at a minimum and maximum rates of $$q^{min}_{O}=1.67 \cdot 10^{-16}$$ g/cell h
+and $$q^{max}_{O}=1.33\cdot 10^{-13} $$ g/cell h, respectively [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13). By 
 stoichiometry of cellular respiration we infer that minimum and maximum glucose consumption rates are 
-$$1.243 \cdot 10^{-16}$$ g/cell h and $ $1.246 \cdot 10^{-13} $$ g/cell h. That is, on a first approximation
+$$q^{min}_{GR}=1.243 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GR}=1.246 \cdot 10^{-13} $$ g/cell h. That is, on a first approximation
 oxygen and glucose have to be consumed at the same rate because they are part of the same process, only in different
-quantities.
+quantities. Finally, fermentation was assumed to happen twice as fast as respiration 
+$$q^{min}_{GF}=2.486 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GF}=1.492 \cdot 10^{-13} $$ g/cell h.
 
 Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools through 
 different functions. One of those functions controls the fraction of respiration and fermentation according
