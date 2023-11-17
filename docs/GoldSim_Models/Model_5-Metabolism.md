@@ -62,31 +62,37 @@ oxygen and glucose have to be consumed at the same rate because they are part of
 quantities. Finally, fermentation was assumed to happen twice as fast as respiration 
 $$q^{min}_{GF}=2.486 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GF}=1.492 \cdot 10^{-13} $$ g/cell h.
 
-The rate at which photosynthesis occurs is more complicated, because it partially depends in the Photosynthetic Active
+The rate at which photosynthesis occurs is more complicated, because it partially depends on the Photosynthetic Active
 Radiation (PAR). PAR had its own submodule or container in the metabolic model:
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_PAR_1.PNG "Courtesy of GoldSim")
 
+The assumption is that the CO$$_2$$ maximum photosynthetic rate is $$q_{CP}= 2.648 \cdot 10^{-6}$$ g/ml h (data element
+'Max_photosynthetic_rate' in the figure above. This rate was obtained from the estimation that a gram of leaf processes 
+44.14 ppm of CO$$_2$$ per minute, converting ppm to mol/L and assuming a volume V=1 L. This is a very broad number, and 
+needs to be refined in future iterations of the model. In any case, $$q_{CP}$$ is the rate in the case the Photosynthetic 
+Active Radiation (PAR) is at its maximum. The reaction in Eq. \ref{eq:Photosynthesis} is not completely right, 
+because photosynthesis needs light energy (from the Sun, in this case) to occur. If PAR is below certain threshold,
+there cannot be photosynthesis. Here, we take the data in [Ge et al](https://doi.org/10.1007/s00704-010-0368-6) 
+(the authors took PAR measurements in the San Francisco Bay Area of northern California and the PAR values are 
+averaged over a year). The raw data is given in units of mol/m$$^2$$ h (moles of photons), so the first step is
+ to convert moles of photons to Joules (J), which gives units of power per surface. Assuming a photosynthezing
+ surface of 1 m$$^2$$, we get units of power. This is calculations are done in the left hand side of the model 
+in the figure above.
 
+The next step was to calculate the theoretical upper limit of CO$$_2$$ metabolization rate. In the PAR submodel, this
+is the function element 'Max_power_to_CO2', which is given by the expression:
 
+(Total_Power_Out/Activation_Energy_Phot)*(6*CO2_molecule_weight/1ml)
 
+For convenience, let us refer to this quantity as $$q^{max}_{CP}$$. The expression above assumes that the number of 
+cycles of photosynthesis is estimated as the power extracted from PAR divided by the activation energy of photosynthesis
+ $$E^{ph}_a= 121672.6 meV$$. The number of cycles is multiplied by the weight of six molecules of CO$$_2$$, thus given the
+ total biomass consumed per hour. However, this rate is upper- and bottom-limited. The upper limmit is $$q_{CP}$$ and the 
+bottom limit comes from the activation energy itself. Therefore, if the power extracted by PAR was smaller than the
+activation energy over an hour, the rate of CO$$_2$$ metabolized was set to 0 g/ml h. Conversely, if $$q^{max}_{CP}>q_{CP}$$, the rate of
+CO$$_2$$ was $$q_{CP}$$.
 
-
-Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools through 
-different functions. One of those functions controls the fraction of respiration and fermentation according
- to the ratio of glucose to oxygen (eDAR, for electron donor to acceptor ratio): when the ratio is low, 
-respiration dominates (catabolic environment), and when it is high, fermentation dominates (anaerobic 
-environment). The demand for glucose and oxygen is set by a population of bacteria.
-The demand for oxygen is computed multiplying the oxygen intake of a single bacteria by the total concentration
-of bacteria. The demand for glucose for respiration is calculated considering the oxygen to glucose stoichiometry.
-For fermentation we assume the demand is twice as much as that for respiration. The function HeDAR determines the
-ratio of glucose used for fermentation and for respiration.
-
-The functions 'Total_Glucose_Intake' and Total_O2_Intake represent the demand of the bacterial community. The functions
-'Actual_Anaerobic_Gluc_Intake', 'Actual_Aerobic_Gluc_Intake', and 'Actual_O2_Intake' represent the
-actual outflow. The explanation for this is that the demand can (and often will) be higher than the
-stock in the pools. These functions go into a splitter and inflow with different rates the pools
-of ethanol, $$CO_2$$, and $$H_2O$$. 
 
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_2.PNG "Courtesy of GoldSim")
