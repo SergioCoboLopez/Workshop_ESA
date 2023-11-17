@@ -16,19 +16,19 @@ processes are:
 
 Photosynthesis:
 
-$$\begin{equation}
+$$\begin{equation}\label{eq:Photosynthesis}
 6 CO_2 + 6 H_2 O \rightarrow C_6H_{12}O_6 + 6 O_2
 \end{equation}$$
 
 Cellular respiration:
 
-$$\begin{equation}
+$$\begin{equation}\label{eq:Respiration}
 C_6H_{12}O_6 + 6 O_2 \rightarrow 6 CO_2 + 6 H_2 O
 \end{equation}$$
 
 Ethanol fermentation:
 
-$$\begin{equation}
+$$\begin{equation}\label{eq:Fermentation}
 C_6H_{12}O_6  \rightarrow C_6H_{12}O_6 + 2 CO_2
 \end{equation}$$
 
@@ -51,6 +51,7 @@ in chemistry, they were consistent with biomass units of bacteria.
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_1.PNG "Courtesy of GoldSim")
 
+### Rates of pathways and PAR
 
 The next step was to define the rate at which Oxygen, Glucose, Carbon Dioxide, and Water were processed in the
 respective pathways. *E. Coli* consume $$O_2$$ at a minimum and maximum rates of $$q^{min}_{O}=1.67 \cdot 10^{-16}$$ g/cell h
@@ -60,6 +61,16 @@ $$q^{min}_{GR}=1.243 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GR}=1.246 \cdot 10
 oxygen and glucose have to be consumed at the same rate because they are part of the same process, only in different
 quantities. Finally, fermentation was assumed to happen twice as fast as respiration 
 $$q^{min}_{GF}=2.486 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GF}=1.492 \cdot 10^{-13} $$ g/cell h.
+
+The rate at which photosynthesis occurs is more complicated, because it partially depends in the Photosynthetic Active
+Radiation (PAR). PAR had its own submodule or container in the metabolic model:
+
+![Metabolic_Machine](../figures/Metabolic_Machine_PAR_1.PNG "Courtesy of GoldSim")
+
+
+
+
+
 
 Respiration and fermentation outflow glucose and oxygen into the CO2, H2O, and Ethanol pools through 
 different functions. One of those functions controls the fraction of respiration and fermentation according
