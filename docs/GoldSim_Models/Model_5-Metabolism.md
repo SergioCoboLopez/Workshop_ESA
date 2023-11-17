@@ -14,8 +14,22 @@ respiration and fermentation. E. Coli bacteria carry out fermentation and respir
 while photosynthesis is carried out by an undefined primary producer. The chemical reactions for these three 
 processes are:
 
+Photosynthesis:
+
+$$\begin{equation}
+6 CO_2 + 6 H_2 O \rightarror C_6H_{12}O_6 + 6 O_2
+\end{equation}$$
+
+Cellular respiration:
+
 $$\begin{equation}
 C_6H_{12}O_6 + 6 O_2 \rightarrow 6 CO_2 + 6 H_2 O
+\end{equation}$$
+
+Ethanol fermentation:
+
+$$\begin{equation}
+C_6H_{12}O_6  \rightarrow C_6H_{12}O_6 + 2 CO_2
 \end{equation}$$
 
 The state variables described in the main sections are encoded by pool elements.
