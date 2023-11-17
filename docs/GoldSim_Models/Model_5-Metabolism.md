@@ -8,6 +8,16 @@ nav_order: 1
 
 ### Metabolism
 
+This module simulates the processes of Respiration, Fermentation, and Photosynthesis. It also models the role of
+Photosynthetic Active Radiation (PAR) in photosynthesis and electron Donor-to-Acceptor ratio (eDAR) on 
+respiration and fermentation. E. Coli bacteria carry out fermentation and respiration for energy production,
+while photosynthesis is carried out by an undefined primary producer. The chemical reactions for these three 
+processes are:
+
+$$\begin{equation}
+C_6H_{12}O_6 + 6 O_2 \rightarrow 6 CO_2 + 6 H_2 O
+\end{equation}$$
+
 The state variables described in the main sections are encoded by pool elements.
 
 
