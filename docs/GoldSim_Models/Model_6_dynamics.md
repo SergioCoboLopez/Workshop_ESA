@@ -37,9 +37,15 @@ The infection is a function of the density of phages and bacteria (hence density
 Three processes control the rate of phage concentration: lytic burst, induction growth, and phage decay.
 
 1. Lytic burst: $$c\big(1-P_L\big)\mu_pI$$
+This term represents the reproduction of phages through lysis of infected bacteria $$I$$. Phages lyse infected bacteria $$I$$ with a probability $$1 - P_L$$ ($$P_L$$ is the probability of lysogeny). For every lysed bacteria, $$c$$ phages reproduce. This process occurs at a rate of $$\mu_p$$.
 
+2. Induction growth: $$c\mu_iL$$
+This term represents the phage reproduction via lysogenic induction, which occurs at a rate of $$\mu_i$$.
 
+3. Phage decay: $$mP$$
+Phages decay at a rate of $$m$$
 
+### I: Infected bacteria
 
 
  
