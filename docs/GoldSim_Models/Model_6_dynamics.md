@@ -20,7 +20,12 @@ $$\begin{eqnarray}
 \frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+ B)}_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \, ,
 \end{eqnarray} $$
 
-where $$B$$, $$I$$, and $$L$$ represent the concentrations of sensitive bacteria, infected bacteria, and lysogens, respectively. $$N$$ is a virtual state variable representing the total bacterial population $$N=B+I+L$$.
+where $$B$$, $$I$$, and $$L$$ represent the concentrations of sensitive bacteria, infected bacteria, and lysogens, respectively. $$N$$ is a virtual state variable representing the total bacterial population $$N=B+I+L$$ and $$P$$ is the concentration of phages.
+
+### B: Sensitive bacteria
+
+Sensitive bacteria are subject to exponential growth and density-dependent infection by phages. The bacterial growth is controlled by the
+function $$H''_{eDAR}$$, a modified Hill Function that is a function of eDAR (see [eDAR and switch](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html) )
 
 
 
