@@ -25,7 +25,7 @@ where $$B$$, $$I$$, and $$L$$ represent the concentrations of sensitive bacteria
 ### B: Sensitive bacteria
 
 Sensitive bacteria are subject to exponential growth and density-dependent infection by phages. The bacterial growth is controlled by the
-function $$H''_{eDAR}$$, a modified Hill Function that is a function of eDAR (see [eDAR and switch](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html) )
+function $$H''_{eDAR}$$, a modified Hill Function that is a function of eDAR (see [eDAR and switch](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html) ). This function takes values between $$1$$ and $$2$$ for totally catabolic and totally anabolic metabolisms.
 
 
 
