@@ -10,19 +10,17 @@ nav_order: 2
 
 To model the lytic-lysogenic switch we add several mechanistic processes and two additional state variables: Lysogens ($$L$$) and Infected bacteria ($$I$$). Infected bacteria are those in the process of becoming either lysogens ($$L$$) or new phages via burst:
 
-$$\begin{eqnarray}                                                                                 
+$$\begin{eqnarray}       
 \frac{dB}{dt}&=& \underbrace{r_{max}H''_{eDAR}B}_{growth} - \underbrace{dBP}_{infection} \label{eq:sensitive} \\         
-\frac{dP}{dt}&=& \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} +
-\underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} \\                         
+\frac{dP}{dt}&=& \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} + \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} \label{eq:phages} \\                         
 \frac{dI}{dt}&=& \underbrace{dBP}_{infection} - \underbrace{\mu_p P_LI}_{lysogenic} - \underbrace{\mu_p\big(1-P_L\big)I}_{lytic} \label{eq:infected} \\  
-\frac{dL}{dt}&=& \underbrace{r_{max}H''_{eDAR}L }_{growth} +                                        
-\underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \\
+\frac{dL}{dt}&=& \underbrace{r_{max}H''_{eDAR}L }_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \label{eq:lysogens} \\
 \frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+ B)}_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \, ,
 \end{eqnarray} $$
 
 where $$B$$, $$I$$, and $$L$$ represent the concentrations of sensitive bacteria, infected bacteria, and lysogens, respectively. $$N$$ is a virtual state variable representing the total bacterial population $$N=B+I+L$$ and $$P$$ is the concentration of phages.
 
-### B: Sensitive bacteria
+### Equation \ref{eq:sensitive}. B: Sensitive bacteria
 
 The rate of sensitive bacteria is subject to two processes: (exponential) growth and density-dependent infection by phages.
 
@@ -32,7 +30,7 @@ The bacterial growth is controlled by maximum growth rate $$r_max$$ that depends
 2. Infection: $$dBP$$.
 The infection is a function of the density of phages and bacteria (hence density-dependent) and the infection or adsorption rate $$d$$.
 
-### P: Phages
+### Equation \ref{eq:phages}. P: Phages
 
 Three processes control the rate of phage concentration: lytic burst, induction growth, and phage decay.
 
@@ -45,7 +43,7 @@ This term represents the phage reproduction via lysogenic induction, which occur
 3. Phage decay: $$mP$$
 Phages decay at a rate of $$m$$
 
-### I: Infected bacteria
+### Equation \ref{eq:infected}. I: Infected bacteria
 
 This is the equation where the switch really operates. The rate of infected bacteria is governed by three processes: infection, lysogenic decision, and lytic decision.
 
@@ -57,6 +55,16 @@ This term shows that infected bacteria become lysogens with a probability $$P_L$
 
 3. $$\mu_p\big(1-P_L\big)I$$
 The bacteria that do not become lysogens, will be lysed by phages at a rate of $$mu_p$$
+
+### Equation \ref{eq:lysogens}. L: Lysogens
+
+Three processes control the rate of lysogens: lysogenic growth, new lysogens, and induction.
+
+1. Growth: $$r_{max}H''_{eDAR}L $$
+
+2. New lysogens: $$\mu_p P_LI$$
+
+3. Induction: $$\mu_iL$$
 
 
  
