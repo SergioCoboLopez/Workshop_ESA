@@ -61,10 +61,13 @@ The bacteria that do not become lysogens, will be lysed by phages at a rate of $
 Three processes control the rate of lysogens: lysogenic growth, new lysogens, and induction.
 
 1. Growth: $$r_{max}H''_{eDAR}L $$
+Lysogens growth at the same rate as sensitive bacteria do in Eq. \ref{eq:sensitive}
 
 2. New lysogens: $$\mu_p P_LI$$
+This term simply reflects that the infected bacteria in Eq. \ref{eq:infected} become lysogens at a rate of $$\mu_p$$.
 
 3. Induction: $$\mu_iL$$
+Lysogens induce and their prophages kill their hosts with a rate of $$\mu_i$$. Subsequently, phages reproduce, as shown in the second term of Eq. \ref{eq:phages}.
 
 
  
