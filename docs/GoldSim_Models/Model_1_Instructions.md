@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to build this model
-parent: Model 1
+parent: Model 1 - An Example
 grand_parent: Models
 nav_order: 1
 ---
