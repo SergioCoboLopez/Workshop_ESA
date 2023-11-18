@@ -52,5 +52,11 @@ This is the equation where the switch really operates. The rate of infected bact
 1. Infection: $$dBP$$
 This term simply implies that the sensitive bacteria infected Eq. \ref{eq:sensitive} become infected.
 
+2. $$\mu_p P_LI$$
+This term shows that infected bacteria become lysogens with a probability $$P_L$$ at a rate of $$\mu_p$$
+
+3. $$\mu_p\big(1-P_L\big)I$$
+The bacteria that do not become lysogens, will be lysed by phages at a rate of $$mu_p$$
+
 
  
