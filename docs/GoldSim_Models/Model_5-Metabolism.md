@@ -81,18 +81,23 @@ Radiation (PAR). PAR had its own submodule or container in the metabolic model:
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_PAR_1.PNG "Courtesy of GoldSim")
 
-The assumption is that the CO$$_2$$ maximum photosynthetic rate is $$q_{CP}= 2.648 \cdot 10^{-6}$$ g/ml h (data element
-'Max_photosynthetic_rate' in the figure above. This rate was obtained from the estimation that a gram of leaf processes 
-44.14 ppm of CO$$_2$$ per minute, converting ppm to mol/L and assuming a volume V=1 L. This is a very broad number, and 
-needs to be refined in future iterations of the model. In any case, $$q_{CP}$$ is the rate in the case the Photosynthetic 
-Active Radiation (PAR) is at its maximum. The reaction in Eq. \ref{eq:Photosynthesis} is not completely right, 
-because photosynthesis needs light energy (from the Sun, in this case) to occur. If PAR is below certain threshold,
-there cannot be photosynthesis. Here, we take the data in [Ge et al](https://doi.org/10.1007/s00704-010-0368-6) 
-(the authors took PAR measurements in the San Francisco Bay Area of northern California and the PAR values are 
-averaged over a year). The raw data is given in units of mol/m$$^2$$ h (moles of photons), so the first step is
- to convert moles of photons to Joules (J), which gives units of power per surface. Assuming a photosynthezing
- surface of 1 m$$^2$$, we get units of power. This is calculations are done in the left hand side of the model 
-in the figure above.
+The assumption is that the maximum photosynthetic rate of CO$$_2$$ maximum photosynthetic rate is 
+$$q^{max}_{CP}= 2.648 \cdot 10^{-6}$$ g/ml h (data element **'Max_photosynthetic_rate'** in the figure above). 
+This rate was obtained from the estimation that a gram of leaf processes 44.14 ppm of CO$$_2$$ per minute, 
+converting ppm to mol/L and assuming a volume V=1 L. This is a very broad number, and 
+needs to be refined in future iterations of the model. 
+
+On the other hand, primary productors need Photosynthetic Active Radiation (PAR) to carry out photosynthesis, so the
+actual rate at which CO$$_2$$ will be $$q^{max}_{CP}$$ only when PAR reaches its maximum.
+In fact, if PAR is below certain threshold, photosynthesis cannot be carried out. Here, we take the data in 
+[Ge et al](https://doi.org/10.1007/s00704-010-0368-6). The data here corresponds to the San Francisco Bay Area.
+Also, the PAR values considered in this model ara averaged over a year. In other words, our model assumes that
+every day there is the exact same amount of PAR. 
+
+The raw data of PAR is given in units of mol/m$$^2$$ h (moles of photons), so the first step is
+ to convert moles of photons to Joules (J). This gives J/m$$^2$$ h. 
+We assume a photosynthetizing surface of m$$^2$$ and get J/h (power)
+These calculations are done in the left hand side of the model in the figure above.
 
 The next step was to calculate the theoretical upper limit of CO$$_2$$ metabolization rate. In the PAR submodel, this
 is the function element 'Max_power_to_CO2', which is given by the expression:
