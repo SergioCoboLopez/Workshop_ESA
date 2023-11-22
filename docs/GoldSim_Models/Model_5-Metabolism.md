@@ -54,13 +54,27 @@ in chemistry, they were consistent with biomass units of bacteria.
 ### Rates of pathways and PAR
 
 The next step was to define the rate at which Oxygen, Glucose, Carbon Dioxide, and Water were processed in the
-respective pathways. *E. Coli* consume $$O_2$$ at a minimum and maximum rates of $$q^{min}_{O}=1.67 \cdot 10^{-16}$$ g/cell h
-and $$q^{max}_{O}=1.33\cdot 10^{-13} $$ g/cell h, respectively [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13). By 
-stoichiometry of cellular respiration we infer that minimum and maximum glucose consumption rates are 
+respective pathways. The $$O_2$$ minimum and maximum consumption rates of *E. Coli* doing performing cellular respiration 
+are [Riedel et al, 2013](https://doi.org/10.1128/AEM.00756-13) :
+
+$$q^{min}_{O2}=1.67 \cdot 10^{-16}$$ g/cell h
+
+and
+
+$$q^{max}_{O2}=1.33\cdot 10^{-13} $$ g/cell h
+
+By stoichiometry of cellular respiration we infer that minimum and maximum glucose consumption rates are 
 $$q^{min}_{GR}=1.243 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GR}=1.246 \cdot 10^{-13} $$ g/cell h. That is, on a first approximation
 oxygen and glucose have to be consumed at the same rate because they are part of the same process, only in different
-quantities. Finally, fermentation was assumed to happen twice as fast as respiration 
-$$q^{min}_{GF}=2.486 \cdot 10^{-16}$$ g/cell h and $$q^{max}_{GF}=1.492 \cdot 10^{-13} $$ g/cell h.
+quantities. 
+
+The fermentation rate was extracted from [Seong, H.J et al, 2020](https://doi.org/10.1038/s41598-020-69143-3):
+
+$$q_{GF}=4.89 \cdot 10^{-13}$$ g/cell h
+
+See [Calculations_for_parameters](https://github.com/SergioCoboLopez/Workshop_ESA/blob/main/GoldSim_Models/Calculations_for_parameters/O2_consumptions_metabolic_machine.gsm)
+for a more detailed calculation.
+
 
 The rate at which photosynthesis occurs is more complicated, because it partially depends on the Photosynthetic Active
 Radiation (PAR). PAR had its own submodule or container in the metabolic model:
