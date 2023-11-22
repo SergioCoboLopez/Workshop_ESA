@@ -108,7 +108,8 @@ The expression above has the following meaning: the power extracted from PAR div
 the number of cycles of photosynthesis per hour. Multiplying this number by the weight of six molecules of CO$$_2$$ gives the mass of
 CO$$_2$$ metabolized per hour. (Note that this expression makes an assumption about the estimation of photosynthesis cycles).
 
-The next step was to impose lower and upper conditions.
+The next step was to impose lower and upper conditions. The lower condition comes from the activation energy of photosynthesis 
+(data element **'Activation_Energy_phot'** in the figure above).
 
  assumes that the number of cycles of photosynthesis is estimated as the power extracted from PAR divided by the activation energy of photosynthesis
  $$E^{ph}_a= 121672.6 meV$$. The number of cycles is multiplied by the weight of six molecules of CO$$_2$$, thus given the
