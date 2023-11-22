@@ -109,7 +109,9 @@ the number of cycles of photosynthesis per hour. Multiplying this number by the 
 CO$$_2$$ metabolized per hour. (Note that this expression makes an assumption about the estimation of photosynthesis cycles).
 
 The next step was to impose lower and upper conditions. The lower condition comes from the activation energy of photosynthesis 
-(data element **'Activation_Energy_phot'** in the figure above).
+(data element **'Activation_Energy_phot'** in the figure above): if the power extracted from PAR is lower than the activation
+energy in an hour, photosynthesis will not ensue. This is implemented by the selector function **'Activation_Photosynthesis'** in 
+the figure above. The upper condition comes from the element **'Max_photosynthetic_rate'** mentioned above.
 
  assumes that the number of cycles of photosynthesis is estimated as the power extracted from PAR divided by the activation energy of photosynthesis
  $$E^{ph}_a= 121672.6 meV$$. The number of cycles is multiplied by the weight of six molecules of CO$$_2$$, thus given the
