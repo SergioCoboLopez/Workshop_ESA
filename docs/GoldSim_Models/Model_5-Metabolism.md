@@ -99,13 +99,18 @@ The raw data of PAR is given in units of mol/m$$^2$$ h (moles of photons), so th
 We assume a photosynthetizing surface of m$$^2$$ and get J/h (power)
 These calculations are done in the left hand side of the model in the figure above.
 
-The next step was to calculate the theoretical upper limit of CO$$_2$$ metabolization rate. In the PAR submodel, this
-is the function element 'Max_power_to_CO2', which is given by the expression:
+Considering $$q^{max}_{CP}$$ and PAR the next step was to calculate the mass of CO$$_2$$ metabolized from photosynthesis. 
+This was done in the function element **'Max_power_to_CO2'**, which has the expression:
 
 (Total_Power_Out/Activation_Energy_Phot)*(6*CO2_molecule_weight/1ml)
 
-For convenience, let us refer to this quantity as $$q^{max}_{CP}$$. The expression above assumes that the number of 
-cycles of photosynthesis is estimated as the power extracted from PAR divided by the activation energy of photosynthesis
+The expression above has the following meaning: the power extracted from PAR divided by the Activation energy of photosynthesis gives
+the number of cycles of photosynthesis per hour. Multiplying this number by the weight of six molecules of CO$$_2$$ gives the mass of
+CO$$_2$$ metabolized per hour. (Note that this expression makes an assumption about the estimation of photosynthesis cycles).
+
+The next step was to impose lower and upper conditions.
+
+ assumes that the number of cycles of photosynthesis is estimated as the power extracted from PAR divided by the activation energy of photosynthesis
  $$E^{ph}_a= 121672.6 meV$$. The number of cycles is multiplied by the weight of six molecules of CO$$_2$$, thus given the
  total biomass consumed per hour. However, this rate is upper- and bottom-limited. The upper limmit is $$q_{CP}$$ and the 
 bottom limit comes from the activation energy itself. Therefore, if the power extracted by PAR was smaller than the
