@@ -104,21 +104,18 @@ This was done in the function element **'Max_power_to_CO2'**, which has the expr
 
 (Total_Power_Out/Activation_Energy_Phot)*(6*CO2_molecule_weight/1ml)
 
-The expression above has the following meaning: the power extracted from PAR divided by the Activation energy of photosynthesis gives
-the number of cycles of photosynthesis per hour. Multiplying this number by the weight of six molecules of CO$$_2$$ gives the mass of
-CO$$_2$$ metabolized per hour. (Note that this expression makes an assumption about the estimation of photosynthesis cycles).
-
+with **'Activation_Energy_Phot'**$$=121672.6 $$ meV. This expression has the following meaning: the power extracted from PAR 
+divided by the Activation energy of photosynthesis gives the number of cycles of photosynthesis per hour. Multiplying this
+ number by the weight of six molecules of CO$$_2$$ gives the mass of CO$$_2$$ metabolized per hour. (Note that this expression
+ makes an assumption about the estimation of photosynthesis cycles). 
 The next step was to impose lower and upper conditions. The lower condition comes from the activation energy of photosynthesis 
 (data element **'Activation_Energy_phot'** in the figure above): if the power extracted from PAR is lower than the activation
 energy in an hour, photosynthesis will not ensue. This is implemented by the selector function **'Activation_Photosynthesis'** in 
-the figure above. The upper condition comes from the element **'Max_photosynthetic_rate'** mentioned above.
+the figure above. 
+The upper condition comes from the element **'Max_photosynthetic_rate'** mentioned above. This element is multiplied by the photosynthetizing
+biomass in the system (data element **'Photosynthetic_Biomass'**) to give a required consumption rate (**'Required_Consumption_CO2'** in the figure
+above). If the required consumption is equal or greater than **'Max_power_to_CO2'**, only **'Max_power_to_CO2'** can be metabolized.
 
- assumes that the number of cycles of photosynthesis is estimated as the power extracted from PAR divided by the activation energy of photosynthesis
- $$E^{ph}_a= 121672.6 meV$$. The number of cycles is multiplied by the weight of six molecules of CO$$_2$$, thus given the
- total biomass consumed per hour. However, this rate is upper- and bottom-limited. The upper limmit is $$q_{CP}$$ and the 
-bottom limit comes from the activation energy itself. Therefore, if the power extracted by PAR was smaller than the
-activation energy over an hour, the rate of CO$$_2$$ metabolized was set to 0 g/ml h. Conversely, if $$q^{max}_{CP}>q_{CP}$$, the rate of
-CO$$_2$$ was $$q_{CP}$$.
 
 ### Respiration and Fermentation
 

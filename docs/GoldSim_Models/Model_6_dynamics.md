@@ -69,5 +69,5 @@ This term simply reflects that the infected bacteria in Eq. \ref{eq:infected} be
 3. Induction: $$\mu_iL$$
 Lysogens induce and their prophages kill their hosts with a rate of $$\mu_i$$. Subsequently, phages reproduce, as shown in the second term of Eq. \ref{eq:phages}.
 
-
+![Metabolic_Machine](../figures/Switch_1.PNG "Courtesy of GoldSim")
  
