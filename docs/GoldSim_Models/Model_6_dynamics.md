@@ -8,6 +8,8 @@ nav_order: 2
 
 ## Dynamical model
 
+### The Math
+
 To model the lytic-lysogenic switch we add several mechanistic processes and two additional state variables: Lysogens ($$L$$) and Infected bacteria ($$I$$). Infected bacteria are those in the process of becoming either lysogens ($$L$$) or new phages via burst:
 
 $$\begin{eqnarray}       
@@ -69,5 +71,21 @@ This term simply reflects that the infected bacteria in Eq. \ref{eq:infected} be
 3. Induction: $$\mu_iL$$
 Lysogens induce and their prophages kill their hosts with a rate of $$\mu_i$$. Subsequently, phages reproduce, as shown in the second term of Eq. \ref{eq:phages}.
 
+### The GoldSim Model
+
+This section discusses the GoldSim representation of the mathematical model discussed above. The figure below shows the GoldSim model:
 ![Metabolic_Machine](../figures/Switch_1.PNG "Courtesy of GoldSim")
+
+The pools (orange) represent state variables, the functions (blue) usually represent the terms on the right side of the equations above, the inputs (green) are usually parameter values, and the containers (boxes) contain relatively 
+complex parts of the model. For more information go to the main [Models](https://sergiocobolopez.github.io/Workshop_ESA/docs/GoldSim_Models) section or to [Unit 2](https://www.goldsim.com/Courses/BasicGoldSim/Unit2/Lesson1/) of the 
+GoldSim introductory course.
+
+Pools
+ 
+1. "**Bacteria**" - B in the model above.
+2. "**Virus**" - P in the model above
+3. "**Infected_Bacteria**" - I in the model above
+4. "**Lysogens**" - L in the model above
+
+
  
