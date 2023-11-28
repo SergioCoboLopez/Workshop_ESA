@@ -92,7 +92,7 @@ Remember that, in GoldSim, a function does not do anything by itself: you need t
 
 **Functions**
 
-1. **Infection** - This function calculates the number of infected bacteria over time. This is equivalent to the "infection" term in Equations \label{eq:sensitive}, \ref{eq:phages}, \label{eq:infected} .
+1. **Infection** - This function calculates the number of infected bacteria over time. This is equivalent to the "infection" term in Equations \ref{eq:sensitive}, \ref{eq:phages}, \label{eq:infected} .
 2. **viral_decay** - This function calculates the number of viruses that decay over time. This is equivalent to the "decay" element in Equation \ref{eq:phages} .
 3. **Total_bacteria** - This is equivalent to $$N$$ in the equations above.
 4. **VMR** - Virus-to-microbe rate
@@ -101,7 +101,7 @@ Remember that, in GoldSim, a function does not do anything by itself: you need t
 
 1. **Logistic_Growth** - This container contains the growth functions for bacteria and lysogens. The growth is controlled by the modified hill function.
 2. **Lytic_Lysogenic_Decision** - This container includes the functions to calculate the probabilities of lysogeny, the lysogeny function, and the lysis functions.
-3. **Induction** - This container includes the function to calculate the lysogens that induce and the phages released by induction. This corresponds to terms induction and induct. growth in Equations \label{eq:lysogens} 
-and \label{eq:phages}.
+3. **Induction** - This container includes the function to calculate the lysogens that induce and the phages released by induction. This corresponds to terms induction and induct. growth in Equations \ref{eq:lysogens} 
+and \ref{eq:phages}.
 4. **Initial_concentrations** - This containers includes the initial concentrations for all pools above: "**Bacteria**", **Virus**, **Infected_Bacteria**, and **Lysogens**.
  
