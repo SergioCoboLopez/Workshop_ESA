@@ -80,7 +80,7 @@ The pools (orange) represent state variables, the functions (blue) usually repre
 complex parts of the model. For more information go to the main [Models](https://sergiocobolopez.github.io/Workshop_ESA/docs/GoldSim_Models) section or to [Unit 2](https://www.goldsim.com/Courses/BasicGoldSim/Unit2/Lesson1/) of the 
 GoldSim introductory course.
 
-Pools
+**Pools**
  
 1. "**Bacteria**" - B in the model above.
 2. "**Virus**" - P in the model above
@@ -90,5 +90,11 @@ Pools
 Every pool has inflows and outflows that correspond to the functions explained below. Inflows correspond to 
 Remember that, in GoldSim, a function does not do anything by itself: you need to connect functions to inflows and outflows in the pool elements.
 
+**Functions**
+
+1. **Infection** - 
+2. **viral_decay** - This function calculate the number of viruses that decay over time. This is equivalent to decay element in Equation \ref{eq:phages} .
+3. **Total_bacteria** - This is equivalent to $$N$$ in the equations above.
+4. **VMR** - Virus-to-microbe rate
 
  
