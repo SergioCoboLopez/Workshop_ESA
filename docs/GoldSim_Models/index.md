@@ -51,9 +51,9 @@ allows for the creation of 'if' statements, while the Splitter is utilized for d
 
 ![GoldSim elements](../figures/container_elements.PNG "Courtesy of GoldSim")
 
-**Events**:
+**Events**: In progress
 
-**Delays**:
+**Delays**: In progress
 
 
 
