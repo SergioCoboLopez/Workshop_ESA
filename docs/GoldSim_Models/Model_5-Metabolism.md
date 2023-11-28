@@ -121,4 +121,6 @@ above). If the required consumption is equal or greater than **'Max_power_to_CO2
 
 The share of respiration and fermentation carried out by bacteria was a function of eDAR. 
 
+![Metabolic_Machine](../figures/Metabolic_Machine_edar_module.PNG "Courtesy of GoldSim")
+
 
