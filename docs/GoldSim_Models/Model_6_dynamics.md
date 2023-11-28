@@ -14,7 +14,7 @@ To model the lytic-lysogenic switch we add several mechanistic processes and two
 
 $$\begin{eqnarray}       
 \frac{dB}{dt}&=& \underbrace{r_{max}H''_{eDAR}B}_{growth} - \underbrace{dBP}_{infection} \label{eq:sensitive} \\         
-\frac{dP}{dt}&=& \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} + \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{mP}_{decay} \label{eq:phages} \\                         
+\frac{dP}{dt}&=& \underbrace{c\big(1-P_L\big)\mu_pI}_{\text{lytic burst}} + \underbrace{c\mu_iL}_{\text{induct growth}} - \underbrace{dBP}_{infection} - \underbrace{mP}_{decay} \label{eq:phages} \\                         
 \frac{dI}{dt}&=& \underbrace{dBP}_{infection} - \underbrace{\mu_p P_LI}_{lysogenic} - \underbrace{\mu_p\big(1-P_L\big)I}_{lytic} \label{eq:infected} \\  
 \frac{dL}{dt}&=& \underbrace{r_{max}H''_{eDAR}L }_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \label{eq:lysogens} \\
 \frac{dN}{dt}&=& \underbrace{r_{max}H''_{eDAR}(L+ B)}_{growth} + \underbrace{\mu_p P_LI}_{\text{new lysogens}} - \underbrace{\mu_iL}_{induction} \, ,
@@ -92,8 +92,8 @@ Remember that, in GoldSim, a function does not do anything by itself: you need t
 
 **Functions**
 
-1. **Infection** - 
-2. **viral_decay** - This function calculate the number of viruses that decay over time. This is equivalent to decay element in Equation \ref{eq:phages} .
+1. **Infection** - This function calculates the number of infected bacteria over time. This is equivalent to the "infection" term in Equations \label{eq:sensitive}, \ref{eq:phages}, \label{eq:infected} .
+2. **viral_decay** - This function calculates the number of viruses that decay over time. This is equivalent to the "decay" element in Equation \ref{eq:phages} .
 3. **Total_bacteria** - This is equivalent to $$N$$ in the equations above.
 4. **VMR** - Virus-to-microbe rate
 
