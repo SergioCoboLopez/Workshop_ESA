@@ -87,5 +87,8 @@ Pools
 3. "**Infected_Bacteria**" - I in the model above
 4. "**Lysogens**" - L in the model above
 
+Every pool has inflows and outflows that correspond to the functions explained below. Inflows correspond to 
+Remember that, in GoldSim, a function does not do anything by itself: you need to connect functions to inflows and outflows in the pool elements.
+
 
  
