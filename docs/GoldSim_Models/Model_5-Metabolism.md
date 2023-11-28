@@ -119,8 +119,14 @@ above). If the required consumption is equal or greater than **'Max_power_to_CO2
 
 ### Respiration and Fermentation
 
-The share of respiration and fermentation carried out by bacteria was a function of eDAR. 
+The share of respiration and fermentation carried out by bacteria was a function of the 
+electron-donor-to acceptor ratio (eDAR). 
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_edar_module.PNG "Courtesy of GoldSim")
 
+Mathematically, eDAR is:
+
+$$\begin{equation}
+eDAR=\frac{[O_2]}{[C_6 H_{12}O_6]}
+\end{equation}$$
 
