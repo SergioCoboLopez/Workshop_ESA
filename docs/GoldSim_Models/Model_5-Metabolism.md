@@ -140,9 +140,8 @@ with the braces indicating concentrations. If eDAR is very small, the concentrat
 fermentation. If eDAR is high, the concentration of O$$_2$$ is larger than that of C$$_6$$ H$$_{12}$$O$$_6$$. This is consistent with an aerobic environment where respiration (generally) dominates.
 
 To formalize the connection between environmental conditions and eDAR, we use a [Hill function](https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)) see 
-[Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch) for a more detailed discussion. The Hill function takes values between 0 (fully
+[Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch) for a more detailed discussion. The Hill function takes values between 0 (only fermentation) and 1 (only respiration. The hill exponent was set to $$n=7$$ to have a more abrupt change at intermediate values of eDAR.
 
-The hill exponent was set to $$n=7$$ to have a more abrupt change at intermediate
-values of eDAR.
+The Hill function was linked to fermentation and respiration by the element X
 
 
