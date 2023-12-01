@@ -30,7 +30,7 @@ W^{tot}_{ferm} = \frac{M^{tot}_{ferm}}{M^{B}_{ferm}} E_{ferm} \, .
 \label{eq:W_ferm}
 \end{equation}$$
 
-\ref{eq:W_form} correspond to function element '**Fermentation_Power**' in the GoldSim representation. The respiration and fermentation power in Eq ~\ref{eq:W_resp} and Eq ~\ref{eq:W_ferm} are dumped into the '**Energy**'. Bacteria request (or outflow) power from '**Energy**' :
+Eq \ref{eq:W_ferm} correspond to function element '**Fermentation_Power**' in the GoldSim representation. The respiration and fermentation power in Eq. \ref{eq:W_resp} and Eq. \ref{eq:W_ferm} are dumped into the '**Energy**'. Bacteria request (or outflow) power from '**Energy**' :
 
 $$\begin{equation}
 W_{req}=B(t) W_b V \, ,
