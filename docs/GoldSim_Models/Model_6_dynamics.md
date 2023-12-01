@@ -115,4 +115,7 @@ and \ref{eq:phages}.
 | **Induction_rate** | Phage induction rate| $$0.0227301 1/hr$$|   | 
 | **Min_Prob_Lysogeny**| Minimum probability| $$0.01$$| Silveira et al., 2021 |
 | **Max_Prob_Lysogeny**| Maximum probability| $$0.55$$|  https://doi.org/10.1111/1462-2920.15640 |
+| **eDAR_min**| Lowest eDAR observed| $$0.1$$|   https://doi.org/10.7554/eLife.49114|
+| **eDAR_max**| Highest eDAR observed| $$1.5$$|   https://doi.org/10.7554/eLife.49114 |
+| **Time_to_lyse** | rate at which bacteria lyse| $$ 1 hr^{-1}$$ | |
 
