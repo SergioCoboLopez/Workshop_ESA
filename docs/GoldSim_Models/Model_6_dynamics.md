@@ -119,3 +119,6 @@ and \ref{eq:phages}.
 | **eDAR_max**| Highest eDAR observed| $$1.5$$|   [Silveira, 2019](https://doi.org/10.7554/eLife.49114) |
 | **Time_to_lyse** | rate at which bacteria lyse| $$ 1 hr^{-1}$$ | |
 
+The initial concentrations are provided by data elements '**Oxygen_enrichment_data**' and '**Arms_data**'. The data was collected by Jenna Aquino, Forest Rohwer, and other members of the [Rohwer lab](https://coralandphage.org/), within
+the [Arks project](https://coralarks.org/).
+
