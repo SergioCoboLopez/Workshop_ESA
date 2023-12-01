@@ -140,11 +140,21 @@ with the braces indicating concentrations. If eDAR is very small, the concentrat
 fermentation. If eDAR is high, the concentration of O$$_2$$ is larger than that of C$$_6$$ H$$_{12}$$O$$_6$$. This is consistent with an aerobic environment where respiration (generally) dominates.
 
 To formalize the connection between environmental conditions and eDAR, we use a [Hill function](https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)) see 
-[Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch) for a more detailed discussion. The Hill function takes values between 0 (only fermentation) and 1 (only respiration. The hill exponent was set to $$n=7$$ to have a more abrupt change at intermediate values of eDAR.
+[Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch) for a more detailed discussion. In the GoldSim representation, function element '**HeDAR**' encodes the Hill function.
+HeDAR takes values between 0 (only fermentation) and 1 (only respiration). The hill exponent was set to $$n=7$$ to have a more abrupt change at intermediate values of eDAR. Future versions of this model should implement the modified
+Hill function discussed in [Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch).
 
 The Hill function was linked to fermentation and respiration by the function elements '**Total_Glucose_Intake**' and '**Total_O2_Intake**'. 
 
 ![Metabolic_Machine]Metabolic_Machine_edar_to_resp_ferm.PNG "Courtesy of GoldSim")
 
-'**Total_Glucose_Intake**' has the formula
+'**Total_Glucose_Intake**' has the formula:
 
+HeDAR*Anaerobic_Total_Glucose_Intake + (1-HeDAR)*Aerobic_Total_Glucose_Intake
+
+
+and '**Total_O2_Intake**':
+
+(1-HeDAR)*Per_capita_Bact_O2_intake*Bacteria.
+
+The element 
