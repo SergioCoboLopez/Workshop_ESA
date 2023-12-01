@@ -110,12 +110,12 @@ and \ref{eq:phages}.
 | Parameter | Description | Value| Source|
 | ------ | ------------- | ----------- | ----------- | 
 | **Growth_rate** | bacterial growth rate |$$4.5 \cdot 10^{-3} h^{-1}$$|   
-| **Burst_size** | Phage burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |            
+| **Burst_size** | Phage burst size | $$11$$ | |[M.Middelboe, 2001](https://link.springer.com/article/10.1007/s00248-001-0012-1) | Myoviridae | Vibrio sp. |            
 | **decay_rate** | Phage decay rate | $$0.023952 hr^{-1}$$| |   |
 | **Induction_rate** | Phage induction rate| $$0.0227301 1/hr$$|   | 
-| **Min_Prob_Lysogeny**| Minimum probability| $$0.01$$| Silveira et al., 2021 |
-| **Max_Prob_Lysogeny**| Maximum probability| $$0.55$$|  https://doi.org/10.1111/1462-2920.15640 |
-| **eDAR_min**| Lowest eDAR observed| $$0.1$$|   https://doi.org/10.7554/eLife.49114|
-| **eDAR_max**| Highest eDAR observed| $$1.5$$|   https://doi.org/10.7554/eLife.49114 |
+| **Min_Prob_Lysogeny**| Minimum probability| $$0.01$$| [Silveira, 2021](https://doi.org/10.1111/1462-2920.15640) |
+| **Max_Prob_Lysogeny**| Maximum probability| $$0.55$$|  [Silveira, 2021](https://doi.org/10.1111/1462-2920.15640) |
+| **eDAR_min**| Lowest eDAR observed| $$0.1$$|   [Silveira, 2019](https://doi.org/10.7554/eLife.49114)|
+| **eDAR_max**| Highest eDAR observed| $$1.5$$|   [Silveira, 2019](https://doi.org/10.7554/eLife.49114) |
 | **Time_to_lyse** | rate at which bacteria lyse| $$ 1 hr^{-1}$$ | |
 
