@@ -104,4 +104,13 @@ Remember that, in GoldSim, a function does not do anything by itself: you need t
 3. **Induction** - This container includes the function to calculate the lysogens that induce and the phages released by induction. This corresponds to terms induction and induct. growth in Equations \ref{eq:lysogens} 
 and \ref{eq:phages}.
 4. **Initial_concentrations** - This containers includes the initial concentrations for all pools above: "**Bacteria**", **Virus**, **Infected_Bacteria**, and **Lysogens**.
- 
+
+### Parameter values
+
+| Parameter | Description | Value| Source| Phage Species| Host|
+| ------ | ------------- | ----------- | ----------- | ----------- | 
+| **Growth_rate** | bacterial growth rate |$$4.5 \cdot 10^{-3} h^{-1}$$|   
+| **Burst_size** | Phage burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |            
+| **decay_rate** | Phage decay rate | $$0.023952 hr^{-1}$$| |   | | |
+| **Induction_rate** | Phage induction rate| $$0.0227301 1/hr$$
+
