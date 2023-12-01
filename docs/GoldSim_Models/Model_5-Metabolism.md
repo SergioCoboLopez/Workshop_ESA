@@ -126,6 +126,10 @@ the figure above.
 
 ### Respiration and Fermentation
 
+Respiration and fermentation where implemented by a set of function elements in GoldSim:
+
+![Metabolic_Machine](../figures/Metabolic_Machine_resp_ferm.PNG "Courtesy of GoldSim")
+
 The share of respiration and fermentation carried out by bacteria was a function of the 
 electron-donor-to acceptor ratio (eDAR). 
 
