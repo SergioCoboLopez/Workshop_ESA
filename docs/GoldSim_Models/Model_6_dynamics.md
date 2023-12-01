@@ -92,7 +92,7 @@ Remember that, in GoldSim, a function does not do anything by itself: you need t
 
 **Functions**
 
-1. **Infection** - This function calculates the number of infected bacteria over time. This is equivalent to the "infection" term in Equations \ref{eq:sensitive}, \ref{eq:phages}, \label{eq:infected} .
+1. **Infection** - This function calculates the number of infected bacteria over time. This is equivalent to the "infection" term in Equations \ref{eq:sensitive}, \ref{eq:phages}, \ref{eq:infected} .
 2. **viral_decay** - This function calculates the number of viruses that decay over time. This is equivalent to the "decay" element in Equation \ref{eq:phages} .
 3. **Total_bacteria** - This is equivalent to $$N$$ in the equations above.
 4. **VMR** - Virus-to-microbe rate
@@ -107,10 +107,12 @@ and \ref{eq:phages}.
 
 ### Parameter values
 
-| Parameter | Description | Value| Source| Phage Species| Host|
-| ------ | ------------- | ----------- | ----------- | ----------- | 
+| Parameter | Description | Value| Source|
+| ------ | ------------- | ----------- | ----------- | 
 | **Growth_rate** | bacterial growth rate |$$4.5 \cdot 10^{-3} h^{-1}$$|   
 | **Burst_size** | Phage burst size | $$11$$ | |(M.Middelboe et al.,2001) | Myoviridae | Vibrio sp. |            
-| **decay_rate** | Phage decay rate | $$0.023952 hr^{-1}$$| |   | | |
-| **Induction_rate** | Phage induction rate| $$0.0227301 1/hr$$
+| **decay_rate** | Phage decay rate | $$0.023952 hr^{-1}$$| |   |
+| **Induction_rate** | Phage induction rate| $$0.0227301 1/hr$$|   | 
+| **Min_Prob_Lysogeny**| Minimum probability| $$0.01$$| Silveira et al., 2021 |
+| **Max_Prob_Lysogeny**| Maximum probability| $$0.55$$|  https://doi.org/10.1111/1462-2920.15640 |
 
