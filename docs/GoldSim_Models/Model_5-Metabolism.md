@@ -142,6 +142,9 @@ fermentation. If eDAR is high, the concentration of O$$_2$$ is larger than that 
 To formalize the connection between environmental conditions and eDAR, we use a [Hill function](https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)) see 
 [Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch) for a more detailed discussion. The Hill function takes values between 0 (only fermentation) and 1 (only respiration. The hill exponent was set to $$n=7$$ to have a more abrupt change at intermediate values of eDAR.
 
-The Hill function was linked to fermentation and respiration by the element X
+The Hill function was linked to fermentation and respiration by the function elements '**Total_Glucose_Intake**' and '**Total_O2_Intake**'. 
 
+![Metabolic_Machine]Metabolic_Machine_edar_to_resp_ferm.PNG "Courtesy of GoldSim")
+
+'**Total_Glucose_Intake**' has the formula
 
