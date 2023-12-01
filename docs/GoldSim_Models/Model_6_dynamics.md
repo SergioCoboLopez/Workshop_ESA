@@ -110,7 +110,7 @@ and \ref{eq:phages}.
 | Parameter | Description | Value| Source|
 | ------ | ------------- | ----------- | ----------- | 
 | **Growth_rate** | bacterial growth rate |$$4.5 \cdot 10^{-3} h^{-1}$$|   
-| **Burst_size** | Phage burst size | $$11$$ | |[M.Middelboe, 2001](https://link.springer.com/article/10.1007/s00248-001-0012-1) | Myoviridae | Vibrio sp. |            
+| **Burst_size** | Phage burst size | $$11$$ |[M.Middelboe, 2001](https://link.springer.com/article/10.1007/s00248-001-0012-1) |             
 | **decay_rate** | Phage decay rate | $$0.023952 hr^{-1}$$| |   |
 | **Induction_rate** | Phage induction rate| $$0.0227301 1/hr$$|   | 
 | **Min_Prob_Lysogeny**| Minimum probability| $$0.01$$| [Silveira, 2021](https://doi.org/10.1111/1462-2920.15640) |
