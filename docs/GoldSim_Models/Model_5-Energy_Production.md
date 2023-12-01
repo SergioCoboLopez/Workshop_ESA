@@ -11,7 +11,7 @@ nav_order: 2
 This section discusses the technical details of this module.
 
 It was assumed that a single respiration cycle yielded 26 ATP molecules, which convert to $$E_{resp}=8.229 meV$$ 
-(see subsection [Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5%20-%20Metabolism.html) for the technical details ).
+
 For simplicity, it was assumed that a cycle of fermentation yielded 13 ATP molecules, which convert $$E_{ferm}=4.114 meV$$ meV$$ (half of a respiration cycle).
 The total respiration power was calculated as:
 
@@ -48,3 +48,7 @@ W_{av}= W^{tot}_{resp} + W^{tot}_{ferm} \, ,
 \label{W_av}
 \end{equation}$$
 
+
+The GoldSim representation of this model by the elements shown below:
+
+![Metabolic_Machine](../figures/Metabolic_Machine_Energy_1.PNG "Courtesy of GoldSim")
