@@ -100,21 +100,28 @@ We assume a photosynthetizing surface of m$$^2$$ and get J/h (power)
 These calculations are done in the left hand side of the model in the figure above.
 
 Considering $$q^{max}_{CP}$$ and PAR the next step was to calculate the mass of CO$$_2$$ metabolized from photosynthesis. 
-This was done in the function element **'Max_power_to_CO2'**, which has the expression:
+This was done with the function element **'Required_Consumption_CO2'**. This function is the product of data element
+ **'Max_Photosynthetic_Rate'** (discussed above), data element **'Photosynthetic_Biomass'** (weight of primary producers),
+and data element **'Photosynthetic_Unit_Conversion'**.
+
+The next step was to impose upper and lower conditions. The upper condition comes from the limitation of PAR and is given by
+function element **'Max_power_to_CO2'**. This is the maximum CO$$_2$$ that can be metabolized for a given 
+amount of PAR. This element has the expression:
 
 (Total_Power_Out/Activation_Energy_Phot)*(6*CO2_molecule_weight/1ml)
 
 with **'Activation_Energy_Phot'**$$=121672.6 $$ meV. This expression has the following meaning: the power extracted from PAR 
 divided by the Activation energy of photosynthesis gives the number of cycles of photosynthesis per hour. Multiplying this
  number by the weight of six molecules of CO$$_2$$ gives the mass of CO$$_2$$ metabolized per hour. (Note that this expression
- makes an assumption about the estimation of photosynthesis cycles). 
-The next step was to impose lower and upper conditions. The lower condition comes from the activation energy of photosynthesis 
+ makes an assumption about the estimation of photosynthesis cycles). If **'Required_Consumption_CO2'** is equal or larger than
+**'Max_power_to_CO2'**, only **'Max_power_to_CO2'** can be metabolized. This condition is implemented by the selector function
+**'Total_CO2_Consumption'**.
+
+
+The lower condition comes from the activation energy of photosynthesis 
 (data element **'Activation_Energy_phot'** in the figure above): if the power extracted from PAR is lower than the activation
 energy in an hour, photosynthesis will not ensue. This is implemented by the selector function **'Activation_Photosynthesis'** in 
 the figure above. 
-The upper condition comes from the element **'Max_photosynthetic_rate'** mentioned above. This element is multiplied by the photosynthetizing
-biomass in the system (data element **'Photosynthetic_Biomass'**) to give a required consumption rate (**'Required_Consumption_CO2'** in the figure
-above). If the required consumption is equal or greater than **'Max_power_to_CO2'**, only **'Max_power_to_CO2'** can be metabolized.
 
 
 ### Respiration and Fermentation
@@ -127,6 +134,13 @@ electron-donor-to acceptor ratio (eDAR).
 Mathematically, eDAR is:
 
 $$\begin{equation}
-eDAR=\frac{[O_2]}{[C_6 H_{12}O_6]}
+eDAR=\frac{[O_2]}{[C_6 H_{12}O_6]} \, ,
 \end{equation}$$
+with the braces indicating concentrations. If eDAR is very small, the concentration of O$$_2$$ is much lower than the concentration of C$$_6$$ H$$_{12}$$O$$_6$$, indicating a very anaerobic environment. This is consisting with
+fermentation. If eDAR is high, the concentration of O$$_2$$ is larger than that of C$$_6$$ H$$_{12}$$O$$_6$$. This is consistent with an aerobic environment where respiration (generally) dominates.
+
+To formalize the connection between environmental conditions and eDAR, we use a [Hill function](https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)) see 
+[Model 6](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_6_edar_switch.html#the-switch) for a more detailed discussion. The hill exponent was set to $$n=7$$ to have a more abrupt change at intermediate
+values of eDAR.
+
 
