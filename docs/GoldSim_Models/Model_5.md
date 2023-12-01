@@ -68,13 +68,18 @@ For the technical details, see:
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_growth_1.PNG "Courtesy of GoldSim")
 
-The bacterial growth was defined as:
+Mathematically, the bacterial growth was defined as:
 
 $$\begin{equation*}
 \frac{dB}{dt}= r \frac{W_{av}}{W_{tot}} B \, .
+\label{eq:growth}
 \end{equation*}$$
 
-Here, $$r$$ is the bacterial growth rate, $$W_{av}$$ the available power from metabolism, $$W_{tot}$$ the total power requested from the community of bacteria at time $$t$$ $$B(t)$$.
+Here, $$r$$ is the bacterial growth rate, $$W_{av}$$ the available power from metabolism, $$W_{tot}$$ the total power requested from the community of bacteria $$B(t)$$ at time $$t$$.
+
+The GoldSim implementation of this formalism consisted of three elements: the data element '**growth_rate**' corresponds to $$r$$ in Eq \ref{eq:growth}. The value chosen is the growth rate of bacterial strain *E. Coli*. The function element '**Bacterial_growth_rate**' is the product of '**Bacterial_growth_rate**' times function element '**Actual_Request**' divided by function element '**Community_requested_power**' (see
+[Energy Production](https://sergiocobolopez.github.io/Workshop_ESA/GoldSim_Models/Model_5-Energy_Production.html) for details). The function
+element '**Bacterial_growth_rate**' is equivalent to $$r \frac{W_{av}}{W_{tot}}$$ in Eq. \ref{eq:growth}. Finally, the pool  element '**Bacteria**' (equivalent to $$B$$ in \ref{eq:growth}) represents the bacterial concentration in the system. The inflow to the pool is linked to function element '**Bacterial_growth_rate**'.
 
 
 
