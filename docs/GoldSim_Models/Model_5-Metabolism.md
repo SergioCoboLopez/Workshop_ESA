@@ -130,7 +130,12 @@ Respiration and fermentation where implemented in the container '**Respiration_F
 
 ![Metabolic_Machine](../figures/Metabolic_Machine_resp_ferm.PNG "Courtesy of GoldSim")
 
-
+As explained above, the consumption of O$$_2$$ and C$$_6$$H$$_{12}$$O$$_6$$ (glucose) was determined
+by the product of bacterial concentration (pool element '**Bacteria**') and the consumption rate per bacterial
+cell or per capita (data elements '**Per_capita_Bact_O2_intake**', '**Resp_Per_cap_glucose**', and 
+'**Ferment_Per_cap_glucose**'). This was encoded by function elements '**Total_O2_Intake**', '**Aerobic_Total_Glucose_Intake**',
+and '**Anaerobic_Total_Glucose_Intake**'. The total amount of glucose intake by both respiration and fermentation was
+encoded by the function element '**Total_Glucose_Intake**'.
 
 The share of respiration and fermentation carried out by bacteria was a function of the 
 electron-donor-to acceptor ratio (eDAR). 
@@ -162,3 +167,6 @@ HeDAR*Anaerobic_Total_Glucose_Intake + (1-HeDAR)*Aerobic_Total_Glucose_Intake
 and '**Total_O2_Intake**':
 
 (1-HeDAR)*Per_capita_Bact_O2_intake*Bacteria.
+
+The delay element '**MaterialDelay_Gluc**' is very important. It ensures that GoldSim is not outflowing more glucose
+than there actually is in the '**Glucose**' pool element. 
