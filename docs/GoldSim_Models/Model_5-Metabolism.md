@@ -147,7 +147,21 @@ Mathematically, eDAR is:
 $$\begin{equation}
 eDAR=\frac{[O_2]}{[C_6 H_{12}O_6]} \, ,
 \end{equation}$$
-with the braces indicating concentrations. If eDAR is very small, the concentration of O$$_2$$ is much lower than the concentration of C$$_6$$ H$$_{12}$$O$$_6$$, indicating a very anaerobic environment. This is consisting with
+
+$$\begin{equation}
+eDAR=\frac{[C_6 H_{12}O_6]}{[O_2]} \, ,
+\end{equation}$$
+with the braces indicating concentrations.
+
+This part of the model needs to be reviewed, because eDAR was implemented in GoldSim as:
+
+$$\begin{equation}
+eDAR_{GS}=\frac{[O_2]}{[C_6 H_{12}O_6]} \, .
+\end{equation}$$
+
+This implies that $$eDAR=\frac{1}{eDAR_{GS}}$$
+
+If eDAR$$_{GS}$$ is very small, the concentration of O$$_2$$ is much lower than the concentration of C$$_6$$ H$$_{12}$$O$$_6$$, indicating a very anaerobic environment. This is consisting with
 fermentation. If eDAR is high, the concentration of O$$_2$$ is larger than that of C$$_6$$ H$$_{12}$$O$$_6$$. This is consistent with an aerobic environment where respiration (generally) dominates.
 
 To formalize the connection between environmental conditions and eDAR, we use a [Hill function](https://en.wikipedia.org/wiki/Hill_equation_(biochemistry)) see 
