@@ -145,10 +145,6 @@ electron-donor-to acceptor ratio (eDAR).
 Mathematically, eDAR is:
 
 $$\begin{equation}
-eDAR=\frac{[O_2]}{[C_6 H_{12}O_6]} \, ,
-\end{equation}$$
-
-$$\begin{equation}
 eDAR=\frac{[C_6 H_{12}O_6]}{[O_2]} \, ,
 \end{equation}$$
 with the braces indicating concentrations.
